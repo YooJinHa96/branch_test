@@ -1,0 +1,24 @@
+SAC
+
+Model-free인 deep reinforcement learning다양한 분야의 테스크에 사용되고 있지만, 높은 샘플 복잡도에 의한 비효율성과, 하이퍼 파리미터 수정 의존성이 높다는 단점이 있다.
+
+그래서 entropy를 추가해서 entropy가 최대화 한 off policy actor critic 것을 soft actor-critic이라 한다. 여기서 actor의 목적은 entropy를 최대화 하면서 받을 수 있는 보상도 최대하는 것을 목적으로 함.
+
+
+//별개
+
+Real world 에서의 model free RL의 단점
+샘플링 비효율 
+hyperparmeter에 민감
+
+deep RL의 샘플링이 비효율적인 이유
+on-policy learning이기 때문이다. -> step 마다 새로운 샘플들을 필요로 한다. 필요한 단계 당 그라디언트 step 및 샘플 수가 작업 복장성과 함께 증가함에 따라 비용도 크게 증가.
+ 그래서 샘플 효율이 높은 off-policy가 좋음. 그러나 Q-learining 기반 알고리즘의 단점 존재 
+1 . 고차원 NN 썼을때 불안정하며 수렴이 잘안됨
+2. Continuous space에서 약화
+
+-> 어떻게하면 Continuous space에서도 샘플이 효율적이고 안정하게 만들까?? 를 고민하다
+MaxEntropy를 RL에 적용 하면 탐색과 강건성을 향상시키나 여전히 ON/OFF POLICY문제 존재 
+이러한 문제를 해결하는 것이 sac
+Soft actor-critic : off-policy MaxEnt actor-critic 알고리즘 고안
+->  샘플이 효율적이면서도 안정하며 continuous space 에서도 잘 동작
