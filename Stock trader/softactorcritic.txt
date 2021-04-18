@@ -5,7 +5,6 @@ Model-free인 deep reinforcement learning다양한 분야의 테스크에 사용
 그래서 entropy를 추가해서 entropy가 최대화 한 off policy actor critic 것을 soft actor-critic이라 한다. 여기서 actor의 목적은 entropy를 최대화 하면서 받을 수 있는 보상도 최대하는 것을 목적으로 함.
 
 
-//별개
 
 Real world 에서의 model free RL의 단점
 샘플링 비효율 
