@@ -161,6 +161,7 @@ class ReinforcementLearner:
                 lr=self.lr, num_steps=self.num_steps,
                 shared_network=shared_network,
                 activation=activation, loss=loss)
+
         if self.reuse_models and \
                 os.path.exists(self.value_network_path):
             self.value_network.load_model(
@@ -484,7 +485,7 @@ class Replay_buffer():
 
         for i in ind:
             S, A, V, P, R = self.storage[i]
-            s.append(np.array(S, copy=False))
+            s.appnd(np.array(S, copy=False))
             a.append(np.array(A, copy=False))
             v.append(np.array(V, copy=False))
             p.append(np.array(P, copy=False))

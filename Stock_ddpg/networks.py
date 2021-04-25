@@ -1,8 +1,11 @@
 import os
 import threading
 import numpy as np
-
-
+import argparse
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import torch.optim as optim
 class DummyGraph:
     def as_default(self): return self
     def __enter__(self): pass
@@ -184,6 +187,31 @@ class LSTMNetwork(Network):
             (1, self.num_steps, self.input_dim))
         return super().predict(sample)
 
+class ActorNetwork(LSTMNetwork):
+    def __init__(self, *args, num_steps=1, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def get_network_head(inp):
+        super().get_network_head()
+
+    def train_on_batch(self, x, y):
+        return super().train_on_batch(x, y)
+
+    def predict(self, sample):
+        return super().predict(sample)
+
+class CriticNetwork(LSTMNetwork):
+    def __init__(self, *args, num_steps=1, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def get_network_head(inp):
+        super().get_network_head()
+
+    def train_on_batch(self, x, y):
+        return super().train_on_batch(x, y)
+
+    def predict(self, sample):
+        return super().predict(sample)
 
 class CNN(Network):
     def __init__(self, *args, num_steps=1, **kwargs):
