@@ -21,6 +21,8 @@ from environment import Environment
 from agent import Agent
 from networks import Network, DNN, LSTMNetwork, CNN
 from visualizer import Visualizer
+from actor import ActorNetwork
+from critic import CriticNetwork
 '''
 Implementation of Deep Deterministic Policy Gradients (DDPG) with pytorch 
 riginal paper: https://arxiv.org/abs/1509.02971
@@ -115,6 +117,7 @@ class ReinforcementLearner:
         self.net = net
         self.num_steps = num_steps
         self.lr = lr
+        self.tau=0.001
         self.value_network = value_network
         self.policy_network = policy_network
         self.reuse_models = reuse_models
@@ -139,37 +142,14 @@ class ReinforcementLearner:
         # 로그 등 출력 경로
         self.output_path = output_path
 
-    def init_value_network(self, shared_network=None,
-                           activation='linear', loss='mse'):
-        if self.net == 'dnn':
-            self.value_network = DNN(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, shared_network=shared_network,
-                activation=activation, loss=loss)
-        elif self.net == 'lstm':
-            self.value_network = LSTMNetwork(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, num_steps=self.num_steps,
-                shared_network=shared_network,
-                activation=activation, loss=loss)
-        elif self.net == 'cnn':
-            self.value_network = CNN(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, num_steps=self.num_steps,
-                shared_network=shared_network,
-                activation=activation, loss=loss)
-
-        if self.reuse_models and \
-                os.path.exists(self.value_network_path):
-            self.value_network.load_model(
-                model_path=self.value_network_path)
-
     def init_policy_network(self, shared_network=None,
                             activation='sigmoid', loss='binary_crossentropy'):
-        if self.net == 'dnn':
+        if self.rl_method == 'ddpg':
+            self.policy_network = ActorNetwork(
+                state_dim=self.num_features,
+                action_dim=self.agent.NUM_ACTIONS
+                , action_bound=1, learning_rate=self.lr, tau=self.tau)
+        elif self.net == 'dnn':
             self.policy_network = DNN(
                 input_dim=self.num_features,
                 output_dim=self.agent.NUM_ACTIONS,
@@ -189,10 +169,58 @@ class ReinforcementLearner:
                 lr=self.lr, num_steps=self.num_steps,
                 shared_network=shared_network,
                 activation=activation, loss=loss)
+        elif self.net == 'cnn':
+            self.policy_network = CNN(
+                input_dim=self.num_features,
+                output_dim=self.agent.NUM_ACTIONS,
+                lr=self.lr, num_steps=self.num_steps,
+                shared_network=shared_network,
+                activation=activation, loss=loss)
         if self.reuse_models and \
                 os.path.exists(self.policy_network_path):
             self.policy_network.load_model(
                 model_path=self.policy_network_path)
+
+    def init_value_network(self, shared_network=None,
+                           activation='linear', loss='mse'):
+        if self.rl_method =='ddpg':
+            self.value_network = CriticNetwork(
+                state_dim=self.num_features,
+                action_dim=self.agent.NUM_ACTIONS
+                , action_bound=1, learning_rate=self.lr, tau=self.tau,num_actor_vars=policy_network.get_num_trainable_vars())
+        elif self.net == 'dnn':
+            self.value_network = DNN(
+                input_dim=self.num_features,
+                output_dim=self.agent.NUM_ACTIONS,
+                lr=self.lr, shared_network=shared_network,
+                activation=activation, loss=loss)
+        elif self.net == 'lstm':
+            self.value_network = LSTMNetwork(
+                input_dim=self.num_features,
+                output_dim=self.agent.NUM_ACTIONS,
+                lr=self.lr, num_steps=self.num_steps,
+                shared_network=shared_network,
+                activation=activation, loss=loss)
+        elif self.net == 'cnn':
+            self.value_network = CNN(
+                input_dim=self.num_features,
+                output_dim=self.agent.NUM_ACTIONS,
+                lr=self.lr, num_steps=self.num_steps,
+                shared_network=shared_network,
+                activation=activation, loss=loss)
+        elif self.net == 'cnn':
+            self.value_network = CNN(
+                input_dim=self.num_features,
+                output_dim=self.agent.NUM_ACTIONS,
+                lr=self.lr, num_steps=self.num_steps,
+                shared_network=shared_network,
+                activation=activation, loss=loss)
+
+        if self.reuse_models and \
+                os.path.exists(self.value_network_path):
+            self.value_network.load_model(
+                model_path=self.value_network_path)
+
 
     def reset(self):
         self.sample = None
@@ -564,6 +592,7 @@ class DDPG(ReinforcementLearner):
             # Compute the target Q value
             target_Q = self.critic_target(next_state, self.actor_target(next_state))
             target_Q = reward + (done * args.gamma * target_Q).detach()
+
 
             # Get current Q estimate
             current_Q = self.critic(state, action)

@@ -15,13 +15,13 @@ def bias_variable(shape):
     initial = tf.constant(0.03, shape=shape)
     return tf.Variable(initial)
 
-class CriticNetwork(Network):
+class CriticNetwork(object):
     """
     Input to the network is the state and action, output is Q(s,a).
     The action must be obtained from the output of the Actor network.
     """
 
-    def __init__(self, sess, state_dim, action_dim, learning_rate, num_actor_vars, tau=0.001 ,*args, **kwargs):
+    def __init__(self, sess, state_dim, action_dim, learning_rate, tau,num_actor_vars):
         super().__init__(*args, **kwargs)
         self.sess = sess
         self.s_dim = state_dim

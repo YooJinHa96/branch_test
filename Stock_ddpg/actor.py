@@ -23,7 +23,7 @@ class ActorNetwork(object):
     between -2 and 2
     """
 
-    def __init__(self, sess, state_dim, action_dim, action_bound, learning_rate, tau=0.001 ):
+    def __init__(self, sess, state_dim, action_dim, action_bound, learning_rate, tau ):
         self.sess = sess
         self.s_dim = state_dim
         self.a_dim = action_dim
