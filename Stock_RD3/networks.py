@@ -252,10 +252,10 @@ class ActorNetwork(Network):
                 self.output_dim, activation=self.activation,
                 kernel_initializer='random_normal')(output)
             self.model = Model(inp, output)
-            self.target_model = Model(inp, output)
+            self.target_model1 = Model(inp, output)
             self.model.compile(
                 optimizer=SGD(lr=self.lr), loss=self.loss)
-            self.target_model.compile(
+            self.target_model1.compile(
                 optimizer=SGD(lr=self.lr), loss=self.loss)
             # initialize optimizer
             self.optimizer = Adam(self.lr)
@@ -306,12 +306,12 @@ class ActorNetwork(Network):
             (1, self.num_steps, self.input_dim))
         return super().predict(sample)
 
-    def target_predict(self, sample):
+    def target_model1_predict(self, sample):
         """ Action prediction (target network)
         """
         sample = np.array(sample).reshape(
             (1, self.num_steps, self.input_dim))
-        return super().target_model_predict(sample)
+        return super().target_model1_predict(sample)
 
     def optimizer(self):
         """ Actor Optimizer
@@ -416,16 +416,15 @@ class CriticNetwork(Network):
     # tf.print("critic loss :",critic_loss_1)
     # self.critic_loss = float(critic_loss_1)
 
-    def target_model1(self, sample):
+    def target_model1_predict(self, sample):
         sample = np.array(sample).reshape(
             (1, self.num_steps, self.input_dim))
-        return super().target_model1(sample)
+        return super().target_model1_predict(sample)
 
-    def target_model2(self, sample):
+    def target_model2_predict(self, sample):
         sample = np.array(sample).reshape(
             (1, self.num_steps, self.input_dim))
-        return super().target_model2(sample)
-
+        return super().target_model2_predict(sample)
 
     def target_update(self):
         """  soft target update for training target critic network

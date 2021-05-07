@@ -478,11 +478,11 @@ class TD3(ReinforcementLearner):
 
         for i, (sample, action, value, policy, reward,target_policy,target_action) \
                 in enumerate(memory):
-        #     # sample_batch[i] = sample
-        #     # y_value[i] = value
-        #     # y_policy[i] = policy
-        #     # y_target_value[i] = target_value
-        #     # y_target_policy[i] = target_policy
+              sample_batch[i] = sample
+              y_value[i] = value
+              y_policy[i] = policy
+              y_target_value[i] = target_value
+               y_target_policy[i] = target_policy
             rewards[i] = (delayed_reward + reward_next - reward * 2) * 100
         #     # y_target_value[i, target_action] = rewards[i] + discount_factor * target_max_next # q_value
         #     # y_target_policy[i, target_action] = sigmoid(target_value[target_action])
@@ -495,7 +495,7 @@ class TD3(ReinforcementLearner):
         #
         # return  sample_batch, y_value, y_policy
 
-        q1_vals = self.critic.target_model1.predict([self.memory_sample, self.memory_target_action])
+        q1_vals = self.critic.target_model1_predict(self.memory_sampl)
         q2_vals = self.critic.target_model2.predict([self.memory_sample, self.memory_target_action])
 
         q_vals = np.min(np.vstack([q1_vals.transpose(),q2_vals.transpose()]),axis=0)
