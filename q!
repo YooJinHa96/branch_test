@@ -1,0 +1,89 @@
+[33mcommit 39732d45daba7306f600cc47fd686e6e3cb6eadb[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: YooJinHa96 <yjs19162@hanmail.net>
+Date:   Fri May 7 18:29:13 2021 +0900
+
+     ds
+
+[33mcommit 4b536520a732fbdd741d62befbb35332af2ef0cb[m
+Author: YooJinHa96 <yjs19162@daum.net>
+Date:   Fri May 7 01:28:02 2021 +0900
+
+    td3
+
+[33mcommit f6202b4b8c8d32d9952210239bd443e73442cc02[m
+Author: YooJinHa96 <yjs19162@daum.net>
+Date:   Tue May 4 13:35:57 2021 +0900
+
+    StockTrader_ddpg
+
+[33mcommit f0b1a8a594f0ba1baa88d806a72469b28ecf4b74[m
+Author: YooJinHa96 <yjs19162@daum.net>
+Date:   Mon Apr 26 22:02:32 2021 +0900
+
+    ddpg2
+
+[33mcommit 641050a75bfcf75a17b8b5030265a7c55402628e[m
+Author: YooJinHa96 <yjs19162@hanmail.net>
+Date:   Mon Apr 26 14:30:35 2021 +0900
+
+     network link
+
+[33mcommit bc8f8d3b8c80f6790802a7d3e407861626d3715a[m
+Author: YooJinHa96 <yjs19162@daum.net>
+Date:   Sun Apr 25 17:47:58 2021 +0900
+
+     actor critic network add
+
+[33mcommit ebfde3cc8e82210f9bed1bb04c005e727790703c[m
+Author: YooJinHa96 <yjs19162@daum.net>
+Date:   Sat Apr 24 01:11:09 2021 +0900
+
+    ddpg
+
+[33mcommit 006c6477cdb8e9aab33f0b5c6c81510163f8deed[m
+Author: YooJinHa96 <yjs19162@daum.net>
+Date:   Mon Apr 19 00:32:16 2021 +0900
+
+    test_in
+
+[33mcommit 0d72726457192bd568c3e9c2bd7c42bfd36f4506[m[33m ([m[1;31morigin/test5[m[33m, [m[1;31morigin/test2[m[33m, [m[1;32mtest5[m[33m, [m[1;32mtest2[m[33m)[m
+Author: YooJinHa96 <yjs19162@daum.net>
+Date:   Sun Apr 18 13:55:13 2021 +0900
+
+    test2
+
+[33mcommit 55bae8faf73e92c68a081616488aafec2844e692[m
+Author: YooJinHa96 <yjs19162@daum.net>
+Date:   Sun Apr 18 13:47:12 2021 +0900
+
+    testss
+
+[33mcommit 2217a0cf08cb981edb6c6fd226a2aa1c13a628ee[m
+Author: YooJinHa96 <yjs19162@daum.net>
+Date:   Sun Apr 18 13:38:27 2021 +0900
+
+    delete contest
+
+[33mcommit 199ff6918f00f4ab89d74d95b10ef3fdb18764cf[m
+Author: YooJinHa96 <yjs19162@daum.net>
+Date:   Sun Apr 18 13:34:58 2021 +0900
+
+    test3
+
+[33mcommit 06e851c86a2e9ae084c16dca3c4520bedc7bdd79[m
+Author: YooJinHa96 <yjs19162@daum.net>
+Date:   Sun Apr 18 13:04:50 2021 +0900
+
+    ddpg.py add
+
+[33mcommit 11afb47deddc00308c7e4838744302b88e09705d[m
+Author: YooJinHa96 <yjs19162@daum.net>
+Date:   Sun Apr 18 12:58:09 2021 +0900
+
+    init
+
+[33mcommit 2d1c738deb6f755c3b6e5bec4b6513532eb7a828[m[33m ([m[1;31morigin/test[m[33m)[m
+Author: YooJinHa96 <55770865+YooJinHa96@users.noreply.github.com>
+Date:   Sun Apr 18 12:39:37 2021 +0900
+
+    Initial commit
