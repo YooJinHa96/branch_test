@@ -45,6 +45,19 @@ COLUMNS_TRAINING_DATA_V2 = [
     'bond_k3y_ma60_ratio', 'bond_k3y_ma120_ratio'
 ]
 
+COLUMNS_TRAINING_DATA_V3 = [
+    'per', 'pbr',
+    'open_lastclose_ratio', 'high_close_ratio', 'low_close_ratio',
+    'close_lastclose_ratio', 'volume_lastvolume_ratio',
+    'close_ma5_ratio', 'volume_ma5_ratio',
+    'close_ma10_ratio', 'volume_ma10_ratio',
+    'close_ma20_ratio', 'volume_ma20_ratio',
+    'close_ma60_ratio', 'volume_ma60_ratio',
+    'close_ma120_ratio', 'volume_ma120_ratio',
+    'nasdaq_ma5','nasdaq_ma20', 'bond_u3y_ma5',
+    'bond_u3y_ma20', 'wti_ma5','nlp_pos','nlp_neg',
+    'nlp_neu', 'nlp_compound'
+]
 
 def preprocess(data, ver='v1'):
     windows = [5, 10, 20, 60, 120]
@@ -123,15 +136,15 @@ def load_data(fpath, date_from, date_to, ver='v1'):
 
     # 데이터 전처리
     data = preprocess(data)
-    
     # 기간 필터링
     data['date'] = data['date'].str.replace('-', '')
     data = data[(data['date'] >= date_from) & (data['date'] <= date_to)]
-    data = data.dropna()
+
+    #data = data.dropna()
 
     # 차트 데이터 분리
     chart_data = data[COLUMNS_CHART_DATA]
-
+    print(data['close_ma120_ratio'])
     # 학습 데이터 분리
     training_data = None
     if ver == 'v1':
@@ -143,7 +156,12 @@ def load_data(fpath, date_from, date_to, ver='v1'):
             data[['per', 'pbr', 'roe']].apply(lambda x: x / 100)
         training_data = data[COLUMNS_TRAINING_DATA_V2]
         training_data = training_data.apply(np.tanh)
+    elif ver == 'v3':
+        data.loc[:, ['per', 'pbr']] = \
+            data[['per', 'pbr']].apply(lambda x: x / 100)
+        training_data = data[COLUMNS_TRAINING_DATA_V3]
+        training_data = training_data.apply(np.tanh)
     else:
         raise Exception('Invalid version.')
-    
+    print(data['volume_ma20'])
     return chart_data, training_data

@@ -19,24 +19,25 @@ graph = DummyGraph()
 sess = None
 
 if os.environ['KERAS_BACKEND'] == 'tensorflow':
+
     from tensorflow.keras.models import Model
     from tensorflow.keras.layers import Input, Dense, LSTM, Conv2D, \
         BatchNormalization, Dropout, MaxPooling2D, Flatten, concatenate
-    from keras.initializers import RandomUniform
+    #from keras.initializers import RandomUniform
     from tensorflow.keras.optimizers import SGD
     from tensorflow.keras.backend import set_session
-    import keras.backend as K
+    #import keras.backend as K
     import tensorflow as tf
 
     graph = tf.get_default_graph()
     sess = tf.compat.v1.Session()
-elif os.environ['KERAS_BACKEND'] == 'plaidml.keras.backend':
-    from keras.models import Model
-    from keras.layers import Input, Dense, LSTM, Conv2D, \
-        BatchNormalization, Dropout, MaxPooling2D, Flatten
-    from keras.layers import concatenate
-    from keras.initializers import RandomUniform
-    from keras.optimizers import SGD
+#elif os.environ['KERAS_BACKEND'] == 'plaidml.keras.backend':
+ #   from keras.models import Model
+  #  from keras.layers import Input, Dense, LSTM, Conv2D, \
+   #     BatchNormalization, Dropout, MaxPooling2D, Flatten
+   # from keras.layers import concatenate
+   # from keras.initializers import RandomUniform
+    #from keras.optimizers import SGD
 
 
 class Network:

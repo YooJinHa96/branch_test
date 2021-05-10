@@ -493,7 +493,7 @@ class TD3(ReinforcementLearner):
               y_policy[i] = policy
               q1_vals = self.critic.target_model1_predict(sample)
               q2_vals = self.critic.target_model2.predict(sample)
-              y_target_value[i] = np.min(np.vstack([q1_vals.transpose(),q2_vals.transpose()]),axis=0)
+              y_target_value[i] = np.min(np.vstack([q1_vals.transpose(), q2_vals.transpose()]), axis=0)
               y_target_policy[i] = target_policy
               rewards[i] = (delayed_reward + reward_next - reward * 2) * 100
               y_target_value[i, target_action] = rewards[i] + discount_factor * target_max_next # q_value
