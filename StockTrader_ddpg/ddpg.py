@@ -489,6 +489,7 @@ class DDPG(ReinforcementLearner):
             reversed(self.memory_sample[-batch_size:]),
             reversed(self.memory_action[-batch_size:]),
             reversed(self.memory_value[-batch_size:]),
+            reversed(self.memory_policy[-batch_size:]),
             reversed(self.memory_reward[-batch_size:]),
             reversed(self.memory_target_policy[-batch_size:]),
             reversed(self.memory_target_action[-batch_size:]),
@@ -507,7 +508,6 @@ class DDPG(ReinforcementLearner):
         reward_next = self.memory_reward[-1]
         for i, (sample, action, value, policy, reward,target_policy,target_action,target_value) \
                 in enumerate(memory):
-            print("check")
             sample_batch[i] = sample
             y_value[i] = value
             y_policy[i] = policy
