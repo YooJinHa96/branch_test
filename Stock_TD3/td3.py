@@ -499,7 +499,7 @@ class TD3(ReinforcementLearner):
         #     # y_target_policy[i, target_action] = sigmoid(target_value[target_action])
               y_value[i, action] = value_max_next # q_value
               y_value2[i, action] = value_max_next2  # q_value
-              y_policy[i, action] = sigmoid(y_value[action])
+              y_policy[i, action] = sigmoid(value[action])
               target_max_next = y_target_value.max()
               value_max_next = value.max()
               value_max_next2 = value2.max()
