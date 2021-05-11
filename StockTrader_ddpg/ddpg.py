@@ -266,11 +266,11 @@ class ReinforcementLearner:
                              * (self.num_steps - 1) + self.memory_action
         self.memory_num_stocks = [0] * (self.num_steps - 1) \
                                  + self.memory_num_stocks
-        if self.value_network is not None:
+        if self.critic is not None:
             self.memory_value = [np.array([np.nan] \
                                           * len(Agent.ACTIONS))] * (self.num_steps - 1) \
                                 + self.memory_value
-        if self.policy_network is not None:
+        if self.actor is not None:
             self.memory_policy = [np.array([np.nan] \
                                            * len(Agent.ACTIONS))] * (self.num_steps - 1) \
                                  + self.memory_policy
@@ -393,9 +393,9 @@ class ReinforcementLearner:
                 self.memory_target_action.append(target_action)
                 self.memory_target_policy.append(pred_target_policy)
                 self.memory_target_value.append(pred_target_value)
-                if self.value_network is not None:
+                if self.critic is not None:
                     self.memory_value.append(pred_value)
-                if self.policy_network is not None:
+                if self.actor is not None:
                     self.memory_policy.append(pred_policy)
                 self.memory_pv.append(self.agent.portfolio_value)
                 self.memory_num_stocks.append(self.agent.num_stocks)
