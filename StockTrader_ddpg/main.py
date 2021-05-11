@@ -15,7 +15,7 @@ if __name__ == '__main__':
     parser.add_argument('--rl_method',
         choices=['dqn', 'pg', 'ac', 'a2c', 'a3c', 'ddpg'])
     parser.add_argument('--net',
-        choices=['dnn', 'lstm', 'cnn'], default='dnn')
+        choices=['dnn', 'lstm', 'cnn','actorcritic'], default='actorcritic')
     parser.add_argument('--num_steps', type=int, default=1)
     parser.add_argument('--lr', type=float, default=0.001)
     parser.add_argument('--discount_factor', type=float, default=0.9)
@@ -32,7 +32,7 @@ if __name__ == '__main__':
     parser.add_argument('--reuse_models', action='store_true')
     parser.add_argument('--learning', action='store_true')
     parser.add_argument('--start_date', default='20170104')
-    parser.add_argument('--end_date', default='20170501')
+    parser.add_argument('--end_date', default='20171231')
     args = parser.parse_args()
 
     # Keras Backend 설정

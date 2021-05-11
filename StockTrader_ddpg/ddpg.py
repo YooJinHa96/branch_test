@@ -75,8 +75,8 @@ class ReinforcementLearner:
         self.value_network = value_network
         self.policy_network = policy_network
         self.reuse_models = reuse_models
-        self.critic=value_network
-        self.actor=policy_network
+        self.critic = value_network
+        self.actor = policy_network
         self.tau=0.001
         # 가시화 모듈
         self.visualizer = Visualizer()
@@ -452,10 +452,10 @@ class ReinforcementLearner:
                 max_pv=max_portfolio_value, cnt_win=epoch_win_cnt))
 
     def save_models(self):
-        if self.value_network is not None and \
+        if self.critic is not None and \
                 self.value_network_path is not None:
             self.value_network.save_model(self.value_network_path)
-        if self.policy_network is not None and \
+        if self.actor is not None and \
                 self.policy_network_path is not None:
             self.policy_network.save_model(self.policy_network_path)
 REPLAY_BUFFER_SIZE = 1000000

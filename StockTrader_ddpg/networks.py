@@ -29,6 +29,12 @@ if os.environ['KERAS_BACKEND'] == 'tensorflow':
     import tensorflow.keras.backend as K
     import tensorflow as tf
 
+    """
+    Tensor v2 
+    import tensorflow.compat.v1 as tf
+
+    tf.disable_v2_behavior()
+    """
     graph = tf.get_default_graph()
     sess = tf.compat.v1.Session()
 #elif os.environ['KERAS_BACKEND'] == 'plaidml.keras.backend':
