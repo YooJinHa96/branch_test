@@ -26,7 +26,7 @@ if os.environ['KERAS_BACKEND'] == 'tensorflow':
     #from keras.initializers import RandomUniform
     from tensorflow.keras.optimizers import SGD
     from tensorflow.keras.backend import set_session
-    #import keras.backend as K
+    import tensorflow.keras.backend as K
     import tensorflow as tf
 
     graph = tf.get_default_graph()

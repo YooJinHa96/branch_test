@@ -478,7 +478,6 @@ class TD3(ReinforcementLearner):
         y_target_value = np.zeros((batch_size, self.agent.NUM_ACTIONS))
         y_target_policy = np.full((batch_size, self.agent.NUM_ACTIONS), .5)
         rewards=np.zeros(batch_size)
-        action_batch = np.asarray([data[1] for data in memory])
         value_max_next = 0
         value_max_next2 = 0
         target_max_next = 0

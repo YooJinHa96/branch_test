@@ -163,5 +163,4 @@ def load_data(fpath, date_from, date_to, ver='v1'):
         training_data = training_data.apply(np.tanh)
     else:
         raise Exception('Invalid version.')
-    print(data['volume_ma20'])
     return chart_data, training_data

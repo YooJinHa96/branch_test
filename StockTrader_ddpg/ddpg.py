@@ -110,7 +110,7 @@ class ReinforcementLearner:
                 input_dim=self.num_features,
                 output_dim=self.agent.NUM_ACTIONS,num_steps=self.num_steps, activation=activation, loss=loss
                 , lr=self.lr)
-            print(self.actor)
+            print('actor : ',self.actor)
         elif self.net == 'dnn':
             self.policy_network = DNN(
                 input_dim=self.num_features,
@@ -492,7 +492,7 @@ class DDPG(ReinforcementLearner):
             reversed(self.memory_reward[-batch_size:]),
             reversed(self.memory_target_policy[-batch_size:]),
             reversed(self.memory_target_action[-batch_size:]),
-            reversed((self.memory_target_value[-batch_size:]))
+            reversed(self.memory_target_value[-batch_size:])
         )
         sample_batch = np.zeros((batch_size, self.num_steps, self.num_features))
         x_sample_next = np.zeros((batch_size, self.num_steps, self.num_features))
@@ -501,13 +501,13 @@ class DDPG(ReinforcementLearner):
         y_target_value = np.zeros((batch_size, self.agent.NUM_ACTIONS))
         y_target_policy = np.full((batch_size, self.agent.NUM_ACTIONS), .5)
         rewards=np.zeros(batch_size)
-        action_batch = np.asarray([data[1] for data in memory])
         value_max_next = 0
         target_max_next = 0
         x_sample_next[0] = self.memory_sample[-1]
         reward_next = self.memory_reward[-1]
         for i, (sample, action, value, policy, reward,target_policy,target_action,target_value) \
                 in enumerate(memory):
+            print("check")
             sample_batch[i] = sample
             y_value[i] = value
             y_policy[i] = policy
@@ -517,13 +517,13 @@ class DDPG(ReinforcementLearner):
             y_target_value[i, target_action] = rewards[i] + discount_factor * target_max_next # q_value
             y_target_policy[i, target_action] = sigmoid(target_value[target_action])
             y_value[i, action] = value_max_next # q_value
-            y_policy[i, action] = sigmoid(y_value[action])
+            y_policy[i, action] = sigmoid(value[action])
             target_max_next = target_value.max()
             value_max_next = value.max()
             reward_next = reward
             y_value[i, action] = y_target_value[i, target_action] - y_value[i, action]
 
-        return  sample_batch, y_value, y_policy
+        return sample_batch, y_value, y_policy
 
 
 

@@ -81,9 +81,8 @@ class ReinforcementLearner:
         if self.rl_method=='ddpg':
             self.value_network = CriticNetwork(
                 input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, shared_network=shared_network,
-                activation=activation, loss=loss)
+                output_dim=self.agent.NUM_ACTIONS, num_steps=self.num_steps, activation=activation, loss=loss,
+                lr=self.lr)
         else:
             if self.net == 'dnn':
                 self.value_network = DNN(
@@ -113,10 +112,10 @@ class ReinforcementLearner:
     def init_policy_network(self, shared_network=None, 
             activation='sigmoid', loss='binary_crossentropy'):
         if self.rl_method=='ddpg':
-            self.policy_network=ActorNetwork( input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, shared_network=shared_network,
-                activation=activation, loss=loss)
+            self.policy_network = ActorNetwork(
+                input_dim=self.num_features,
+                output_dim=self.agent.NUM_ACTIONS, num_steps=self.num_steps, activation=activation, loss=loss
+                , lr=self.lr)
         elif self.rl_method!='ddpg':
             if self.net == 'dnn':
                 self.policy_network = DNN(
@@ -529,6 +528,67 @@ class A2CLearner(ActorCriticLearner):
             reward_next = reward
         return x, y_value, y_policy
 
+class DDPG(ReinforcementLearner):
+    """docstring for DDPG"""
+
+    def __init__(self, *args, shared_network=None,
+                 value_network_path=None, policy_network_path=None, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.name = 'DDPG'  # name for uploading results
+        if shared_network is None:
+            self.shared_network = Network.get_shared_network(
+                net=self.net, num_steps=self.num_steps,
+                input_dim=self.num_features)
+        else:
+            self.shared_network = shared_network
+        self.value_network_path = value_network_path
+        self.policy_network_path = policy_network_path
+        if self.value_network is None:
+            self.init_value_network(shared_network=shared_network)
+        if self.policy_network is None:
+            self.init_policy_network(shared_network=shared_network)
+
+    def get_batch(self, batch_size, delayed_reward, discount_factor):
+        memory = zip(
+            reversed(self.memory_sample[-batch_size:]),
+            reversed(self.memory_action[-batch_size:]),
+            reversed(self.memory_value[-batch_size:]),
+            reversed(self.memory_reward[-batch_size:]),
+         #  reversed(self.memory_target_policy[-batch_size:]),
+         #   reversed(self.memory_target_action[-batch_size:]),
+            #reversed(self.memory_target_value[-batch_size:])
+        )
+        sample_batch = np.zeros((batch_size, self.num_steps, self.num_features))
+        x_sample_next = np.zeros((batch_size, self.num_steps, self.num_features))
+        y_value = np.zeros((batch_size, self.agent.NUM_ACTIONS))
+        y_policy = np.full((batch_size, self.agent.NUM_ACTIONS), .5)
+        y_target_value = np.zeros((batch_size, self.agent.NUM_ACTIONS))
+        y_target_policy = np.full((batch_size, self.agent.NUM_ACTIONS), .5)
+        rewards=np.zeros(batch_size)
+        action_batch = np.asarray([data[1] for data in memory])
+        value_max_next = 0
+        target_max_next = 0
+        x_sample_next[0] = self.memory_sample[-1]
+        reward_next = self.memory_reward[-1]
+        for i, (sample, action, value, policy, reward,target_policy,target_action,target_value) \
+                in enumerate(memory):
+            print('ddss')
+            sample_batch[i] = sample
+            y_value[i] = value
+            y_policy[i] = policy
+            y_target_value[i] = target_value
+            y_target_policy[i] = target_policy
+            rewards[i] = (delayed_reward + reward_next - reward * 2) * 100
+            y_target_value[i, target_action] = rewards[i] + discount_factor * target_max_next # q_value
+            y_target_policy[i, target_action] = sigmoid(target_value[target_action])
+            y_value[i, action] = value_max_next # q_value
+            y_policy[i, action] = sigmoid(y_value[action])
+            target_max_next = target_value.max()
+            value_max_next = value.max()
+            reward_next = reward
+            y_value[i, action] = y_target_value[i, target_action] - y_value[i, action]
+
+        return  sample_batch, y_value, y_policy
 
 class A3CLearner(ReinforcementLearner):
     def __init__(self, *args, list_stock_code=None, 
