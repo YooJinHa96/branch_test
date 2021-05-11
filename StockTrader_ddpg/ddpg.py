@@ -454,10 +454,10 @@ class ReinforcementLearner:
     def save_models(self):
         if self.critic is not None and \
                 self.value_network_path is not None:
-            self.value_network.save_model(self.value_network_path)
+            self.critic.save_model(self.value_network_path)
         if self.actor is not None and \
                 self.policy_network_path is not None:
-            self.policy_network.save_model(self.policy_network_path)
+            self.actor.save_model(self.policy_network_path)
 REPLAY_BUFFER_SIZE = 1000000
 REPLAY_START_SIZE = 10000
 BATCH_SIZE = 64
