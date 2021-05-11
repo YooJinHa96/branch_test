@@ -521,7 +521,7 @@ class DDPG(ReinforcementLearner):
             target_max_next = target_value.max()
             value_max_next = value.max()
             reward_next = reward
-            y_value[i, action] = y_target_value[i, target_action] - y_value[i, action]
+            y_value[i, action] = (y_target_value[i, target_action] - y_value[i, action])
 
         return sample_batch, y_value, y_policy
 
