@@ -1,0 +1,248 @@
+CONFIGDIR=/root/.config/matplotlib
+(private) matplotlib data path: /usr/local/lib/python3.7/dist-packages/matplotlib/mpl-data
+matplotlib data path: /usr/local/lib/python3.7/dist-packages/matplotlib/mpl-data
+loaded rc file /usr/local/lib/python3.7/dist-packages/matplotlib/mpl-data/matplotlibrc
+matplotlib version 3.2.2
+interactive is False
+platform is linux
+loaded modules: ['sys', 'builtins', '_frozen_importlib', '_imp', '_thread', '_warnings', '_weakref', 'zipimport', '_frozen_importlib_external', '_io', 'marshal', 'posix', 'encodings', 'codecs', '_codecs', 'encodings.aliases', 'encodings.utf_8', '_signal', '__main__', 'encodings.latin_1', 'io', 'abc', '_abc', 'warnings', 're', 'enum', 'types', '_collections', 'sre_compile', '_sre', 'sre_parse', 'sre_constants', 'functools', '_functools', 'collections', '_collections_abc', 'operator', '_operator', 'keyword', 'heapq', '_heapq', 'itertools', 'reprlib', '_locale', 'copyreg', 'site', 'os', 'stat', '_stat', 'posixpath', 'genericpath', 'os.path', '_sitebuiltins', '_bootlocale', 'importlib', 'importlib._bootstrap', 'importlib._bootstrap_external', 'importlib.util', 'importlib.abc', 'importlib.machinery', 'contextlib', 'google', 'google.cloud', 'google.logging', 'mpl_toolkits', 'sphinxcontrib', 'sitecustomize', 'logging', 'time', 'traceback', 'linecache', 'tokenize', 'token', 'weakref', '_weakrefset', 'collections.abc', 'string', '_string', 'threading', 'atexit', 'argparse', 'gettext', 'locale', 'json', 'json.decoder', 'json.scanner', '_json', 'json.encoder', 'settings', 'platform', 'subprocess', 'signal', 'errno', '_posixsubprocess', 'select', 'selectors', 'math', 'utils', 'datetime', '_datetime', 'numpy', 'numpy._globals', 'numpy.__config__', 'numpy.version', 'numpy._distributor_init', 'numpy.core', 'numpy.core.multiarray', 'numpy.core.overrides', 'textwrap', 'numpy.core._multiarray_umath', 'numpy.compat', 'numpy.compat._inspect', 'numpy.compat.py3k', 'pathlib', 'fnmatch', 'ntpath', 'urllib', 'urllib.parse', 'pickle', 'struct', '_struct', '_compat_pickle', '_pickle', 'numpy.core.umath', 'numpy.core.numerictypes', 'numbers', 'numpy.core._string_helpers', 'numpy.core._type_aliases', 'numpy.core._dtype', 'numpy.core.numeric', 'numpy.core.shape_base', 'numpy.core._asarray', 'numpy.core.fromnumeric', 'numpy.core._methods', 'numpy.core._exceptions', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core.machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._add_newdocs', 'numpy.core._multiarray_tests', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'ast', '_ast', 'ctypes', '_ctypes', 'ctypes._endian', 'numpy._pytesttester', 'numpy.lib', 'numpy.lib.mixins', 'numpy.lib.scimath', 'numpy.lib.type_check', 'numpy.lib.ufunclike', 'numpy.lib.index_tricks', 'numpy.matrixlib', 'numpy.matrixlib.defmatrix', 'numpy.linalg', 'numpy.linalg.linalg', 'numpy.lib.twodim_base', 'numpy.linalg.lapack_lite', 'numpy.linalg._umath_linalg', 'numpy.lib.function_base', 'numpy.lib.histograms', 'numpy.lib.stride_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.npyio', 'numpy.lib.format', 'numpy.lib._datasource', 'shutil', 'zlib', 'bz2', '_compression', '_bz2', 'lzma', '_lzma', 'pwd', 'grp', 'numpy.lib._iotools', 'numpy.lib.financial', 'decimal', '_decimal', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.fft', 'numpy.fft._pocketfft', 'numpy.fft._pocketfft_internal', 'numpy.fft.helper', 'numpy.polynomial', 'numpy.polynomial.polynomial', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.random', 'numpy.random._pickle', 'numpy.random.mtrand', 'cython_runtime', 'numpy.random.bit_generator', '_cython_0_29_21', 'numpy.random._common', 'secrets', 'base64', 'binascii', 'hmac', '_hashlib', 'hashlib', '_blake2', '_sha3', 'random', 'bisect', '_bisect', '_random', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.ctypeslib', 'numpy.ma', 'numpy.ma.core', 'numpy.ma.extras', 'data_manager', 'pandas', 'pytz', 'pytz.exceptions', 'pytz.lazy', 'pytz.tzinfo', 'pytz.tzfile', 'dateutil', 'dateutil._version', 'pandas.compat', 'pandas._typing', 'typing', 'typing.io', 'typing.re', 'pandas.compat.numpy', 'distutils', 'distutils.version', 'pandas._libs', 'pandas._libs.interval', 'pandas._libs.hashtable', 'pandas._libs.missing', 'pandas._libs.tslibs', 'pandas._libs.tslibs.dtypes', 'pandas._libs.tslibs.conversion', 'pandas._libs.tslibs.base', 'pandas._libs.tslibs.nattype', 'pandas._libs.tslibs.np_datetime', 'pandas._libs.tslibs.timezones', 'dateutil.tz', 'dateutil.tz.tz', 'six', '__future__', 'six.moves', 'dateutil.tz._common', 'dateutil.tz._factories', 'pandas._libs.tslibs.tzconversion', 'pandas._libs.tslibs.ccalendar', 'pandas._libs.tslibs.parsing', 'pandas._libs.tslibs.offsets', 'pandas._libs.tslibs.timedeltas', 'pandas._libs.tslibs.timestamps', 'pandas._libs.tslibs.fields', 'pandas._config', 'pandas._config.config', 'pandas._config.dates', 'pandas._config.display', 'pandas._config.localization', 'pandas._libs.tslibs.strptime', 'calendar', 'dateutil.easter', 'dateutil.relativedelta', 'dateutil._common', 'pandas._libs.properties', 'dateutil.parser', 'dateutil.parser._parser', 'dateutil.parser.isoparser', 'pandas._libs.tslibs.period', 'pandas._libs.tslibs.vectorized', 'pandas._libs.ops_dispatch', 'pandas._libs.algos', 'pandas._libs.lib', 'pandas._libs.tslib', 'pandas.core', 'pandas.core.config_init', 'pandas.core.api', 'pandas.core.dtypes', 'pandas.core.dtypes.dtypes', 'pandas.core.dtypes.base', 'pandas.errors', 'pandas.core.dtypes.generic', 'pandas.core.dtypes.inference', 'pandas.core.dtypes.missing', 'pandas.core.dtypes.common', 'pandas.core.algorithms', 'pandas.util', 'pandas.util._decorators', 'inspect', 'dis', 'opcode', '_opcode', 'pandas.core.util', 'pandas.core.util.hashing', 'pandas._libs.hashing', 'pandas.core.dtypes.cast', 'pandas.util._validators', 'pandas.core.construction', 'pandas.core.common', 'pandas.core.indexers', 'pandas.core.arrays', 'pandas.core.arrays.base', 'pandas.compat.numpy.function', 'pandas.core.ops', 'pandas.core.ops.array_ops', 'pandas._libs.ops', 'pandas.core.ops.missing', 'pandas.core.ops.roperator', 'pandas.core.ops.dispatch', 'pandas.core.ops.invalid', 'pandas.core.ops.common', 'pandas.core.ops.docstrings', 'pandas.core.ops.mask_ops', 'pandas.core.ops.methods', 'pandas.core.missing', 'pandas.compat._optional', 'pandas.core.sorting', 'pandas.core.arrays.boolean', 'pandas.core.arrays.masked', 'pandas.core.nanops', 'bottleneck', 'bottleneck.reduce', 'bottleneck.nonreduce', 'bottleneck.nonreduce_axis', 'bottleneck.move', 'bottleneck.slow', 'bottleneck.slow.reduce', 'bottleneck.slow.nonreduce', 'bottleneck.slow.nonreduce_axis', 'bottleneck.slow.move', 'bottleneck.benchmark', 'bottleneck.benchmark.bench', 'bottleneck.benchmark.autotimeit', 'timeit', 'gc', 'bottleneck.benchmark.bench_detailed', 'bottleneck.tests', 'bottleneck.tests.util', 'bottleneck._pytesttester', 'bottleneck._version', 'pandas.core.array_algos', 'pandas.core.array_algos.masked_reductions', 'pandas.core.arrays.categorical', 'csv', '_csv', 'pandas.core.accessor', 'pandas.core.array_algos.transforms', 'pandas.core.arrays._mixins', 'pandas.core.base', 'pandas.io', 'pandas.io.formats', 'pandas.io.formats.console', 'pandas.core.arrays.datetimes', 'pandas.core.arrays.datetimelike', 'pandas.tseries', 'pandas.tseries.frequencies', 'pandas.core.arrays._ranges', 'pandas.tseries.offsets', 'pandas.core.arrays.integer', 'pandas.core.tools', 'pandas.core.tools.numeric', 'pandas.core.arrays.interval', 'pandas.core.indexes', 'pandas.core.indexes.base', 'copy', 'pandas._libs.index', 'pandas._libs.join', 'pandas.core.dtypes.concat', 'pandas.core.arrays.sparse', 'pandas.core.arrays.sparse.accessor', 'pandas.core.arrays.sparse.array', 'pandas._libs.sparse', 'pandas.core.arrays.sparse.dtype', 'pandas.io.formats.printing', 'pandas.core.indexes.frozen', 'pandas.core.strings', 'pandas.core.arrays.numpy_', 'pandas.core.arrays.period', 'pandas.core.arrays.string_', 'pandas.core.arrays.timedeltas', 'pandas.core.groupby', 'pandas.core.groupby.generic', 'pandas.core.aggregation', 'pandas.core.indexes.api', 'pandas.core.indexes.category', 'pandas.core.indexes.extension', 'pandas.core.indexes.datetimes', 'pandas.core.indexes.datetimelike', 'pandas.core.indexes.numeric', 'pandas.core.tools.timedeltas', 'pandas.core.tools.times', 'pandas.core.indexes.interval', 'pandas.util._exceptions', 'pandas.core.indexes.multi', 'pandas.core.indexes.timedeltas', 'pandas.core.indexes.period', 'pandas.core.indexes.range', 'pandas.core.series', 'pandas._libs.reshape', 'pandas.core.generic', 'pandas.core.indexing', 'pandas._libs.indexing', 'pandas.core.internals', 'pandas.core.internals.blocks', 'pandas._libs.writers', 'pandas._libs.internals', 'pandas.core.internals.concat', 'pandas.core.internals.managers', 'pandas.core.internals.ops', 'pandas.core.shared_docs', 'pandas.io.formats.format', 'unicodedata', 'pandas.io.common', 'gzip', 'mmap', 'zipfile', 'pandas.core.indexes.accessors', 'pandas.core.tools.datetimes', 'pandas.arrays', 'pandas.plotting', 'pandas.plotting._core', 'pandas.plotting._misc', 'pandas.core.window', 'pandas.core.window.ewm', 'pandas._libs.window', 'pandas._libs.window.aggregations', 'pandas.core.window.common', 'pandas.core.groupby.base', 'pandas.core.window.rolling', 'pandas.core.util.numba_', 'pandas.core.window.indexers', 'pandas._libs.window.indexers', 'pandas.core.window.numba_', 'pandas.core.window.expanding', 'pandas.core.frame', 'pandas.core.internals.construction', 'pandas.core.reshape', 'pandas.core.reshape.melt', 'pandas.core.reshape.concat', 'pandas.core.reshape.util', 'pandas.io.formats.info', 'pandas.core.groupby.groupby', 'pandas._libs.groupby', 'pandas.core.groupby.ops', 'pandas._libs.reduction', 'pandas.core.groupby.grouper', 'pandas.core.groupby.categorical', 'pandas.tseries.api', 'pandas.core.computation', 'pandas.core.computation.api', 'pandas.core.computation.eval', 'pandas.core.computation.engines', 'pandas.core.computation.align', 'pandas.core.computation.common', 'pandas.core.computation.ops', 'pandas.core.computation.scope', 'pprint', 'pandas.compat.chainmap', 'pandas.core.computation.expr', 'pandas.core.computation.parsing', 'pandas.core.reshape.api', 'pandas.core.reshape.merge', 'pandas.core.reshape.pivot', 'pandas.core.reshape.reshape', 'pandas.core.reshape.tile', 'pandas.api', 'pandas.api.extensions', 'pandas.api.indexers', 'pandas.api.types', 'pandas.core.dtypes.api', 'pandas.util._print_versions', 'pandas.io.api', 'pandas.io.clipboards', 'pandas.io.excel', 'pandas.io.excel._base', 'pandas._libs.parsers', 'pandas.io.excel._util', 'pandas.io.parsers', 'pandas.io.date_converters', 'pandas.io.excel._odfreader', 'pandas.io.excel._openpyxl', 'pandas.io.excel._pyxlsb', 'pandas.io.excel._xlrd', 'pandas.io.excel._odswriter', 'pandas._libs.json', 'pandas.io.formats.excel', 'pandas.io.formats.css', 'pandas.io.excel._xlsxwriter', 'pandas.io.excel._xlwt', 'pandas.io.feather_format', 'pandas.io.gbq', 'pandas.io.html', 'pandas.io.json', 'pandas.io.json._json', 'pandas.io.json._normalize', 'pandas.io.json._table_schema', 'pandas.io.orc', 'pandas.io.parquet', 'pandas.io.pickle', 'pandas.compat.pickle_compat', 'pandas.io.pytables', 'pandas.core.computation.pytables', 'pandas.io.sas', 'pandas.io.sas.sasreader', 'pandas.io.spss', 'pandas.io.sql', 'pandas.io.stata', 'pandas.util._tester', 'pandas.testing', 'pandas._testing', 'tempfile', 'pandas._libs.testing', 'pandas._version', 'agent', 'learners', 'environment', 'visualizer', 'matplotlib', 'matplotlib.cbook', 'glob', 'shlex', 'matplotlib.cbook.deprecation', 'matplotlib.rcsetup', 'matplotlib.fontconfig_pattern', 'pyparsing', 'matplotlib.colors', 'matplotlib.docstring', 'matplotlib._color_data', 'cycler', 'matplotlib._version', 'matplotlib.ft2font', 'kiwisolver', 'socket', '_socket']
+CACHEDIR=/root/.cache/matplotlib
+Using fontManager instance from /root/.cache/matplotlib/fontlist-v310.json
+Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+Loaded backend agg version unknown.
+NumExpr defaulting to 2 threads.
+From /usr/local/lib/python3.7/dist-packages/keras/backend/tensorflow_backend.py:68: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+From /usr/local/lib/python3.7/dist-packages/keras/backend/tensorflow_backend.py:508: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+From /usr/local/lib/python3.7/dist-packages/keras/backend/tensorflow_backend.py:3837: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+From /usr/local/lib/python3.7/dist-packages/keras/optimizers.py:757: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+From /usr/local/lib/python3.7/dist-packages/keras/backend/tensorflow_backend.py:3814: The name tf.random_normal is deprecated. Please use tf.random.normal instead.
+
+From /usr/local/lib/python3.7/dist-packages/keras/backend/tensorflow_backend.py:127: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+From /usr/local/lib/python3.7/dist-packages/keras/backend/tensorflow_backend.py:3144: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+From /content/drive/MyDrive/StockTrader_TD3/actor.py:112: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+[005380] RL:td3 Net:actorcritic LR:0.01 DF:0.9 TU:[1,6] DRT:0.05
+From /usr/local/lib/python3.7/dist-packages/keras/backend/tensorflow_backend.py:2503: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+From /usr/local/lib/python3.7/dist-packages/keras/backend/tensorflow_backend.py:168: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+From /usr/local/lib/python3.7/dist-packages/keras/backend/tensorflow_backend.py:175: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+From /usr/local/lib/python3.7/dist-packages/keras/backend/tensorflow_backend.py:184: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+From /usr/local/lib/python3.7/dist-packages/keras/backend/tensorflow_backend.py:193: The name tf.is_variable_initialized is deprecated. Please use tf.compat.v1.is_variable_initialized instead.
+
+From /usr/local/lib/python3.7/dist-packages/keras/backend/tensorflow_backend.py:200: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+From /usr/local/lib/python3.7/dist-packages/keras/backend/tensorflow_backend.py:977: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+From /usr/local/lib/python3.7/dist-packages/keras/backend/tensorflow_backend.py:964: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+[005380][Epoch 001/200] Epsilon:1.0000 #Expl.:185/185 #Buy:85 #Sell:61 #Hold:39 #Stocks:70 PV:11,836,194 LC:175 Loss:0.778481 ET:5.6932
+[005380][Epoch 002/200] Epsilon:0.9950 #Expl.:182/185 #Buy:67 #Sell:41 #Hold:77 #Stocks:73 PV:11,962,451 LC:185 Loss:1.100448 ET:2.5224
+[005380][Epoch 003/200] Epsilon:0.9899 #Expl.:184/185 #Buy:76 #Sell:50 #Hold:59 #Stocks:74 PV:12,098,192 LC:185 Loss:1.370615 ET:2.5918
+[005380][Epoch 004/200] Epsilon:0.9849 #Expl.:179/185 #Buy:95 #Sell:72 #Hold:18 #Stocks:65 PV:11,536,669 LC:185 Loss:1.230708 ET:2.5798
+[005380][Epoch 005/200] Epsilon:0.9799 #Expl.:184/185 #Buy:49 #Sell:24 #Hold:112 #Stocks:74 PV:12,051,332 LC:185 Loss:1.247559 ET:2.5732
+[005380][Epoch 006/200] Epsilon:0.9749 #Expl.:180/185 #Buy:36 #Sell:8 #Hold:141 #Stocks:74 PV:12,133,057 LC:185 Loss:1.439246 ET:2.5004
+[005380][Epoch 007/200] Epsilon:0.9698 #Expl.:179/185 #Buy:76 #Sell:48 #Hold:61 #Stocks:74 PV:12,086,395 LC:185 Loss:1.525671 ET:2.5769
+[005380][Epoch 008/200] Epsilon:0.9648 #Expl.:178/185 #Buy:85 #Sell:59 #Hold:41 #Stocks:72 PV:11,680,457 LC:185 Loss:1.426916 ET:2.5296
+[005380][Epoch 009/200] Epsilon:0.9598 #Expl.:178/185 #Buy:95 #Sell:69 #Hold:21 #Stocks:73 PV:11,921,286 LC:185 Loss:1.358323 ET:2.5638
+[005380][Epoch 010/200] Epsilon:0.9548 #Expl.:177/185 #Buy:91 #Sell:77 #Hold:17 #Stocks:42 PV:10,520,624 LC:185 Loss:0.767215 ET:2.5883
+[005380][Epoch 011/200] Epsilon:0.9497 #Expl.:174/185 #Buy:56 #Sell:28 #Hold:101 #Stocks:74 PV:12,121,845 LC:185 Loss:1.010865 ET:2.5861
+[005380][Epoch 012/200] Epsilon:0.9447 #Expl.:174/185 #Buy:53 #Sell:28 #Hold:104 #Stocks:74 PV:12,041,963 LC:185 Loss:1.443812 ET:2.5748
+[005380][Epoch 013/200] Epsilon:0.9397 #Expl.:174/185 #Buy:55 #Sell:28 #Hold:102 #Stocks:74 PV:12,033,370 LC:185 Loss:1.654238 ET:2.5363
+[005380][Epoch 014/200] Epsilon:0.9347 #Expl.:179/185 #Buy:84 #Sell:58 #Hold:43 #Stocks:73 PV:11,939,752 LC:185 Loss:1.628912 ET:2.5937
+[005380][Epoch 015/200] Epsilon:0.9296 #Expl.:174/185 #Buy:59 #Sell:34 #Hold:92 #Stocks:74 PV:12,014,148 LC:185 Loss:1.707740 ET:2.6790
+[005380][Epoch 016/200] Epsilon:0.9246 #Expl.:170/185 #Buy:88 #Sell:62 #Hold:35 #Stocks:73 PV:11,898,148 LC:185 Loss:1.490894 ET:2.6143
+[005380][Epoch 017/200] Epsilon:0.9196 #Expl.:174/185 #Buy:91 #Sell:64 #Hold:30 #Stocks:75 PV:12,155,039 LC:185 Loss:1.561731 ET:2.5981
+[005380][Epoch 018/200] Epsilon:0.9146 #Expl.:176/185 #Buy:100 #Sell:84 #Hold:1 #Stocks:48 PV:11,477,568 LC:185 Loss:1.266459 ET:2.5837
+[005380][Epoch 019/200] Epsilon:0.9095 #Expl.:166/185 #Buy:96 #Sell:72 #Hold:17 #Stocks:72 PV:11,707,944 LC:185 Loss:1.150313 ET:2.6484
+[005380][Epoch 020/200] Epsilon:0.9045 #Expl.:160/185 #Buy:67 #Sell:42 #Hold:76 #Stocks:73 PV:11,907,931 LC:185 Loss:1.230979 ET:2.6154
+[005380][Epoch 021/200] Epsilon:0.8995 #Expl.:164/185 #Buy:76 #Sell:50 #Hold:59 #Stocks:72 PV:11,815,177 LC:185 Loss:1.350498 ET:2.6386
+[005380][Epoch 022/200] Epsilon:0.8945 #Expl.:163/185 #Buy:30 #Sell:5 #Hold:150 #Stocks:74 PV:12,097,621 LC:185 Loss:1.511173 ET:2.5926
+[005380][Epoch 023/200] Epsilon:0.8894 #Expl.:161/185 #Buy:30 #Sell:5 #Hold:150 #Stocks:75 PV:12,172,221 LC:185 Loss:1.803743 ET:2.6205
+[005380][Epoch 024/200] Epsilon:0.8844 #Expl.:157/185 #Buy:40 #Sell:17 #Hold:128 #Stocks:68 PV:12,127,716 LC:185 Loss:1.991540 ET:2.6532
+[005380][Epoch 025/200] Epsilon:0.8794 #Expl.:158/185 #Buy:101 #Sell:79 #Hold:5 #Stocks:63 PV:11,727,797 LC:185 Loss:1.830895 ET:2.6627
+[005380][Epoch 026/200] Epsilon:0.8744 #Expl.:158/185 #Buy:86 #Sell:60 #Hold:39 #Stocks:71 PV:11,649,847 LC:185 Loss:1.617174 ET:2.5995
+[005380][Epoch 027/200] Epsilon:0.8693 #Expl.:161/185 #Buy:73 #Sell:48 #Hold:64 #Stocks:73 PV:11,873,551 LC:185 Loss:1.490197 ET:2.6806
+[005380][Epoch 028/200] Epsilon:0.8643 #Expl.:155/185 #Buy:93 #Sell:68 #Hold:24 #Stocks:72 PV:11,781,045 LC:185 Loss:1.496420 ET:2.6879
+[005380][Epoch 029/200] Epsilon:0.8593 #Expl.:151/185 #Buy:70 #Sell:44 #Hold:71 #Stocks:73 PV:11,941,415 LC:185 Loss:1.464041 ET:2.6665
+[005380][Epoch 030/200] Epsilon:0.8543 #Expl.:158/185 #Buy:91 #Sell:69 #Hold:25 #Stocks:63 PV:11,801,255 LC:185 Loss:1.645489 ET:2.6601
+[005380][Epoch 031/200] Epsilon:0.8492 #Expl.:163/185 #Buy:88 #Sell:64 #Hold:33 #Stocks:72 PV:11,678,544 LC:185 Loss:1.421693 ET:2.6328
+[005380][Epoch 032/200] Epsilon:0.8442 #Expl.:151/185 #Buy:102 #Sell:78 #Hold:5 #Stocks:64 PV:11,343,600 LC:185 Loss:1.112840 ET:2.6384
+[005380][Epoch 033/200] Epsilon:0.8392 #Expl.:151/185 #Buy:85 #Sell:60 #Hold:40 #Stocks:70 PV:11,960,208 LC:185 Loss:1.208683 ET:2.6291
+[005380][Epoch 034/200] Epsilon:0.8342 #Expl.:149/185 #Buy:78 #Sell:54 #Hold:53 #Stocks:69 PV:11,826,489 LC:185 Loss:1.482300 ET:2.6364
+[005380][Epoch 035/200] Epsilon:0.8291 #Expl.:153/185 #Buy:54 #Sell:29 #Hold:102 #Stocks:73 PV:11,954,370 LC:185 Loss:1.507737 ET:2.6533
+[005380][Epoch 036/200] Epsilon:0.8241 #Expl.:156/185 #Buy:70 #Sell:44 #Hold:71 #Stocks:74 PV:12,068,003 LC:185 Loss:1.971077 ET:2.6047
+[005380][Epoch 037/200] Epsilon:0.8191 #Expl.:144/185 #Buy:33 #Sell:7 #Hold:145 #Stocks:74 PV:12,119,814 LC:185 Loss:1.937043 ET:2.6381
+[005380][Epoch 038/200] Epsilon:0.8141 #Expl.:159/185 #Buy:49 #Sell:25 #Hold:111 #Stocks:71 PV:12,112,890 LC:185 Loss:2.135929 ET:2.6395
+[005380][Epoch 039/200] Epsilon:0.8090 #Expl.:146/185 #Buy:96 #Sell:71 #Hold:18 #Stocks:70 PV:11,925,353 LC:185 Loss:1.701563 ET:2.6674
+[005380][Epoch 040/200] Epsilon:0.8040 #Expl.:151/185 #Buy:44 #Sell:19 #Hold:122 #Stocks:74 PV:12,097,441 LC:185 Loss:1.899729 ET:2.6293
+[005380][Epoch 041/200] Epsilon:0.7990 #Expl.:142/185 #Buy:28 #Sell:1 #Hold:156 #Stocks:75 PV:12,150,741 LC:185 Loss:2.017339 ET:2.6115
+[005380][Epoch 042/200] Epsilon:0.7940 #Expl.:145/185 #Buy:67 #Sell:42 #Hold:76 #Stocks:73 PV:11,941,923 LC:185 Loss:1.844065 ET:2.6053
+[005380][Epoch 043/200] Epsilon:0.7889 #Expl.:148/185 #Buy:62 #Sell:37 #Hold:86 #Stocks:74 PV:12,098,125 LC:185 Loss:1.935755 ET:2.6655
+[005380][Epoch 044/200] Epsilon:0.7839 #Expl.:150/185 #Buy:77 #Sell:53 #Hold:55 #Stocks:70 PV:11,875,775 LC:185 Loss:1.848448 ET:2.6566
+[005380][Epoch 045/200] Epsilon:0.7789 #Expl.:143/185 #Buy:28 #Sell:3 #Hold:154 #Stocks:75 PV:12,153,599 LC:185 Loss:1.983597 ET:2.7775
+[005380][Epoch 046/200] Epsilon:0.7739 #Expl.:128/185 #Buy:69 #Sell:44 #Hold:72 #Stocks:73 PV:11,965,928 LC:185 Loss:2.014244 ET:2.6336
+[005380][Epoch 047/200] Epsilon:0.7688 #Expl.:136/185 #Buy:91 #Sell:66 #Hold:28 #Stocks:72 PV:11,681,403 LC:185 Loss:1.881539 ET:2.6503
+[005380][Epoch 048/200] Epsilon:0.7638 #Expl.:146/185 #Buy:34 #Sell:9 #Hold:142 #Stocks:74 PV:12,087,122 LC:185 Loss:1.599299 ET:2.6108
+[005380][Epoch 049/200] Epsilon:0.7588 #Expl.:127/185 #Buy:37 #Sell:12 #Hold:136 #Stocks:74 PV:12,089,733 LC:185 Loss:1.706793 ET:2.6779
+[005380][Epoch 050/200] Epsilon:0.7538 #Expl.:140/185 #Buy:26 #Sell:0 #Hold:159 #Stocks:75 PV:12,150,000 LC:185 Loss:1.869265 ET:2.6515
+[005380][Epoch 051/200] Epsilon:0.7487 #Expl.:137/185 #Buy:59 #Sell:34 #Hold:92 #Stocks:73 PV:11,947,717 LC:185 Loss:1.944204 ET:2.6309
+[005380][Epoch 052/200] Epsilon:0.7437 #Expl.:141/185 #Buy:92 #Sell:65 #Hold:28 #Stocks:68 PV:11,921,981 LC:185 Loss:1.973336 ET:2.6036
+[005380][Epoch 053/200] Epsilon:0.7387 #Expl.:140/185 #Buy:75 #Sell:51 #Hold:59 #Stocks:64 PV:11,867,775 LC:185 Loss:1.930697 ET:2.5957
+[005380][Epoch 054/200] Epsilon:0.7337 #Expl.:136/185 #Buy:35 #Sell:11 #Hold:139 #Stocks:71 PV:12,112,229 LC:185 Loss:1.818045 ET:2.6169
+[005380][Epoch 055/200] Epsilon:0.7286 #Expl.:125/185 #Buy:91 #Sell:66 #Hold:28 #Stocks:71 PV:12,079,117 LC:185 Loss:1.856174 ET:2.5995
+[005380][Epoch 056/200] Epsilon:0.7236 #Expl.:136/185 #Buy:43 #Sell:18 #Hold:124 #Stocks:74 PV:12,108,950 LC:185 Loss:1.731753 ET:2.5830
+[005380][Epoch 057/200] Epsilon:0.7186 #Expl.:142/185 #Buy:44 #Sell:19 #Hold:122 #Stocks:74 PV:12,080,060 LC:185 Loss:2.090806 ET:2.5695
+[005380][Epoch 058/200] Epsilon:0.7136 #Expl.:124/185 #Buy:72 #Sell:46 #Hold:67 #Stocks:72 PV:11,761,301 LC:185 Loss:1.861625 ET:2.5869
+[005380][Epoch 059/200] Epsilon:0.7085 #Expl.:130/185 #Buy:85 #Sell:64 #Hold:36 #Stocks:61 PV:11,984,038 LC:185 Loss:1.751216 ET:2.5845
+[005380][Epoch 060/200] Epsilon:0.7035 #Expl.:124/185 #Buy:39 #Sell:14 #Hold:132 #Stocks:74 PV:12,078,422 LC:185 Loss:1.942410 ET:2.5987
+[005380][Epoch 061/200] Epsilon:0.6985 #Expl.:130/185 #Buy:47 #Sell:21 #Hold:117 #Stocks:71 PV:12,119,489 LC:185 Loss:1.941715 ET:2.6198
+[005380][Epoch 062/200] Epsilon:0.6935 #Expl.:129/185 #Buy:62 #Sell:37 #Hold:86 #Stocks:74 PV:12,006,136 LC:185 Loss:1.905038 ET:2.6171
+[005380][Epoch 063/200] Epsilon:0.6884 #Expl.:125/185 #Buy:74 #Sell:48 #Hold:63 #Stocks:73 PV:11,877,375 LC:185 Loss:1.670884 ET:2.6417
+[005380][Epoch 064/200] Epsilon:0.6834 #Expl.:138/185 #Buy:89 #Sell:61 #Hold:35 #Stocks:69 PV:11,822,128 LC:185 Loss:1.659966 ET:2.7224
+[005380][Epoch 065/200] Epsilon:0.6784 #Expl.:127/185 #Buy:85 #Sell:60 #Hold:40 #Stocks:71 PV:11,541,246 LC:185 Loss:1.736339 ET:2.6598
+[005380][Epoch 066/200] Epsilon:0.6734 #Expl.:123/185 #Buy:30 #Sell:5 #Hold:150 #Stocks:74 PV:12,093,254 LC:185 Loss:1.728654 ET:2.6533
+[005380][Epoch 067/200] Epsilon:0.6683 #Expl.:112/185 #Buy:48 #Sell:20 #Hold:117 #Stocks:75 PV:12,172,298 LC:185 Loss:1.917275 ET:2.6930
+[005380][Epoch 068/200] Epsilon:0.6633 #Expl.:127/185 #Buy:69 #Sell:44 #Hold:72 #Stocks:73 PV:11,927,918 LC:185 Loss:1.893603 ET:2.6771
+[005380][Epoch 069/200] Epsilon:0.6583 #Expl.:130/185 #Buy:42 #Sell:17 #Hold:126 #Stocks:74 PV:12,065,834 LC:185 Loss:1.987994 ET:2.6237
+[005380][Epoch 070/200] Epsilon:0.6533 #Expl.:110/185 #Buy:40 #Sell:15 #Hold:130 #Stocks:74 PV:12,113,928 LC:185 Loss:2.106617 ET:2.5771
+[005380][Epoch 071/200] Epsilon:0.6482 #Expl.:126/185 #Buy:78 #Sell:53 #Hold:54 #Stocks:73 PV:11,836,216 LC:185 Loss:1.792592 ET:2.5978
+[005380][Epoch 072/200] Epsilon:0.6432 #Expl.:125/185 #Buy:32 #Sell:5 #Hold:148 #Stocks:74 PV:12,125,688 LC:185 Loss:2.173641 ET:2.6188
+[005380][Epoch 073/200] Epsilon:0.6382 #Expl.:121/185 #Buy:44 #Sell:19 #Hold:122 #Stocks:74 PV:12,077,312 LC:185 Loss:2.074143 ET:2.6268
+[005380][Epoch 074/200] Epsilon:0.6332 #Expl.:114/185 #Buy:43 #Sell:18 #Hold:124 #Stocks:74 PV:12,094,078 LC:185 Loss:2.304788 ET:2.6673
+[005380][Epoch 075/200] Epsilon:0.6281 #Expl.:113/185 #Buy:47 #Sell:22 #Hold:116 #Stocks:74 PV:12,074,910 LC:185 Loss:2.209920 ET:2.6402
+[005380][Epoch 076/200] Epsilon:0.6231 #Expl.:120/185 #Buy:81 #Sell:57 #Hold:47 #Stocks:67 PV:11,861,794 LC:185 Loss:2.107933 ET:2.6902
+[005380][Epoch 077/200] Epsilon:0.6181 #Expl.:105/185 #Buy:46 #Sell:20 #Hold:119 #Stocks:74 PV:12,102,904 LC:185 Loss:1.920147 ET:2.7007
+[005380][Epoch 078/200] Epsilon:0.6131 #Expl.:118/185 #Buy:84 #Sell:59 #Hold:42 #Stocks:72 PV:11,819,982 LC:185 Loss:2.210278 ET:2.6939
+[005380][Epoch 079/200] Epsilon:0.6080 #Expl.:108/185 #Buy:27 #Sell:2 #Hold:156 #Stocks:74 PV:12,105,254 LC:185 Loss:1.968551 ET:2.6621
+[005380][Epoch 080/200] Epsilon:0.6030 #Expl.:114/185 #Buy:77 #Sell:52 #Hold:56 #Stocks:71 PV:11,621,661 LC:185 Loss:1.925276 ET:2.6631
+[005380][Epoch 081/200] Epsilon:0.5980 #Expl.:114/185 #Buy:71 #Sell:45 #Hold:69 #Stocks:72 PV:11,814,649 LC:185 Loss:1.852031 ET:2.6973
+[005380][Epoch 082/200] Epsilon:0.5930 #Expl.:112/185 #Buy:38 #Sell:13 #Hold:134 #Stocks:74 PV:12,056,720 LC:185 Loss:1.822364 ET:2.6945
+[005380][Epoch 083/200] Epsilon:0.5879 #Expl.:108/185 #Buy:61 #Sell:35 #Hold:89 #Stocks:74 PV:12,035,131 LC:185 Loss:1.809947 ET:2.7084
+[005380][Epoch 084/200] Epsilon:0.5829 #Expl.:112/185 #Buy:68 #Sell:42 #Hold:75 #Stocks:73 PV:11,972,906 LC:185 Loss:1.937169 ET:2.6990
+[005380][Epoch 085/200] Epsilon:0.5779 #Expl.:105/185 #Buy:50 #Sell:26 #Hold:109 #Stocks:71 PV:12,066,488 LC:185 Loss:1.858488 ET:2.7334
+[005380][Epoch 086/200] Epsilon:0.5729 #Expl.:114/185 #Buy:67 #Sell:41 #Hold:77 #Stocks:73 PV:11,951,503 LC:185 Loss:1.934524 ET:2.6513
+[005380][Epoch 087/200] Epsilon:0.5678 #Expl.:119/185 #Buy:44 #Sell:18 #Hold:123 #Stocks:71 PV:12,107,187 LC:185 Loss:2.165802 ET:2.7614
+[005380][Epoch 088/200] Epsilon:0.5628 #Expl.:102/185 #Buy:68 #Sell:42 #Hold:75 #Stocks:73 PV:11,886,961 LC:185 Loss:1.906728 ET:2.6775
+[005380][Epoch 089/200] Epsilon:0.5578 #Expl.:101/185 #Buy:37 #Sell:12 #Hold:136 #Stocks:74 PV:12,085,888 LC:185 Loss:1.886562 ET:2.6680
+[005380][Epoch 090/200] Epsilon:0.5528 #Expl.:97/185 #Buy:60 #Sell:34 #Hold:91 #Stocks:74 PV:12,095,509 LC:185 Loss:2.052398 ET:2.6788
+[005380][Epoch 091/200] Epsilon:0.5477 #Expl.:104/185 #Buy:63 #Sell:38 #Hold:84 #Stocks:74 PV:12,154,361 LC:185 Loss:2.033027 ET:2.6673
+[005380][Epoch 092/200] Epsilon:0.5427 #Expl.:104/185 #Buy:59 #Sell:32 #Hold:94 #Stocks:74 PV:12,026,216 LC:185 Loss:1.909203 ET:2.6875
+[005380][Epoch 093/200] Epsilon:0.5377 #Expl.:98/185 #Buy:68 #Sell:43 #Hold:74 #Stocks:74 PV:12,022,159 LC:185 Loss:1.913074 ET:2.8401
+[005380][Epoch 094/200] Epsilon:0.5327 #Expl.:96/185 #Buy:29 #Sell:4 #Hold:152 #Stocks:74 PV:12,114,753 LC:185 Loss:2.159391 ET:2.6879
+[005380][Epoch 095/200] Epsilon:0.5276 #Expl.:85/185 #Buy:65 #Sell:40 #Hold:80 #Stocks:73 PV:11,851,290 LC:185 Loss:2.202583 ET:2.6845
+[005380][Epoch 096/200] Epsilon:0.5226 #Expl.:88/185 #Buy:55 #Sell:30 #Hold:100 #Stocks:74 PV:12,086,097 LC:185 Loss:2.127367 ET:2.6602
+[005380][Epoch 097/200] Epsilon:0.5176 #Expl.:95/185 #Buy:62 #Sell:36 #Hold:87 #Stocks:74 PV:12,015,557 LC:185 Loss:2.217314 ET:2.6552
+[005380][Epoch 098/200] Epsilon:0.5126 #Expl.:95/185 #Buy:56 #Sell:31 #Hold:98 #Stocks:74 PV:12,056,535 LC:185 Loss:2.094475 ET:2.6440
+[005380][Epoch 099/200] Epsilon:0.5075 #Expl.:91/185 #Buy:54 #Sell:30 #Hold:101 #Stocks:71 PV:12,051,425 LC:185 Loss:2.122220 ET:2.6547
+[005380][Epoch 100/200] Epsilon:0.5025 #Expl.:102/185 #Buy:27 #Sell:1 #Hold:157 #Stocks:74 PV:12,128,249 LC:185 Loss:2.189603 ET:2.6624
+[005380][Epoch 101/200] Epsilon:0.4975 #Expl.:86/185 #Buy:42 #Sell:17 #Hold:126 #Stocks:74 PV:12,067,910 LC:185 Loss:2.306151 ET:2.6612
+[005380][Epoch 102/200] Epsilon:0.4925 #Expl.:81/185 #Buy:29 #Sell:3 #Hold:153 #Stocks:74 PV:12,126,716 LC:185 Loss:2.134953 ET:2.6248
+[005380][Epoch 103/200] Epsilon:0.4874 #Expl.:90/185 #Buy:56 #Sell:31 #Hold:98 #Stocks:73 PV:11,973,311 LC:185 Loss:1.987379 ET:2.6415
+[005380][Epoch 104/200] Epsilon:0.4824 #Expl.:96/185 #Buy:64 #Sell:37 #Hold:84 #Stocks:74 PV:12,114,492 LC:185 Loss:1.944893 ET:2.5789
+[005380][Epoch 105/200] Epsilon:0.4774 #Expl.:76/185 #Buy:67 #Sell:42 #Hold:76 #Stocks:74 PV:11,996,718 LC:185 Loss:1.896070 ET:2.6972
+[005380][Epoch 106/200] Epsilon:0.4724 #Expl.:90/185 #Buy:62 #Sell:34 #Hold:89 #Stocks:74 PV:12,117,878 LC:185 Loss:2.518622 ET:2.7030
+[005380][Epoch 107/200] Epsilon:0.4673 #Expl.:83/185 #Buy:49 #Sell:24 #Hold:112 #Stocks:75 PV:12,200,872 LC:185 Loss:2.064288 ET:2.6497
+[005380][Epoch 108/200] Epsilon:0.4623 #Expl.:83/185 #Buy:62 #Sell:37 #Hold:86 #Stocks:74 PV:12,038,456 LC:185 Loss:2.060805 ET:2.6389
+[005380][Epoch 109/200] Epsilon:0.4573 #Expl.:90/185 #Buy:68 #Sell:43 #Hold:74 #Stocks:71 PV:12,119,032 LC:185 Loss:2.058123 ET:2.6595
+[005380][Epoch 110/200] Epsilon:0.4523 #Expl.:81/185 #Buy:43 #Sell:17 #Hold:125 #Stocks:75 PV:12,155,323 LC:185 Loss:2.285249 ET:2.6260
+[005380][Epoch 111/200] Epsilon:0.4472 #Expl.:89/185 #Buy:40 #Sell:15 #Hold:130 #Stocks:75 PV:12,167,584 LC:185 Loss:2.387776 ET:2.6183
+[005380][Epoch 112/200] Epsilon:0.4422 #Expl.:88/185 #Buy:49 #Sell:23 #Hold:113 #Stocks:74 PV:12,094,993 LC:185 Loss:2.190246 ET:2.6223
+[005380][Epoch 113/200] Epsilon:0.4372 #Expl.:78/185 #Buy:52 #Sell:27 #Hold:106 #Stocks:74 PV:12,013,874 LC:185 Loss:2.383483 ET:2.6479
+[005380][Epoch 114/200] Epsilon:0.4322 #Expl.:86/185 #Buy:33 #Sell:7 #Hold:145 #Stocks:74 PV:12,089,247 LC:185 Loss:2.448010 ET:2.6341
+[005380][Epoch 115/200] Epsilon:0.4271 #Expl.:77/185 #Buy:66 #Sell:41 #Hold:78 #Stocks:71 PV:12,108,937 LC:185 Loss:2.278339 ET:2.6677
+[005380][Epoch 116/200] Epsilon:0.4221 #Expl.:80/185 #Buy:63 #Sell:38 #Hold:84 #Stocks:74 PV:12,065,347 LC:185 Loss:2.222894 ET:2.6517
+[005380][Epoch 117/200] Epsilon:0.4171 #Expl.:75/185 #Buy:49 #Sell:24 #Hold:112 #Stocks:74 PV:12,111,144 LC:185 Loss:2.038625 ET:2.7190
+[005380][Epoch 118/200] Epsilon:0.4121 #Expl.:86/185 #Buy:53 #Sell:27 #Hold:105 #Stocks:74 PV:12,097,059 LC:185 Loss:2.066224 ET:2.6900
+[005380][Epoch 119/200] Epsilon:0.4070 #Expl.:82/185 #Buy:63 #Sell:38 #Hold:84 #Stocks:74 PV:12,015,768 LC:185 Loss:1.925915 ET:2.6219
+[005380][Epoch 120/200] Epsilon:0.4020 #Expl.:69/185 #Buy:28 #Sell:3 #Hold:154 #Stocks:74 PV:12,095,165 LC:185 Loss:2.169820 ET:2.6602
+[005380][Epoch 121/200] Epsilon:0.3970 #Expl.:65/185 #Buy:38 #Sell:13 #Hold:134 #Stocks:75 PV:12,167,389 LC:185 Loss:2.321050 ET:2.6432
+[005380][Epoch 122/200] Epsilon:0.3920 #Expl.:73/185 #Buy:36 #Sell:11 #Hold:138 #Stocks:74 PV:12,051,416 LC:185 Loss:2.253001 ET:2.6476
+[005380][Epoch 123/200] Epsilon:0.3869 #Expl.:76/185 #Buy:52 #Sell:24 #Hold:109 #Stocks:74 PV:12,130,096 LC:185 Loss:2.219464 ET:2.6823
+[005380][Epoch 124/200] Epsilon:0.3819 #Expl.:60/185 #Buy:44 #Sell:19 #Hold:122 #Stocks:74 PV:12,094,646 LC:185 Loss:2.127587 ET:2.7066
+[005380][Epoch 125/200] Epsilon:0.3769 #Expl.:64/185 #Buy:48 #Sell:23 #Hold:114 #Stocks:73 PV:11,957,589 LC:185 Loss:2.089253 ET:2.6317
+[005380][Epoch 126/200] Epsilon:0.3719 #Expl.:66/185 #Buy:44 #Sell:16 #Hold:125 #Stocks:74 PV:12,127,624 LC:185 Loss:2.070364 ET:2.6484
+[005380][Epoch 127/200] Epsilon:0.3668 #Expl.:72/185 #Buy:67 #Sell:42 #Hold:76 #Stocks:73 PV:11,937,922 LC:185 Loss:2.132142 ET:2.6091
+[005380][Epoch 128/200] Epsilon:0.3618 #Expl.:71/185 #Buy:48 #Sell:23 #Hold:114 #Stocks:74 PV:12,105,612 LC:185 Loss:2.837125 ET:2.6131
+[005380][Epoch 129/200] Epsilon:0.3568 #Expl.:58/185 #Buy:51 #Sell:23 #Hold:111 #Stocks:75 PV:12,175,771 LC:185 Loss:2.446096 ET:2.6975
+[005380][Epoch 130/200] Epsilon:0.3518 #Expl.:55/185 #Buy:35 #Sell:10 #Hold:140 #Stocks:75 PV:12,176,586 LC:185 Loss:2.516360 ET:2.6493
+[005380][Epoch 131/200] Epsilon:0.3467 #Expl.:60/185 #Buy:46 #Sell:22 #Hold:117 #Stocks:72 PV:12,157,891 LC:185 Loss:2.637722 ET:2.6534
+[005380][Epoch 132/200] Epsilon:0.3417 #Expl.:61/185 #Buy:36 #Sell:10 #Hold:139 #Stocks:75 PV:12,174,325 LC:185 Loss:2.612713 ET:2.6686
+[005380][Epoch 133/200] Epsilon:0.3367 #Expl.:61/185 #Buy:40 #Sell:15 #Hold:130 #Stocks:74 PV:12,041,438 LC:185 Loss:2.469873 ET:2.7116
+[005380][Epoch 134/200] Epsilon:0.3317 #Expl.:67/185 #Buy:36 #Sell:11 #Hold:138 #Stocks:74 PV:12,044,621 LC:185 Loss:2.365591 ET:2.6593
+[005380][Epoch 135/200] Epsilon:0.3266 #Expl.:60/185 #Buy:36 #Sell:10 #Hold:139 #Stocks:74 PV:12,117,421 LC:185 Loss:2.678404 ET:2.6600
+[005380][Epoch 136/200] Epsilon:0.3216 #Expl.:56/185 #Buy:26 #Sell:1 #Hold:158 #Stocks:74 PV:12,112,881 LC:185 Loss:2.610105 ET:2.6166
+[005380][Epoch 137/200] Epsilon:0.3166 #Expl.:61/185 #Buy:52 #Sell:27 #Hold:106 #Stocks:74 PV:12,080,695 LC:185 Loss:2.483980 ET:2.6213
+[005380][Epoch 138/200] Epsilon:0.3116 #Expl.:53/185 #Buy:37 #Sell:12 #Hold:136 #Stocks:75 PV:12,153,420 LC:185 Loss:2.565036 ET:2.6121
+[005380][Epoch 139/200] Epsilon:0.3065 #Expl.:59/185 #Buy:48 #Sell:23 #Hold:114 #Stocks:74 PV:12,072,326 LC:185 Loss:2.685038 ET:2.6409
+[005380][Epoch 140/200] Epsilon:0.3015 #Expl.:51/185 #Buy:35 #Sell:11 #Hold:139 #Stocks:71 PV:12,112,162 LC:185 Loss:2.875733 ET:2.6264
+[005380][Epoch 141/200] Epsilon:0.2965 #Expl.:46/185 #Buy:39 #Sell:14 #Hold:132 #Stocks:75 PV:12,169,067 LC:185 Loss:2.520531 ET:2.7870
+[005380][Epoch 142/200] Epsilon:0.2915 #Expl.:56/185 #Buy:58 #Sell:33 #Hold:94 #Stocks:74 PV:12,007,920 LC:185 Loss:2.486686 ET:2.6286
+[005380][Epoch 143/200] Epsilon:0.2864 #Expl.:56/185 #Buy:43 #Sell:18 #Hold:124 #Stocks:74 PV:12,033,531 LC:185 Loss:2.287527 ET:2.6160
+[005380][Epoch 144/200] Epsilon:0.2814 #Expl.:55/185 #Buy:39 #Sell:14 #Hold:132 #Stocks:75 PV:12,157,212 LC:185 Loss:3.082727 ET:2.6156
+[005380][Epoch 145/200] Epsilon:0.2764 #Expl.:40/185 #Buy:42 #Sell:17 #Hold:126 #Stocks:74 PV:11,995,046 LC:185 Loss:2.340532 ET:2.6542
+[005380][Epoch 146/200] Epsilon:0.2714 #Expl.:49/185 #Buy:27 #Sell:2 #Hold:156 #Stocks:74 PV:12,110,192 LC:185 Loss:2.673805 ET:2.6431
+[005380][Epoch 147/200] Epsilon:0.2663 #Expl.:49/185 #Buy:29 #Sell:4 #Hold:152 #Stocks:74 PV:12,039,830 LC:185 Loss:2.601122 ET:2.6450
+[005380][Epoch 148/200] Epsilon:0.2613 #Expl.:51/185 #Buy:53 #Sell:28 #Hold:104 #Stocks:73 PV:11,887,456 LC:185 Loss:2.386849 ET:2.6497
+[005380][Epoch 149/200] Epsilon:0.2563 #Expl.:49/185 #Buy:38 #Sell:13 #Hold:134 #Stocks:74 PV:12,073,286 LC:185 Loss:2.599885 ET:2.7023
+[005380][Epoch 150/200] Epsilon:0.2513 #Expl.:46/185 #Buy:42 #Sell:17 #Hold:126 #Stocks:74 PV:12,059,980 LC:185 Loss:2.422654 ET:2.6249
+[005380][Epoch 151/200] Epsilon:0.2462 #Expl.:53/185 #Buy:47 #Sell:22 #Hold:116 #Stocks:74 PV:12,083,554 LC:185 Loss:2.384706 ET:2.6245
+[005380][Epoch 152/200] Epsilon:0.2412 #Expl.:47/185 #Buy:48 #Sell:22 #Hold:115 #Stocks:74 PV:12,090,576 LC:185 Loss:2.259773 ET:2.6135
+[005380][Epoch 153/200] Epsilon:0.2362 #Expl.:38/185 #Buy:34 #Sell:9 #Hold:142 #Stocks:74 PV:12,131,208 LC:185 Loss:2.258661 ET:2.7049
+[005380][Epoch 154/200] Epsilon:0.2312 #Expl.:52/185 #Buy:41 #Sell:13 #Hold:131 #Stocks:74 PV:12,116,788 LC:185 Loss:2.509885 ET:2.6569
+[005380][Epoch 155/200] Epsilon:0.2261 #Expl.:40/185 #Buy:44 #Sell:19 #Hold:122 #Stocks:75 PV:12,188,720 LC:185 Loss:2.639541 ET:2.6375
+[005380][Epoch 156/200] Epsilon:0.2211 #Expl.:40/185 #Buy:33 #Sell:7 #Hold:145 #Stocks:74 PV:12,119,373 LC:185 Loss:2.435335 ET:2.6392
+[005380][Epoch 157/200] Epsilon:0.2161 #Expl.:33/185 #Buy:40 #Sell:12 #Hold:133 #Stocks:74 PV:12,135,488 LC:185 Loss:3.031724 ET:2.6446
+[005380][Epoch 158/200] Epsilon:0.2111 #Expl.:36/185 #Buy:33 #Sell:8 #Hold:144 #Stocks:74 PV:12,082,141 LC:185 Loss:2.738580 ET:2.6247
+[005380][Epoch 159/200] Epsilon:0.2060 #Expl.:41/185 #Buy:38 #Sell:13 #Hold:134 #Stocks:74 PV:12,074,118 LC:185 Loss:2.907659 ET:2.6153
+[005380][Epoch 160/200] Epsilon:0.2010 #Expl.:38/185 #Buy:42 #Sell:18 #Hold:125 #Stocks:71 PV:12,037,416 LC:185 Loss:2.971823 ET:2.6729
+[005380][Epoch 161/200] Epsilon:0.1960 #Expl.:42/185 #Buy:32 #Sell:4 #Hold:149 #Stocks:74 PV:12,111,294 LC:185 Loss:2.685369 ET:2.6809
+[005380][Epoch 162/200] Epsilon:0.1910 #Expl.:44/185 #Buy:42 #Sell:17 #Hold:126 #Stocks:74 PV:12,101,646 LC:185 Loss:2.504602 ET:2.6805
+[005380][Epoch 163/200] Epsilon:0.1859 #Expl.:31/185 #Buy:35 #Sell:9 #Hold:141 #Stocks:74 PV:12,108,856 LC:185 Loss:3.501975 ET:2.6912
+[005380][Epoch 164/200] Epsilon:0.1809 #Expl.:32/185 #Buy:43 #Sell:17 #Hold:125 #Stocks:74 PV:12,069,515 LC:185 Loss:2.803668 ET:2.7420
+[005380][Epoch 165/200] Epsilon:0.1759 #Expl.:28/185 #Buy:30 #Sell:5 #Hold:150 #Stocks:74 PV:12,102,016 LC:185 Loss:2.404991 ET:2.6932
+[005380][Epoch 166/200] Epsilon:0.1709 #Expl.:31/185 #Buy:28 #Sell:1 #Hold:156 #Stocks:75 PV:12,154,237 LC:185 Loss:2.954191 ET:2.7134
+[005380][Epoch 167/200] Epsilon:0.1658 #Expl.:27/185 #Buy:36 #Sell:11 #Hold:138 #Stocks:74 PV:12,048,706 LC:185 Loss:2.443786 ET:2.6729
+[005380][Epoch 168/200] Epsilon:0.1608 #Expl.:26/185 #Buy:28 #Sell:4 #Hold:153 #Stocks:72 PV:12,158,102 LC:185 Loss:2.450698 ET:2.6730
+[005380][Epoch 169/200] Epsilon:0.1558 #Expl.:32/185 #Buy:36 #Sell:11 #Hold:138 #Stocks:75 PV:12,158,963 LC:185 Loss:2.413838 ET:2.6278
+[005380][Epoch 170/200] Epsilon:0.1508 #Expl.:28/185 #Buy:26 #Sell:0 #Hold:159 #Stocks:75 PV:12,150,000 LC:185 Loss:2.798431 ET:2.6000
+[005380][Epoch 171/200] Epsilon:0.1457 #Expl.:40/185 #Buy:38 #Sell:13 #Hold:134 #Stocks:75 PV:12,179,177 LC:185 Loss:2.188340 ET:2.6502
+[005380][Epoch 172/200] Epsilon:0.1407 #Expl.:25/185 #Buy:29 #Sell:4 #Hold:152 #Stocks:75 PV:12,156,790 LC:185 Loss:2.709045 ET:2.6081
+[005380][Epoch 173/200] Epsilon:0.1357 #Expl.:18/185 #Buy:37 #Sell:9 #Hold:139 #Stocks:75 PV:12,155,830 LC:185 Loss:2.842647 ET:2.6639
+[005380][Epoch 174/200] Epsilon:0.1307 #Expl.:22/185 #Buy:31 #Sell:6 #Hold:148 #Stocks:75 PV:12,166,578 LC:185 Loss:2.499361 ET:2.6272
+[005380][Epoch 175/200] Epsilon:0.1256 #Expl.:30/185 #Buy:31 #Sell:6 #Hold:148 #Stocks:74 PV:12,092,133 LC:185 Loss:2.820678 ET:2.6149
+[005380][Epoch 176/200] Epsilon:0.1206 #Expl.:21/185 #Buy:28 #Sell:2 #Hold:155 #Stocks:74 PV:12,127,186 LC:185 Loss:2.722936 ET:2.6289
+[005380][Epoch 177/200] Epsilon:0.1156 #Expl.:22/185 #Buy:34 #Sell:8 #Hold:143 #Stocks:75 PV:12,151,090 LC:185 Loss:3.114348 ET:2.6748
+[005380][Epoch 178/200] Epsilon:0.1106 #Expl.:21/185 #Buy:31 #Sell:6 #Hold:148 #Stocks:75 PV:12,164,662 LC:185 Loss:3.022700 ET:2.6552
+[005380][Epoch 179/200] Epsilon:0.1055 #Expl.:22/185 #Buy:37 #Sell:12 #Hold:136 #Stocks:74 PV:12,111,716 LC:185 Loss:2.661395 ET:2.6500
+[005380][Epoch 180/200] Epsilon:0.1005 #Expl.:21/185 #Buy:32 #Sell:7 #Hold:146 #Stocks:74 PV:12,103,358 LC:185 Loss:2.394352 ET:2.6425
+[005380][Epoch 181/200] Epsilon:0.0955 #Expl.:26/185 #Buy:30 #Sell:3 #Hold:152 #Stocks:75 PV:12,154,373 LC:185 Loss:2.371805 ET:2.6656
+[005380][Epoch 182/200] Epsilon:0.0905 #Expl.:24/185 #Buy:28 #Sell:3 #Hold:154 #Stocks:75 PV:12,159,457 LC:185 Loss:3.178062 ET:2.6188
+[005380][Epoch 183/200] Epsilon:0.0854 #Expl.:15/185 #Buy:26 #Sell:0 #Hold:159 #Stocks:75 PV:12,150,000 LC:185 Loss:2.761757 ET:2.6126
+[005380][Epoch 184/200] Epsilon:0.0804 #Expl.:16/185 #Buy:27 #Sell:2 #Hold:156 #Stocks:75 PV:12,166,752 LC:185 Loss:2.387416 ET:2.6313
+[005380][Epoch 185/200] Epsilon:0.0754 #Expl.:13/185 #Buy:31 #Sell:5 #Hold:149 #Stocks:75 PV:12,154,689 LC:185 Loss:2.575796 ET:2.6371
+[005380][Epoch 186/200] Epsilon:0.0704 #Expl.:15/185 #Buy:26 #Sell:0 #Hold:159 #Stocks:75 PV:12,150,000 LC:185 Loss:2.813769 ET:2.6250
+[005380][Epoch 187/200] Epsilon:0.0653 #Expl.:12/185 #Buy:33 #Sell:8 #Hold:144 #Stocks:75 PV:12,169,857 LC:185 Loss:3.030447 ET:2.6635
+[005380][Epoch 188/200] Epsilon:0.0603 #Expl.:12/185 #Buy:27 #Sell:2 #Hold:156 #Stocks:74 PV:12,099,623 LC:185 Loss:3.217672 ET:2.6199
+[005380][Epoch 189/200] Epsilon:0.0553 #Expl.:9/185 #Buy:26 #Sell:0 #Hold:159 #Stocks:75 PV:12,150,000 LC:185 Loss:2.756713 ET:2.6296
+[005380][Epoch 190/200] Epsilon:0.0503 #Expl.:9/185 #Buy:29 #Sell:2 #Hold:154 #Stocks:75 PV:12,152,603 LC:185 Loss:2.756670 ET:2.7801
+[005380][Epoch 191/200] Epsilon:0.0452 #Expl.:8/185 #Buy:26 #Sell:0 #Hold:159 #Stocks:75 PV:12,150,000 LC:185 Loss:2.796546 ET:2.6278
+[005380][Epoch 192/200] Epsilon:0.0402 #Expl.:5/185 #Buy:26 #Sell:1 #Hold:158 #Stocks:74 PV:12,108,435 LC:185 Loss:2.705620 ET:2.6107
+[005380][Epoch 193/200] Epsilon:0.0352 #Expl.:5/185 #Buy:26 #Sell:0 #Hold:159 #Stocks:75 PV:12,150,000 LC:185 Loss:2.984580 ET:2.5639
+[005380][Epoch 194/200] Epsilon:0.0302 #Expl.:6/185 #Buy:27 #Sell:2 #Hold:156 #Stocks:72 PV:12,149,066 LC:185 Loss:2.819651 ET:2.5798
+[005380][Epoch 195/200] Epsilon:0.0251 #Expl.:3/185 #Buy:26 #Sell:0 #Hold:159 #Stocks:75 PV:12,150,000 LC:185 Loss:2.797405 ET:2.6085
+[005380][Epoch 196/200] Epsilon:0.0201 #Expl.:7/185 #Buy:27 #Sell:2 #Hold:156 #Stocks:74 PV:12,111,293 LC:185 Loss:2.816840 ET:2.5589
+[005380][Epoch 197/200] Epsilon:0.0151 #Expl.:1/185 #Buy:27 #Sell:1 #Hold:157 #Stocks:75 PV:12,160,717 LC:185 Loss:3.017744 ET:2.6634
+[005380][Epoch 198/200] Epsilon:0.0101 #Expl.:0/185 #Buy:26 #Sell:0 #Hold:159 #Stocks:75 PV:12,150,000 LC:185 Loss:2.859953 ET:2.6244
+[005380][Epoch 199/200] Epsilon:0.0050 #Expl.:1/185 #Buy:26 #Sell:0 #Hold:159 #Stocks:75 PV:12,150,000 LC:185 Loss:2.678773 ET:2.6599
+[005380][Epoch 200/200] Epsilon:0.0000 #Expl.:0/185 #Buy:26 #Sell:0 #Hold:159 #Stocks:75 PV:12,150,000 LC:185 Loss:2.759758 ET:2.6246
+[005380] Elapsed Time:532.8143 Max PV:12,200,872 #Win:200

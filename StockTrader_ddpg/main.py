@@ -16,7 +16,7 @@ if __name__ == '__main__':
         choices=['dqn', 'pg', 'ac', 'a2c', 'a3c', 'ddpg'])
     parser.add_argument('--net',
         choices=['dnn', 'lstm', 'cnn','actorcritic'], default='actorcritic')
-    parser.add_argument('--num_steps', type=int, default=5)
+    parser.add_argument('--num_steps', type=int, default=1)
     parser.add_argument('--lr', type=float, default=0.001)
     parser.add_argument('--discount_factor', type=float, default=0.9)
     parser.add_argument('--start_epsilon', type=float, default=1)
@@ -31,8 +31,8 @@ if __name__ == '__main__':
     parser.add_argument('--policy_network_name')
     parser.add_argument('--reuse_models', action='store_true')
     parser.add_argument('--learning', action='store_true')
-    parser.add_argument('--start_date', default='20170104')
-    parser.add_argument('--end_date', default='20171231')
+    parser.add_argument('--start_date', default='20130101')
+    parser.add_argument('--end_date', default='20171230')
     args = parser.parse_args()
 
     # Keras Backend 설정
@@ -136,7 +136,7 @@ if __name__ == '__main__':
                     num_epoches=args.num_epoches,
                     discount_factor=args.discount_factor,
                     start_epsilon=args.start_epsilon,
-                    learning=True)
+                    learning=args.learning)
                 learner.save_models()
         else:
             list_stock_code.append(stock_code)

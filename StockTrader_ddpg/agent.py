@@ -85,10 +85,8 @@ class Agent:
     def decide_action(self, pred_value, pred_policy, epsilon):
         confidence = 0.
 
-        pred = pred_policy
-        if pred is None:
-            pred = pred_value
-
+        pred = pred_policy.flatten()
+    
         if pred is None:
             # 예측 값이 없을 경우 탐험
             epsilon = 1
@@ -97,7 +95,7 @@ class Agent:
             maxpred = np.max(pred)
             if (pred == maxpred).all():
                 epsilon = 1
-
+        confidence = .5
         # 탐험 결정
         if np.random.rand() < epsilon:
             exploration = True
@@ -109,11 +107,9 @@ class Agent:
             exploration = False
             action = np.argmax(pred)
 
-        confidence = .5
+     
         if pred_policy is not None:
-            confidence = pred[action]
-        elif pred_value is not None:
-            confidence = utils.sigmoid(pred[action])
+           confidence = pred[action]
 
         return action, confidence, exploration
 

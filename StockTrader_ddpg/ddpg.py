@@ -1,14 +1,3 @@
-import argparse
-import os
-from itertools import count
-
-import gym
-import numpy as np
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optims
-from tensorboardX import SummaryWriter
 import os
 import logging
 import abc
@@ -19,8 +8,9 @@ import numpy as np
 from utils import sigmoid
 from environment import Environment
 from agent import Agent
-from networks import Network, DNN, LSTMNetwork, CNN,ActorNetwork,CriticNetwork
 from visualizer import Visualizer
+from actor import ActorNetwork
+from critic import CriticNetwork
 from replay_buffer import ReplayBuffer
 '''
 Implementation of Deep Deterministic Policy Gradients (DDPG) with pytorch 
@@ -63,7 +53,9 @@ class ReinforcementLearner:
         # 학습 데이터
         self.training_data = training_data
         self.sample = None
+        self.next_sample=None
         self.training_data_idx = -1
+        self.replay_memory = ReplayBuffer(300)
         # 벡터 크기 = 학습 데이터 벡터 크기 + 에이전트 상태 크기
         self.num_features = self.agent.STATE_DIM
         if self.training_data is not None:
@@ -77,17 +69,18 @@ class ReinforcementLearner:
         self.reuse_models = reuse_models
         self.critic = value_network
         self.actor = policy_network
-        self.tau=0.001
+        self.tau=0.01
         # 가시화 모듈
         self.visualizer = Visualizer()
         # 메모리
         self.memory_sample = []
+        self.memory_next_sample = []
         self.memory_action = []
         self.memory_reward = []
         self.memory_value = []
         self.memory_policy = []
         self.memory_target_policy = []
-        self.memory_target_value = []
+        self.memory_target_value = collections.deque()
         self.memory_target_action = []
         self.memory_pv = []
         self.memory_num_stocks = []
@@ -105,12 +98,9 @@ class ReinforcementLearner:
     def init_policy_network(self, shared_network=None,
                             activation='sigmoid', loss='binary_crossentropy'):
         if self.rl_method == 'ddpg':
-            print("actor")
             self.actor = ActorNetwork(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,num_steps=self.num_steps, activation=activation, loss=loss
-                , lr=self.lr)
-            print('actor : ',self.actor)
+                inp_dim=self.num_features,
+                out_dim=self.agent.NUM_ACTIONS,  lr=self.lr,  tau=self.tau)
         elif self.net == 'dnn':
             self.policy_network = DNN(
                 input_dim=self.num_features,
@@ -140,16 +130,14 @@ class ReinforcementLearner:
                 activation=activation, loss=loss)
         if self.reuse_models and \
                 os.path.exists(self.policy_network_path):
-            self.policy_network.load_model(
+            self.actor.load_model(
                 model_path=self.policy_network_path)
 
     def init_value_network(self, shared_network=None,
                            activation='linear', loss='mse'):
         if self.rl_method =='ddpg':
             self.critic = CriticNetwork(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,num_steps=self.num_steps, activation=activation, loss=loss,
-                lr=self.lr)
+                inp_dim=self.num_features, lr=self.lr, tau=self.tau)
         elif self.net == 'dnn':
             self.value_network = DNN(
                 input_dim=self.num_features,
@@ -180,12 +168,13 @@ class ReinforcementLearner:
 
         if self.reuse_models and \
                 os.path.exists(self.value_network_path):
-            self.value_network.load_model(
+            self.critic.load_model(
                 model_path=self.value_network_path)
 
 
     def reset(self):
         self.sample = None
+        self.next_sample = None
         self.training_data_idx = -1
         # 환경 초기화
         self.environment.reset()
@@ -195,9 +184,10 @@ class ReinforcementLearner:
         self.visualizer.clear([0, len(self.chart_data)])
         # 메모리 초기화
         self.memory_sample = []
+        self.memory_next_sample = []
         self.memory_action = []
         self.memory_target_policy=[]
-        self.memory_target_value = []
+        self.memory_target_value = collections.deque()
         self.memory_target_action=[]
         self.memory_reward = []
         self.memory_value = []
@@ -223,6 +213,16 @@ class ReinforcementLearner:
             return self.sample
         return None
 
+    def build_next_sample(self):
+        next_training_data_idx = self.training_data_idx  # copy idx
+        if len(self.training_data) > next_training_data_idx + 1:
+            self.training_data_idx += 1
+            self.next_sample = self.training_data.iloc[
+                self.training_data_idx].tolist()
+            self.next_sample.extend(self.agent.get_states())
+            return self.next_sample
+        return None
+
     @abc.abstractmethod
     def get_batch(self, batch_size, delayed_reward, discount_factor):
         pass
@@ -230,27 +230,17 @@ class ReinforcementLearner:
     @abc.abstractmethod
     def train(self, batch_size, delayed_reward, discount_factor):
         pass
+
     def update_networks(self,
                         batch_size, delayed_reward, discount_factor):
         # 배치 학습 데이터 생성
-        x, y_value, y_policy = self.get_batch(
+        loss = self.train(
             batch_size, delayed_reward, discount_factor)
-        if len(x) > 0:
-            loss = 0
-            if y_value is not None:
-                # 가치 신경망 갱신
-                loss += self.critic.train_on_batch(x, y_value)
-                self.critic.transfer_weights()
-            if y_policy is not None:
-                # 정책 신경망 갱신
-                loss += self.actor.train_on_batch(x, y_policy)
-                self.actor.transfer_weights()
-            return loss
-        return None
+       
+        return loss
 
-    def fit(self, delayed_reward, discount_factor, full=False):
-        batch_size = len(self.memory_reward) if full \
-            else self.batch_size
+    def fit(self, batch_size, delayed_reward, discount_factor, full=False):
+        batch_size = 10
         # 배치 학습 데이터 생성 및 신경망 갱신
         if batch_size > 0:
             _loss = self.update_networks(
@@ -266,12 +256,10 @@ class ReinforcementLearner:
                              * (self.num_steps - 1) + self.memory_action
         self.memory_num_stocks = [0] * (self.num_steps - 1) \
                                  + self.memory_num_stocks
-        if self.critic is not None:
-            self.memory_value = [np.array([np.nan] \
+        self.memory_value = [np.array([np.nan] \
                                           * len(Agent.ACTIONS))] * (self.num_steps - 1) \
                                 + self.memory_value
-        if self.actor is not None:
-            self.memory_policy = [np.array([np.nan] \
+        self.memory_policy = [np.array([np.nan] \
                                            * len(Agent.ACTIONS))] * (self.num_steps - 1) \
                                  + self.memory_policy
         self.memory_pv = [self.agent.initial_balance] \
@@ -337,8 +325,8 @@ class ReinforcementLearner:
             time_start_epoch = time.time()
 
             # step 샘플을 만들기 위한 큐
-            q_sample = collections.deque(maxlen=self.num_steps)
-
+        #    q_sample = collections.deque(maxlen=self.num_steps)
+          #  q_next_sample = collections.deque(maxlen=self.num_steps)
             # 환경, 에이전트, 신경망, 가시화, 메모리 초기화
             self.reset()
             # 학습을 진행할 수록 탐험 비율 감소
@@ -348,54 +336,57 @@ class ReinforcementLearner:
                 self.agent.reset_exploration()
             else:
                 epsilon = start_epsilon
+
             while True:
                 # 샘플 생성
-                next_sample = self.build_sample()
+                sample=self.build_sample()
+                if sample is None: 
+                    break
+                next_sample = self.build_next_sample()
                 if next_sample is None:
                     break
 
                 # num_steps만큼 샘플 저장
-                q_sample.append(next_sample)
-                if len(q_sample) < self.num_steps:
-                    continue
+              #  q_sample.append(sample)
+               # q_next_sample.append(next_sample)
+               # if len(q_sample) < self.num_steps:
+                 #   continue
 
+               # if len(q_next_sample) < self.num_steps:
+                  #  continue
+                  
                 # 가치, 정책 신경망 예측
                 pred_value = None
                 pred_policy = None
                 pred_target_policy=None
                 pred_target_value = None
-                if self.critic is not None:
-                   pred_value = self.critic.predict(
-                   list(q_sample))
-                   pred_target_value = self.critic.target_predict(list(q_sample))
                 if self.actor is not None:
-                    pred_policy = self.actor.predict(
-                        list(q_sample))
-                    pred_target_policy =self.actor.target_predict(list(q_sample))
+                   pred_policy = self.actor.predict(sample)
+                if self.critic is not None:
+                   pred_value = self.critic.predict(sample, pred_policy)
+
 
                 # 신경망 또는 탐험에 의한 행동 결정
                 action, confidence, exploration = \
                     self.agent.decide_action(pred_value, pred_policy, epsilon)
 
-                # target 값을 이용한 행동 결정
-                target_action, target_confidence, target_exploration = \
-                    self.agent.decide_action(pred_target_policy, pred_target_value, epsilon)
+
 
                 #결정한 행동을 수행하고 즉시 보상과 지연 보상 획득
                 immediate_reward, delayed_reward = \
                     self.agent.act(action, confidence)
+                    
+                self.replay_memory.add(sample, action, immediate_reward, next_sample)
 
 
                 # 행동 및 행동에 대한 결과를 기억
-                self.memory_sample.append(list(q_sample))
+                self.memory_sample.append(sample)
                 self.memory_action.append(action)
                 self.memory_reward.append(immediate_reward)
-                self.memory_target_action.append(target_action)
-                self.memory_target_policy.append(pred_target_policy)
-                self.memory_target_value.append(pred_target_value)
-                if self.critic is not None:
+               # self.memory_target_action.append(target_action)
+                if pred_value is not None:
                     self.memory_value.append(pred_value)
-                if self.actor is not None:
+                if pred_policy is not None:
                     self.memory_policy.append(pred_policy)
                 self.memory_pv.append(self.agent.portfolio_value)
                 self.memory_num_stocks.append(self.agent.num_stocks)
@@ -408,12 +399,13 @@ class ReinforcementLearner:
                 self.exploration_cnt += 1 if exploration else 0
 
                 # 지연 보상 발생된 경우 미니 배치 학습
-                if learning and (delayed_reward != 0):
-                    self.fit(delayed_reward, discount_factor)
+                if learning and self.replay_memory.count()>10:
+                    self.fit(self.batch_size, delayed_reward ,discount_factor)
+
             # 에포크 종료 후 학습
-            if learning:
-                self.fit(
-                    self.agent.profitloss, discount_factor, full=True)
+           #if learning:
+            #    self.fit(
+             #       self.agent.profitloss, discount_factor, full=True)
             # 에포크 관련 정보 로그 기록
             num_epoches_digit = len(str(num_epoches))
             epoch_str = str(epoch + 1).rjust(num_epoches_digit, '0')
@@ -432,7 +424,7 @@ class ReinforcementLearner:
                     self.loss, elapsed_time_epoch))
 
             # 에포크 관련 정보 가시화
-            self.visualize(epoch_str, num_epoches, epsilon)
+            #self.visualize(epoch_str, num_epoches, epsilon)
 
             # 학습 관련 정보 갱신
             max_portfolio_value = max(
@@ -471,12 +463,6 @@ class DDPG(ReinforcementLearner):
                  value_network_path=None, policy_network_path=None, **kwargs):
         super().__init__(*args, **kwargs)
         self.name = 'DDPG'  # name for uploading results
-        if shared_network is None:
-            self.shared_network = Network.get_shared_network(
-                net=self.net, num_steps=self.num_steps,
-                input_dim=self.num_features)
-        else:
-            self.shared_network = shared_network
         self.value_network_path = value_network_path
         self.policy_network_path = policy_network_path
         if self.value_network is None:
@@ -484,46 +470,43 @@ class DDPG(ReinforcementLearner):
         if self.policy_network is None:
             self.init_policy_network(shared_network=shared_network)
 
-    def get_batch(self, batch_size, delayed_reward, discount_factor):
-        memory = zip(
-            reversed(self.memory_sample[-batch_size:]),
-            reversed(self.memory_action[-batch_size:]),
-            reversed(self.memory_value[-batch_size:]),
-            reversed(self.memory_policy[-batch_size:]),
-            reversed(self.memory_reward[-batch_size:]),
-            reversed(self.memory_target_policy[-batch_size:]),
-            reversed(self.memory_target_action[-batch_size:]),
-            reversed(self.memory_target_value[-batch_size:])
-        )
-        sample_batch = np.zeros((batch_size, self.num_steps, self.num_features))
-        x_sample_next = np.zeros((batch_size, self.num_steps, self.num_features))
-        y_value = np.zeros((batch_size, self.agent.NUM_ACTIONS))
-        y_policy = np.full((batch_size, self.agent.NUM_ACTIONS), .5)
-        y_target_value = np.zeros((batch_size, self.agent.NUM_ACTIONS))
-        y_target_policy = np.full((batch_size, self.agent.NUM_ACTIONS), .5)
-        rewards=np.zeros(batch_size)
-        value_max_next = 0
-        target_max_next = 0
-        x_sample_next[0] = self.memory_sample[-1]
-        reward_next = self.memory_reward[-1]
-        for i, (sample, action, value, policy, reward,target_policy,target_action,target_value) \
-                in enumerate(memory):
-            sample_batch[i] = sample
-            y_value[i] = value
-            y_policy[i] = policy
-            y_target_value[i] = target_value
-            y_target_policy[i] = target_policy
-            rewards[i] = (delayed_reward + reward_next - reward * 2) * 100
-            y_target_value[i, target_action] = rewards[i] + discount_factor * target_max_next # q_value
-            y_target_policy[i, target_action] = sigmoid(target_value[target_action])
-            y_value[i, action] = value_max_next # q_value
-            y_policy[i, action] = sigmoid(value[action])
-            target_max_next = target_value.max()
-            value_max_next = value.max()
-            reward_next = reward
-            y_value[i, action] = (y_target_value[i, target_action] - y_value[i, action])
+    def train(self, batch_size, delayed_reward, discount_factor):
+        memory = self.replay_memory.get_batch(batch_size)
 
-        return sample_batch, y_value, y_policy
+        samples = []
+        actions = []
+        rewards = []
+        next_samples = []
+
+        #(samples, actions, rewards, next_samples) = memory 
+
+        for i, (sample, action, reward, next_sample) in enumerate(memory):
+            samples.append(sample)
+            actions.append(action)
+            rewards.append(reward)
+            next_samples.append(next_sample)
+
+        # Predict target q-values using target networks
+        q_values = self.critic.target_predict(next_samples, self.actor.target_predict(next_samples))
+
+        # Compute critic target
+        critic_target = np.asarray(q_values)
+        for i in range(q_values.shape[0]):
+            critic_target[i] = rewards[i] + delayed_reward + discount_factor * q_values[i]
+        loss = 0
+        # Train critic
+        loss+=self.critic.train_on_batch(samples, actions, critic_target)
+        # Q-Value Gradients under Current Policy
+        # actions = self.actor.predict(states) ##
+        #print(actions)
+        grads = self.critic.gradients(samples, actions)
+        # Train actor
+        self.actor.train(samples, np.array(grads).reshape((-1, self.agent.NUM_ACTIONS)))
+        # Transfer weights to target networks at rate Tau
+        self.actor.transfer_weights()
+        self.critic.transfer_weights()
+
+        return loss
 
 
 

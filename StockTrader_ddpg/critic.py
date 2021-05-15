@@ -1,110 +1,77 @@
-# ===========================
-#   Critic DNN
-# ===========================
+import numpy as np
 import tensorflow as tf
-# Network Parameters - Hidden layers
-n_hidden_1 = 400
-n_hidden_2 = 300
+import keras.backend as K
 
-def weight_variable(shape):
-    initial = tf.truncated_normal(shape, stddev=0.01)
-    return tf.Variable(initial)
+from keras.initializers import RandomUniform
+from keras.models import Model
+from keras.optimizers import Adam
+from keras.layers import Input, Dense, concatenate, LSTM, Reshape, BatchNormalization, Lambda, Flatten
 
-def bias_variable(shape):
-    initial = tf.constant(0.03, shape=shape)
-    return tf.Variable(initial)
-
-class CriticNetwork(object):
-    """
-    Input to the network is the state and action, output is Q(s,a).
-    The action must be obtained from the output of the Actor network.
+class CriticNetwork:
+    """ Critic for the DDPG Algorithm, Q-Value function approximator
     """
 
-    def __init__(self,  state_dim, action_dim, learning_rate, tau,num_actor_vars):
-        self.sess =tf.InteractiveSession()
-        self.s_dim = state_dim
-        self.a_dim = action_dim
-        self.learning_rate = learning_rate
-        self.tau = tau
+    def __init__(self, inp_dim, lr, tau):
+        # Dimensions and Hyperparams
+        self.env_dim = inp_dim
+        self.act_dim = 1
+        self.tau, self.lr = tau, lr
+        # Build models and target models
+        self.model = self.network()
+        self.target_model = self.network()
+        self.model.compile(Adam(self.lr), 'mse')
+        self.target_model.compile(Adam(self.lr), 'mse')
+        # Function to compute Q-value gradients (Actor Optimization)
+        self.action_grads = K.function([self.model.input[0], self.model.input[1]], K.gradients(self.model.output, [self.model.input[1]]))
+        #self.action_grads = K.function([self.model.input, self.model.input[1]], K.gradients(self.model.output, [self.model.input[1]]))
 
+    def network(self):
+        """ Assemble Critic network to predict q-values
+        """
+        state = Input((self.env_dim,))
+        action = Input((self.act_dim,))
+        x = Dense(256, activation='relu')(state)
+        x = concatenate([state, action])
+        x = Dense(128, activation='relu')(x)
+        out = Dense(1, activation='linear', kernel_initializer=RandomUniform())(x)
+        return Model([state, action], out)
 
+    def gradients(self, states, actions):
+        """ Compute Q-value gradients w.r.t. states and policy-actions
+        """
+        action_s = np.array(actions).reshape(-1,1)
+        return self.action_grads([states, action_s])
 
-        # Create the critic network
-        self.inputs, self.action, self.out = self.create_critic_network()
+    def target_predict(self, sample, action):
+        """ Predict Q-Values using the target network
+        """
+        sample = np.array(sample).reshape(-1,self.env_dim)
+        action = np.array(action).reshape(-1,1)
+        return self.target_model.predict([sample, action])
+    def predict(self, sample, action):
+        """ Predict Q-Values using the target network
+        """
+        sample = np.array(sample).reshape(-1,self.env_dim)
+        action = np.array(action).reshape(-1,1)
+        return self.model.predict([sample, action])
+    def train_on_batch(self, samples, actions, critic_target):
+        """ Train the critic network on batch of sampled experience
+        """
+        samples = np.array(samples).reshape(-1,self.env_dim)
+        actions = np.array(actions).reshape(-1,1)
+        return self.model.train_on_batch([samples, actions], critic_target)
 
-        self.network_params = tf.trainable_variables()[num_actor_vars:]
+    def transfer_weights(self):
+        """ Transfer model weights to target model with a factor of Tau
+        """
+        W, target_W = self.model.get_weights(), self.target_model.get_weights()
+        for i in range(len(W)):
+            target_W[i] = self.tau * W[i] + (1 - self.tau)* target_W[i]
+        self.target_model.set_weights(target_W)
 
-        # Target Network
-        self.target_inputs, self.target_action, self.target_out = self.create_critic_network()
+    def save(self, path):
+        self.target_model.save_weights(path)
 
-        self.target_network_params = tf.trainable_variables()[(len(self.network_params) + num_actor_vars):]
-
-        # Op for periodically updating target network with online network weights with regularization
-        self.update_target_network_params = \
-            [self.target_network_params[i].assign(
-                tf.multiply(self.network_params[i], self.tau) + tf.multiply(self.target_network_params[i], 1. - self.tau))
-             for i in range(len(self.target_network_params))]
-
-        # Network target (y_i)
-        self.predicted_q_value = tf.placeholder(tf.float32, [None, 1])
-
-        # Define loss and optimization Op
-        self.loss = tf.sqrt(tf.reduce_mean(tf.square(tf.subtract(self.predicted_q_value, self.out))))
-        self.optimize = tf.train.AdamOptimizer(self.learning_rate).minimize(self.loss)
-
-        # Get the gradient of the net w.r.t. the action
-        self.action_grads = tf.gradients(self.out, self.action)
-
-    def create_critic_network(self):
-        inputs = tf.placeholder(tf.float32, [None, self.s_dim])
-        action = tf.placeholder(tf.float32, [None, self.a_dim])
-
-        # Input -> Hidden Layer
-        w1 = weight_variable([self.s_dim, n_hidden_1])
-        b1 = bias_variable([n_hidden_1])
-        # Hidden Layer -> Hidden Layer + Action
-        w2 = weight_variable([n_hidden_1, n_hidden_2])
-        w2a = weight_variable([self.a_dim, n_hidden_2])
-        b2 = bias_variable([n_hidden_2])
-        # Hidden Layer -> Output (Q)
-        w3 = weight_variable([n_hidden_2, 1])
-        b3 = bias_variable([1])
-
-        # 1st Hidden layer, OPTION: Softmax, relu, tanh or sigmoid
-        h1 = tf.nn.relu(tf.matmul(inputs, w1) + b1)
-        # 2nd Hidden layer, OPTION: Softmax, relu, tanh or sigmoid
-        # Action inserted here
-        h2 = tf.nn.relu(tf.matmul(h1, w2) + tf.matmul(action, w2a) + b2)
-
-        out = tf.matmul(h2, w3) + b3
-
-        return inputs, action, out
-
-    def train(self, inputs, action, predicted_q_value):
-        return self.sess.run([self.out, self.optimize], feed_dict={
-            self.inputs: inputs,
-            self.action: action,
-            self.predicted_q_value: predicted_q_value
-        })
-
-    def predict(self, inputs, action):
-        return self.sess.run(self.out, feed_dict={
-            self.inputs: inputs,
-            self.action: action
-        })
-
-    def predict_target(self, inputs, action):
-        return self.sess.run(self.target_out, feed_dict={
-            self.target_inputs: inputs,
-            self.target_action: action
-        })
-
-    def action_gradients(self, inputs, actions):
-        return self.sess.run(self.action_grads, feed_dict={
-            self.inputs: inputs,
-            self.action: actions
-        })
-
-    def update_target_network(self):
-        self.sess.run(self.update_target_network_params)
-
+    def load_weights(self, path):
+        self.model.load_weights(path)
+        self.target_model.load_weights(path)
