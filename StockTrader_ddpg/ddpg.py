@@ -196,6 +196,8 @@ class ReinforcementLearner:
         self.memory_num_stocks = []
         self.memory_exp_idx = []
         self.memory_learning_idx = []
+        # Replay_buffer 초기회
+        self.replay_memory.erase()
         # 에포크 관련 정보 초기화
         self.loss = 0.
         self.itr_cnt = 0
@@ -205,22 +207,26 @@ class ReinforcementLearner:
 
     def build_sample(self):
         self.environment.observe()
+        making_sample = None
         if len(self.training_data) > self.training_data_idx + 1:
             self.training_data_idx += 1
-            self.sample = self.training_data.iloc[
+            making_sample = self.training_data.iloc[
                 self.training_data_idx].tolist()
-            self.sample.extend(self.agent.get_states())
-            return self.sample
+            making_sample.extend(self.agent.get_states())
+            return making_sample
         return None
 
     def build_next_sample(self):
         next_training_data_idx = self.training_data_idx  # copy idx
+        making_sample = None
+
         if len(self.training_data) > next_training_data_idx + 1:
-            self.training_data_idx += 1
-            self.next_sample = self.training_data.iloc[
+            next_training_data_idx += 1
+
+            making_sample = self.training_data.iloc[
                 self.training_data_idx].tolist()
-            self.next_sample.extend(self.agent.get_states())
-            return self.next_sample
+            making_sample.extend(self.agent.get_states())
+            return making_sample
         return None
 
     @abc.abstractmethod
@@ -375,8 +381,8 @@ class ReinforcementLearner:
                 #결정한 행동을 수행하고 즉시 보상과 지연 보상 획득
                 immediate_reward, delayed_reward = \
                     self.agent.act(action, confidence)
-                    
-                self.replay_memory.add(sample, action, immediate_reward, next_sample)
+                if immediate_reward > 0.01 or immediate_reward < -0.01:
+                    self.replay_memory.add(sample, action, immediate_reward, next_sample)
 
 
                 # 행동 및 행동에 대한 결과를 기억
@@ -384,9 +390,9 @@ class ReinforcementLearner:
                 self.memory_action.append(action)
                 self.memory_reward.append(immediate_reward)
                # self.memory_target_action.append(target_action)
-                if pred_value is not None:
+                if self.actor is not None:
                     self.memory_value.append(pred_value)
-                if pred_policy is not None:
+                if self.critic is not None:
                     self.memory_policy.append(pred_policy)
                 self.memory_pv.append(self.agent.portfolio_value)
                 self.memory_num_stocks.append(self.agent.num_stocks)
@@ -423,7 +429,7 @@ class ReinforcementLearner:
                     self.loss, elapsed_time_epoch))
 
             # 에포크 관련 정보 가시화
-            #self.visualize(epoch_str, num_epoches, epsilon)
+            self.visualize(epoch_str, num_epoches, epsilon)
 
             # 학습 관련 정보 갱신
             max_portfolio_value = max(
@@ -497,7 +503,10 @@ class DDPG(ReinforcementLearner):
         loss+=self.critic.train_on_batch(samples, actions, critic_target)
         # Q-Value Gradients under Current Policy
         # actions = self.actor.predict(states) ##
-        #print(actions)
+        #
+
+
+        (actions)
         grads = self.critic.gradients(samples, actions)
         # Train actor
         self.actor.train(samples, np.array(grads).reshape((-1, self.agent.NUM_ACTIONS)))

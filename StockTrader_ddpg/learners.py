@@ -574,7 +574,6 @@ class DDPG(ReinforcementLearner):
         reward_next = self.memory_reward[-1]
         for i, (sample, action, value, policy, reward,target_policy,target_action,target_value) \
                 in enumerate(memory):
-            print('ddss')
             sample_batch[i] = sample
             y_value[i] = value
             y_policy[i] = policy
