@@ -397,9 +397,8 @@ class ReinforcementLearner:
                 self.batch_size += 1
                 self.itr_cnt += 1
                 self.exploration_cnt += 1 if exploration else 0
-
                 # 지연 보상 발생된 경우 미니 배치 학습
-                if learning and self.replay_memory.count()>10:
+                if learning and self.replay_memory.count() > 10:
                     self.fit(self.batch_size, delayed_reward ,discount_factor)
 
             # 에포크 종료 후 학습
@@ -411,7 +410,7 @@ class ReinforcementLearner:
             epoch_str = str(epoch + 1).rjust(num_epoches_digit, '0')
             time_end_epoch = time.time()
             elapsed_time_epoch = time_end_epoch - time_start_epoch
-            if self.learning_cnt > 0:
+            if self.learning_cnt >= 0:
                 logging.info("[{}][Epoch {}/{}] Epsilon:{:.4f} "
                              "#Expl.:{}/{} #Buy:{} #Sell:{} #Hold:{} "
                              "#Stocks:{} PV:{:,.0f} "

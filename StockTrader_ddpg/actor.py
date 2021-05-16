@@ -23,9 +23,9 @@ class ActorNetwork:
         """ Actor Network for Policy function Approximation, using a tanh
         activation for conti/nuous control. We add parameter noise to encourage
         exploration, and balance it with Layer Normalization.
-        """
+         """
         inp = Input((self.inp_dim,))
-"""
+
         # DNN
         output = Dense(256, activation='sigmoid', 
             kernel_initializer='random_normal')(inp)
@@ -43,8 +43,9 @@ class ActorNetwork:
             kernel_initializer='random_normal')(output)
         output = BatchNormalization()(output)
         output = Dropout(0.1)(output)
-"""
-        LSTM
+
+        """
+        #LSTM
         output = LSTM(256, dropout=0.1, 
             return_sequences=True, stateful=False,
             kernel_initializer='random_normal')(inp)
@@ -61,7 +62,8 @@ class ActorNetwork:
             stateful=False,
             kernel_initializer='random_normal')(output)
         output = BatchNormalization()(output)
-
+        """
+        """
         # ORIGINAL
         # x = Dense(256, activation='relu')(inp)
         # x = GaussianNoise(1.0)(x)
@@ -70,7 +72,7 @@ class ActorNetwork:
         # x = Dense(128, activation='relu')(x)
         # x = GaussianNoise(1.0)(x)
         
-
+        """
         output = Dense(self.act_dim, activation='sigmoid', kernel_initializer='random_normal')(output)
         
         #out = Lambda(lambda i: i)(out)
@@ -110,9 +112,10 @@ class ActorNetwork:
         grads = zip(params_grad, self.model.trainable_weights)
         return K.function([self.model.input, action_gdts], [tf.train.AdamOptimizer(self.lr).apply_gradients(grads)][1:])
 
-    def save(self, path):
-        self.target_model.save_weights(path)
+    def save_model(self, model_path):
+        self.model.save_weights(model_path)
+        #self.target_model.save_weights(path)
 
-    def load_weights(self, path):
-        self.model.load_weights(path)
-        self.target_model.load_weights(path)
+    def load_model(self, model_path):
+        self.model.load_weights(model_path)
+        #self.target_model.load_weights(path)
