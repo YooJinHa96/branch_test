@@ -196,6 +196,8 @@ class ReinforcementLearner:
         self.memory_num_stocks = []
         self.memory_exp_idx = []
         self.memory_learning_idx = []
+
+        self.replay_memory.erase()
         # 에포크 관련 정보 초기화
         self.loss = 0.
         self.itr_cnt = 0
@@ -240,7 +242,7 @@ class ReinforcementLearner:
         return loss
 
     def fit(self, batch_size, delayed_reward, discount_factor, full=False):
-        batch_size = 50
+        batch_size = 10
         # 배치 학습 데이터 생성 및 신경망 갱신
         if batch_size > 0:
             _loss = self.update_networks(
@@ -375,8 +377,9 @@ class ReinforcementLearner:
                 #결정한 행동을 수행하고 즉시 보상과 지연 보상 획득
                 immediate_reward, delayed_reward = \
                     self.agent.act(action, confidence)
-                    
-                self.replay_memory.add(sample, action, immediate_reward, next_sample)
+
+                if immediate_reward > 0.01 or immediate_reward < -0.01:
+                    self.replay_memory.add(sample, action, immediate_reward, next_sample)
 
 
                 # 행동 및 행동에 대한 결과를 기억
@@ -399,7 +402,7 @@ class ReinforcementLearner:
                 self.exploration_cnt += 1 if exploration else 0
 
                 # 지연 보상 발생된 경우 미니 배치 학습
-                if learning and self.replay_memory.count()>50:
+                if learning and self.replay_memory.count()> 10:
                     self.fit(self.batch_size, delayed_reward ,discount_factor)
 
             # 에포크 종료 후 학습

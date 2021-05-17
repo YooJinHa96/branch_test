@@ -45,15 +45,20 @@ class CriticNetwork:
     def target_predict(self, sample, action):
         """ Predict Q-Values using the target network
         """
-        sample = np.array(sample).reshape(-1,self.env_dim)
-        action = np.array(action).reshape(-1,1)
+
+        sample = np.array(sample).reshape(-1, self.env_dim)
+
+        #print(np.array(sample).reshape(-1,5,self.env_dim).shape)
+        action = np.array(action).reshape(-1, 1)
         return self.target_model.predict([sample, action])
+
     def predict(self, sample, action):
         """ Predict Q-Values using the target network
         """
         sample = np.array(sample).reshape(-1,self.env_dim)
-        action = np.array(action).reshape(-1,1)
+        action = np.array(action).reshape(-1 ,1)
         return self.model.predict([sample, action])
+
     def train_on_batch(self, samples, actions, critic_target):
         """ Train the critic network on batch of sampled experience
         """

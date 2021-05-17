@@ -330,7 +330,7 @@ class ReinforcementLearner:
             # step 샘플을 만들기 위한 큐
             # q_sample = collections.deque(maxlen=self.num_steps)
             # q_next_sample = collections.deque(maxlen=self.num_steps)
-            # q_action= collections.deque(maxlen=self.num_steps)
+            # zq_action= collections.deque(maxlen=self.num_steps)
             # 환경, 에이전트, 신경망, 가시화, 메모리 초기화
             self.reset()
             # 학습을 진행할 수록 탐험 비율 감소

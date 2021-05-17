@@ -18,6 +18,7 @@ class ActorNetwork:
         self.lr = lr
         self.num_steps = num_steps
         self.model = self.network()
+        self.model2=self.network2()
         self.target_model = self.network()
         self.adam_optimizer = self.optimizer()
 
@@ -81,12 +82,77 @@ class ActorNetwork:
 
         return Model(inp, output)
 
+    def network2(self):
+        """ Actor Network for Policy function Approximation, using a tanh
+        activation for conti/nuous control. We add parameter noise to encourage
+        exploration, and balance it with Layer Normalization.
+         """
+        inp = Input(( 1, self.inp_dim,))
+        """
+        # DNN
+        output = Dense(256, activation='sigmoid', 
+            kernel_initializer='random_normal')(inp)
+        output = BatchNormalization()(output)
+        output = Dropout(0.1)(output)
+        output = Dense(128, activation='sigmoid', 
+            kernel_initializer='random_normal')(output)
+        output = BatchNormalization()(output)
+        output = Dropout(0.1)(output)
+        output = Dense(64, activation='sigmoid', 
+            kernel_initializer='random_normal')(output)
+        output = BatchNormalization()(output)
+        output = Dropout(0.1)(output)
+        output = Dense(32, activation='sigmoid', 
+            kernel_initializer='random_normal')(output)
+        output = BatchNormalization()(output)
+        output = Dropout(0.1)(output)
+
+        """
+        # LSTM
+        output = LSTM(256, dropout=0.1,
+                      return_sequences=True, stateful=False,
+                      kernel_initializer='random_normal')(inp)
+        output = BatchNormalization()(output)
+        output = LSTM(128, dropout=0.1,
+                      return_sequences=True, stateful=False,
+                      kernel_initializer='random_normal')(output)
+        output = BatchNormalization()(output)
+        output = LSTM(64, dropout=0.1,
+                      return_sequences=True, stateful=False,
+                      kernel_initializer='random_normal')(output)
+        output = BatchNormalization()(output)
+        output = LSTM(32, dropout=0.1,
+                      stateful=False,
+                      kernel_initializer='random_normal')(output)
+        output = BatchNormalization()(output)
+
+        """
+        # ORIGINAL
+        # x = Dense(256, activation='relu')(inp)
+        # x = GaussianNoise(1.0)(x)
+        # #
+        # #x = Flatten()(x)
+        # x = Dense(128, activation='relu')(x)
+        # x = GaussianNoise(1.0)(x)
+
+        """
+        output = Dense(self.act_dim, activation='sigmoid', kernel_initializer='random_normal')(output)
+
+        # out = Lambda(lambda i: i)(out)
+
+        return Model(inp, output)
+
+    def predict2(self, sample):
+        """ Action prediction
+        """
+        sample = np.array(sample).reshape(-1,1, self.inp_dim)
+        return self.model2.predict(sample)
+
     def predict(self, sample):
         """ Action prediction
         """
         sample = np.array(sample).reshape(-1, self.num_steps, self.inp_dim)
         return self.model.predict(sample)
-
     def target_predict(self, sample):
         """ Action prediction (target network)
         """

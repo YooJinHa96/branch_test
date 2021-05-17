@@ -111,9 +111,11 @@ class ActorNetwork:
         grads = zip(params_grad, self.model.trainable_weights)
         return K.function([self.model.input, action_gdts], [tf.train.AdamOptimizer(self.lr).apply_gradients(grads)][1:])
 
-    def save(self, path):
-        self.target_model.save_weights(path)
+    def save_model(self, model_path):
+        self.model.save_weights(model_path)
+        # self.target_model.save_weights(path)
 
-    def load_weights(self, path):
-        self.model.load_weights(path)
-        self.target_model.load_weights(path)
+    def load_model(self, model_path):
+        self.model.load_weights(model_path)
+    # self.target_model.load_weights(path)
+

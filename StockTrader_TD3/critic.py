@@ -97,9 +97,11 @@ class CriticNetwork:
             target_W[i] = self.tau * W[i] + (1 - self.tau) * target_W[i]
         self.target_model2.set_weights(target_W)
 
-    def save(self, path):
-        self.target_model.save_weights(path)
+    def save_model(self, model_path):
+        self.model.save_weights(model_path)
+        # self.target_model.save_weights(path)
 
-    def load_weights(self, path):
-        self.model.load_weights(path)
-        self.target_model.load_weights(path)
+    def load_model(self, model_path):
+        self.model.load_weights(model_path)
+    # self.target_model.load_weights(path)
+
