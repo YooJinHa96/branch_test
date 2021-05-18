@@ -101,33 +101,6 @@ class ReinforcementLearner:
             self.actor = ActorNetwork(
                 inp_dim=self.num_features,
                 out_dim=self.agent.NUM_ACTIONS,  lr=self.lr,  tau=self.tau)
-        elif self.net == 'dnn':
-            self.policy_network = DNN(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, shared_network=shared_network,
-                activation=activation, loss=loss)
-        elif self.net == 'lstm':
-            self.policy_network = LSTMNetwork(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, num_steps=self.num_steps,
-                shared_network=shared_network,
-                activation=activation, loss=loss)
-        elif self.net == 'cnn':
-            self.policy_network = CNN(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, num_steps=self.num_steps,
-                shared_network=shared_network,
-                activation=activation, loss=loss)
-        elif self.net == 'cnn':
-            self.policy_network = CNN(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, num_steps=self.num_steps,
-                shared_network=shared_network,
-                activation=activation, loss=loss)
         if self.reuse_models and \
                 os.path.exists(self.policy_network_path):
             self.actor.load_model(
@@ -138,34 +111,6 @@ class ReinforcementLearner:
         if self.rl_method =='td3':
             self.critic = CriticNetwork(
                 inp_dim=self.num_features, lr=self.lr, tau=self.tau)
-        elif self.net == 'dnn':
-            self.value_network = DNN(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, shared_network=shared_network,
-                activation=activation, loss=loss)
-        elif self.net == 'lstm':
-            self.value_network = LSTMNetwork(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, num_steps=self.num_steps,
-                shared_network=shared_network,
-                activation=activation, loss=loss)
-        elif self.net == 'cnn':
-            self.value_network = CNN(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, num_steps=self.num_steps,
-                shared_network=shared_network,
-                activation=activation, loss=loss)
-        elif self.net == 'cnn':
-            self.value_network = CNN(
-                input_dim=self.num_features,
-                output_dim=self.agent.NUM_ACTIONS,
-                lr=self.lr, num_steps=self.num_steps,
-                shared_network=shared_network,
-                activation=activation, loss=loss)
-
         if self.reuse_models and \
                 os.path.exists(self.value_network_path):
             self.critic.load_model(
@@ -427,7 +372,7 @@ class ReinforcementLearner:
                     self.loss, elapsed_time_epoch))
 
             # 에포크 관련 정보 가시화
-            #self.visualize(epoch_str, num_epoches, epsilon)
+            self.visualize(epoch_str, num_epoches, epsilon)
 
             # 학습 관련 정보 갱신
             max_portfolio_value = max(

@@ -20,8 +20,8 @@ if __name__ == '__main__':
     parser.add_argument('--lr', type=float, default=0.01)
     parser.add_argument('--discount_factor', type=float, default=0.9)
     parser.add_argument('--start_epsilon', type=float, default=1)
-    parser.add_argument('--balance', type=int, default=10000000)
-    parser.add_argument('--num_epoches', type=int, default=200)
+    parser.add_argument('--balance', type=int, default=10000)
+    parser.add_argument('--num_epoches', type=int, default=500)
     parser.add_argument('--delayed_reward_threshold',
         type=float, default=0.05)
     parser.add_argument('--backend',
@@ -31,8 +31,8 @@ if __name__ == '__main__':
     parser.add_argument('--policy_network_name')
     parser.add_argument('--reuse_models', action='store_true')
     parser.add_argument('--learning', action='store_true')
-    parser.add_argument('--start_date', default='20130101')
-    parser.add_argument('--end_date', default='20171230')
+    parser.add_argument('--start_date', default='20140101')
+    parser.add_argument('--end_date', default='20181230')
     args = parser.parse_args()
 
     # Keras Backend 설정
@@ -98,9 +98,11 @@ if __name__ == '__main__':
             args.start_date, args.end_date, ver=args.ver)
 
         # 최소/최대 투자 단위 설정
-        min_trading_unit = max(int(100000 / chart_data.iloc[-1]['close']), 1)
-        max_trading_unit = max(int(1000000 / chart_data.iloc[-1]['close']), 1)
+        #min_trading_unit = max(int(100000 / chart_data.iloc[-1]['close']), 1)
+        #max_trading_unit = max(int(1000000 / chart_data.iloc[-1]['close']), 1)
 
+        min_trading_unit = 1
+        max_trading_unit = 10
         # 공통 파라미터 설정
         common_params = {'rl_method': args.rl_method,
             'delayed_reward_threshold': args.delayed_reward_threshold,
