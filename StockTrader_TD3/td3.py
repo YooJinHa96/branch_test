@@ -152,22 +152,26 @@ class ReinforcementLearner:
 
     def build_sample(self):
         self.environment.observe()
+        making_sample = None
         if len(self.training_data) > self.training_data_idx + 1:
             self.training_data_idx += 1
-            self.sample = self.training_data.iloc[
+            making_sample = self.training_data.iloc[
                 self.training_data_idx].tolist()
-            self.sample.extend(self.agent.get_states())
-            return self.sample
+            making_sample.extend(self.agent.get_states())
+            return making_sample
         return None
 
     def build_next_sample(self):
         next_training_data_idx = self.training_data_idx  # copy idx
+        making_sample = None
+
         if len(self.training_data) > next_training_data_idx + 1:
-            self.training_data_idx += 1
-            self.next_sample = self.training_data.iloc[
+            next_training_data_idx += 1
+
+            making_sample = self.training_data.iloc[
                 self.training_data_idx].tolist()
-            self.next_sample.extend(self.agent.get_states())
-            return self.next_sample
+            making_sample.extend(self.agent.get_states())
+            return making_sample
         return None
 
     @abc.abstractmethod
