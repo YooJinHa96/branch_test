@@ -191,11 +191,10 @@ class ReinforcementLearner:
         # 배치 학습 데이터 생성 및 신경망 갱신
         if batch_size > 0:
             _loss = self.update_networks(
-                batch_size, delayed_reward, discount_factor)
-            if _loss is not None:
-                self.loss += abs(_loss)
-                self.learning_cnt += 1
-                self.memory_learning_idx.append(self.training_data_idx)
+            batch_size, delayed_reward, discount_factor)
+            self.loss += abs(_loss)
+            self.learning_cnt += 1
+            self.memory_learning_idx.append(self.training_data_idx)
             self.batch_size = 0
 
     def visualize(self, epoch_str, num_epoches, epsilon):
