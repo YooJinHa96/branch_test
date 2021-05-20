@@ -362,6 +362,7 @@ class ReinforcementLearner:
             epoch_str = str(epoch + 1).rjust(num_epoches_digit, '0')
             time_end_epoch = time.time()
             elapsed_time_epoch = time_end_epoch - time_start_epoch
+            print('lc ', self.learning_cnt)
             if self.learning_cnt > 0:
                 logging.info("[{}][Epoch {}/{}] Epsilon:{:.4f} "
                              "#Expl.:{}/{} #Buy:{} #Sell:{} #Hold:{} "

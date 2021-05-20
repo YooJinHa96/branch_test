@@ -11,7 +11,7 @@ import data_manager
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--stock_code', nargs='+')
-    parser.add_argument('--ver', choices=['v1', 'v2','v3'], default='v2')
+    parser.add_argument('--ver', choices=['v1', 'v2','v3'], default='v3')
     parser.add_argument('--rl_method',
         choices=['dqn', 'pg', 'ac', 'a2c', 'a3c', 'ddpg','td3'])
     parser.add_argument('--net',

@@ -1,0 +1,2064 @@
+(private) matplotlib data path: C:\Users\poop4\Anaconda3\envs\JH\lib\site-packages\matplotlib\mpl-data
+matplotlib data path: C:\Users\poop4\Anaconda3\envs\JH\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\poop4\.matplotlib
+matplotlib version 3.3.4
+interactive is False
+platform is win32
+loaded modules: ['builtins', 'sys', '_frozen_importlib', '_imp', '_warnings', '_thread', '_weakref', '_frozen_importlib_external', '_io', 'marshal', 'nt', 'winreg', 'zipimport', 'encodings', 'codecs', '_codecs', 'encodings.aliases', 'encodings.utf_8', '_signal', '__main__', 'encodings.latin_1', 'io', 'abc', '_weakrefset', 'site', 'os', 'errno', 'stat', '_stat', 'ntpath', 'genericpath', 'os.path', '_collections_abc', '_sitebuiltins', 'sysconfig', '_bootlocale', '_locale', 'encodings.cp949', '_codecs_kr', '_multibytecodec', 'types', 'functools', '_functools', 'collections', 'operator', '_operator', 'keyword', 'heapq', '_heapq', 'itertools', 'reprlib', '_collections', 'weakref', 'collections.abc', 'importlib', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib.util', 'importlib.abc', 'importlib.machinery', 'contextlib', 'mpl_toolkits', 'google', 'logging', 'time', 'traceback', 'linecache', 'tokenize', 're', 'enum', 'sre_compile', '_sre', 'sre_parse', 'sre_constants', 'copyreg', 'token', 'string', '_string', 'threading', 'atexit', 'argparse', 'copy', 'textwrap', 'gettext', 'locale', 'struct', '_struct', 'json', 'json.decoder', 'json.scanner', '_json', 'json.encoder', 'settings', 'platform', 'subprocess', 'signal', 'msvcrt', '_winapi', 'socket', '_socket', 'selectors', 'math', 'select', 'utils', 'datetime', '_datetime', 'numpy', 'numpy._globals', 'numpy.__config__', 'numpy.version', 'numpy._distributor_init', 'glob', 'fnmatch', 'posixpath', 'ctypes', '_ctypes', 'ctypes._endian', 'numpy.core', 'numpy.core.multiarray', 'numpy.core.overrides', 'numpy.core._multiarray_umath', 'numpy.compat', 'numpy.compat._inspect', 'numpy.compat.py3k', 'pathlib', 'urllib', 'urllib.parse', 'pickle', '_compat_pickle', '_pickle', 'numpy.core.umath', 'numpy.core.numerictypes', 'numbers', 'numpy.core._string_helpers', 'numpy.core._type_aliases', 'numpy.core._dtype', 'numpy.core.numeric', 'numpy.core.shape_base', 'numpy.core._asarray', 'numpy.core.fromnumeric', 'numpy.core._methods', 'numpy.core._exceptions', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core.machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._add_newdocs', 'numpy.core._multiarray_tests', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'ast', '_ast', 'numpy._pytesttester', 'numpy.lib', 'numpy.lib.mixins', 'numpy.lib.scimath', 'numpy.lib.type_check', 'numpy.lib.ufunclike', 'numpy.lib.index_tricks', 'numpy.matrixlib', 'numpy.matrixlib.defmatrix', 'numpy.linalg', 'numpy.linalg.linalg', 'numpy.lib.twodim_base', 'numpy.linalg.lapack_lite', 'numpy.linalg._umath_linalg', 'numpy.lib.function_base', 'numpy.lib.histograms', 'numpy.lib.stride_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.npyio', 'numpy.lib.format', 'numpy.lib._datasource', 'shutil', 'zlib', 'bz2', '_compression', '_bz2', 'lzma', '_lzma', 'numpy.lib._iotools', 'numpy.lib.financial', 'decimal', '_decimal', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.fft', 'numpy.fft._pocketfft', 'numpy.fft._pocketfft_internal', 'numpy.fft.helper', 'numpy.polynomial', 'numpy.polynomial.polynomial', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.random', 'numpy.random._pickle', 'numpy.random.mtrand', 'cython_runtime', 'numpy.random.bit_generator', '_cython_0_29_21', 'numpy.random._common', 'secrets', 'base64', 'binascii', 'hmac', 'hashlib', '_hashlib', '_blake2', '_sha3', 'random', 'bisect', '_bisect', '_random', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.ctypeslib', 'numpy.ma', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.testing', 'unittest', 'unittest.result', 'unittest.util', 'unittest.case', 'difflib', 'pprint', 'unittest.suite', 'unittest.loader', 'unittest.main', 'unittest.runner', 'unittest.signals', 'numpy.testing._private', 'numpy.testing._private.utils', 'gc', 'tempfile', 'numpy.testing._private.decorators', 'numpy.testing._private.nosetester', 'data_manager', 'pandas', 'pytz', 'pytz.exceptions', 'pytz.lazy', 'pytz.tzinfo', 'pytz.tzfile', 'dateutil', 'dateutil._version', 'pandas.compat', 'pandas._typing', 'typing', 'typing.io', 'typing.re', 'pandas.compat.numpy', 'distutils', 'distutils.version', 'pandas._libs', 'pandas._libs.interval', 'pandas._libs.hashtable', 'pandas._libs.missing', 'pandas._libs.tslibs', 'pandas._libs.tslibs.dtypes', 'pandas._libs.tslibs.conversion', 'pandas._libs.tslibs.base', 'pandas._libs.tslibs.nattype', 'pandas._libs.tslibs.np_datetime', 'pandas._libs.tslibs.timezones', 'dateutil.tz', 'dateutil.tz.tz', 'six', '__future__', 'six.moves', 'dateutil.tz._common', 'dateutil.tz._factories', 'dateutil.tz.win', 'ctypes.wintypes', 'pandas._libs.tslibs.tzconversion', 'pandas._libs.tslibs.ccalendar', 'pandas._libs.tslibs.parsing', 'pandas._libs.tslibs.offsets', 'pandas._libs.tslibs.timedeltas', 'pandas._libs.tslibs.timestamps', 'pandas._libs.tslibs.fields', 'pandas._config', 'pandas._config.config', 'pandas._config.dates', 'pandas._config.display', 'pandas._config.localization', 'pandas._libs.tslibs.strptime', 'calendar', 'dateutil.easter', 'dateutil.relativedelta', 'dateutil._common', 'pandas._libs.properties', 'dateutil.parser', 'dateutil.parser._parser', 'dateutil.parser.isoparser', 'pandas._libs.tslibs.period', 'pandas._libs.tslibs.vectorized', 'pandas._libs.ops_dispatch', 'pandas._libs.algos', 'pandas._libs.lib', 'pandas._libs.tslib', 'pandas.core', 'pandas.core.config_init', 'pandas.core.api', 'pandas.core.dtypes', 'pandas.core.dtypes.dtypes', 'pandas.core.dtypes.base', 'pandas.errors', 'pandas.core.dtypes.generic', 'pandas.core.dtypes.inference', 'pandas.core.dtypes.missing', 'pandas.core.dtypes.common', 'pandas.core.algorithms', 'pandas.util', 'pandas.util._decorators', 'inspect', 'dis', 'opcode', '_opcode', 'pandas.core.util', 'pandas.core.util.hashing', 'pandas._libs.hashing', 'pandas.core.dtypes.cast', 'pandas.util._validators', 'pandas.core.construction', 'pandas.core.common', 'pandas.core.indexers', 'pandas.core.arrays', 'pandas.core.arrays.base', 'pandas.compat.numpy.function', 'pandas.core.ops', 'pandas.core.ops.array_ops', 'pandas._libs.ops', 'pandas.core.ops.missing', 'pandas.core.ops.roperator', 'pandas.core.ops.dispatch', 'pandas.core.ops.invalid', 'pandas.core.ops.common', 'pandas.core.ops.docstrings', 'pandas.core.ops.mask_ops', 'pandas.core.ops.methods', 'pandas.core.missing', 'pandas.compat._optional', 'pandas.core.sorting', 'pandas.core.arrays.boolean', 'pandas.core.arrays.masked', 'pandas.core.nanops', 'pandas.core.array_algos', 'pandas.core.array_algos.masked_reductions', 'pandas.core.arrays.categorical', 'csv', '_csv', 'pandas.core.accessor', 'pandas.core.array_algos.transforms', 'pandas.core.arrays._mixins', 'pandas.core.base', 'pandas.io', 'pandas.io.formats', 'pandas.io.formats.console', 'pandas.core.arrays.datetimes', 'pandas.core.arrays.datetimelike', 'pandas.tseries', 'pandas.tseries.frequencies', 'pandas.core.arrays._ranges', 'pandas.tseries.offsets', 'pandas.core.arrays.integer', 'pandas.core.tools', 'pandas.core.tools.numeric', 'pandas.core.arrays.interval', 'pandas.core.indexes', 'pandas.core.indexes.base', 'pandas._libs.index', 'pandas._libs.join', 'pandas.core.dtypes.concat', 'pandas.core.arrays.sparse', 'pandas.core.arrays.sparse.accessor', 'pandas.core.arrays.sparse.array', 'pandas._libs.sparse', 'pandas.core.arrays.sparse.dtype', 'pandas.io.formats.printing', 'pandas.core.indexes.frozen', 'pandas.core.strings', 'pandas.core.arrays.numpy_', 'pandas.core.arrays.period', 'pandas.core.arrays.string_', 'pandas.core.arrays.timedeltas', 'pandas.core.groupby', 'pandas.core.groupby.generic', 'pandas.core.aggregation', 'pandas.core.indexes.api', 'pandas.core.indexes.category', 'pandas.core.indexes.extension', 'pandas.core.indexes.datetimes', 'pandas.core.indexes.datetimelike', 'pandas.core.indexes.numeric', 'pandas.core.tools.timedeltas', 'pandas.core.tools.times', 'pandas.core.indexes.interval', 'pandas.util._exceptions', 'pandas.core.indexes.multi', 'pandas.core.indexes.timedeltas', 'pandas.core.indexes.period', 'pandas.core.indexes.range', 'pandas.core.series', 'pandas._libs.reshape', 'pandas.core.generic', 'pandas.core.indexing', 'pandas._libs.indexing', 'pandas.core.internals', 'pandas.core.internals.blocks', 'pandas._libs.writers', 'pandas._libs.internals', 'pandas.core.internals.concat', 'pandas.core.internals.managers', 'pandas.core.internals.ops', 'pandas.core.shared_docs', 'pandas.io.formats.format', 'unicodedata', 'pandas.io.common', 'gzip', 'mmap', 'zipfile', 'pandas.core.indexes.accessors', 'pandas.core.tools.datetimes', 'pandas.arrays', 'pandas.plotting', 'pandas.plotting._core', 'pandas.plotting._misc', 'pandas.core.window', 'pandas.core.window.ewm', 'pandas._libs.window', 'pandas._libs.window.aggregations', 'pandas.core.window.common', 'pandas.core.groupby.base', 'pandas.core.window.rolling', 'pandas.core.util.numba_', 'pandas.core.window.indexers', 'pandas._libs.window.indexers', 'pandas.core.window.numba_', 'pandas.core.window.expanding', 'pandas.core.frame', 'pandas.core.internals.construction', 'pandas.core.reshape', 'pandas.core.reshape.melt', 'pandas.core.reshape.concat', 'pandas.core.reshape.util', 'pandas.io.formats.info', 'pandas.core.groupby.groupby', 'pandas._libs.groupby', 'pandas.core.groupby.ops', 'pandas._libs.reduction', 'pandas.core.groupby.grouper', 'pandas.core.groupby.categorical', 'pandas.tseries.api', 'pandas.core.computation', 'pandas.core.computation.api', 'pandas.core.computation.eval', 'pandas.core.computation.engines', 'pandas.core.computation.align', 'pandas.core.computation.common', 'pandas.core.computation.ops', 'pandas.core.computation.scope', 'pandas.compat.chainmap', 'pandas.core.computation.expr', 'pandas.core.computation.parsing', 'pandas.core.reshape.api', 'pandas.core.reshape.merge', 'pandas.core.reshape.pivot', 'pandas.core.reshape.reshape', 'pandas.core.reshape.tile', 'pandas.api', 'pandas.api.extensions', 'pandas.api.indexers', 'pandas.api.types', 'pandas.core.dtypes.api', 'pandas.util._print_versions', 'pandas.io.api', 'pandas.io.clipboards', 'pandas.io.excel', 'pandas.io.excel._base', 'pandas._libs.parsers', 'pandas.io.excel._util', 'pandas.io.parsers', 'pandas.io.date_converters', 'pandas.io.excel._odfreader', 'pandas.io.excel._openpyxl', 'pandas.io.excel._pyxlsb', 'pandas.io.excel._xlrd', 'pandas.io.excel._odswriter', 'pandas._libs.json', 'pandas.io.formats.excel', 'pandas.io.formats.css', 'pandas.io.excel._xlsxwriter', 'pandas.io.excel._xlwt', 'pandas.io.feather_format', 'pandas.io.gbq', 'pandas.io.html', 'pandas.io.json', 'pandas.io.json._json', 'pandas.io.json._normalize', 'pandas.io.json._table_schema', 'pandas.io.orc', 'pandas.io.parquet', 'pandas.io.pickle', 'pandas.compat.pickle_compat', 'pandas.io.pytables', 'pandas.core.computation.pytables', 'pandas.io.sas', 'pandas.io.sas.sasreader', 'pandas.io.spss', 'pandas.io.sql', 'pandas.io.stata', 'pandas.util._tester', 'pandas.testing', 'pandas._testing', 'pandas._libs.testing', 'pandas._version', 'agent', 'learners', 'environment', 'visualizer', 'matplotlib', 'matplotlib.cbook', 'shlex', 'matplotlib.cbook.deprecation', 'matplotlib.rcsetup', 'matplotlib.animation', 'uuid', 'ctypes.util', 'matplotlib._animation_data', 'matplotlib.fontconfig_pattern', 'pyparsing', 'matplotlib.colors', 'matplotlib.docstring', 'matplotlib._color_data', 'cycler', 'matplotlib._version', 'matplotlib.ft2font', 'kiwisolver']
+CACHEDIR=C:\Users\poop4\.matplotlib
+Using fontManager instance from C:\Users\poop4\.matplotlib\fontlist-v330.json
+Loaded backend tkagg version unknown.
+Loaded backend TkAgg version unknown.
+Loaded backend agg version unknown.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+From C:\Users\poop4\Anaconda3\envs\JH\lib\site-packages\keras\backend\tensorflow_backend.py:68: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+From C:\Users\poop4\Anaconda3\envs\JH\lib\site-packages\keras\backend\tensorflow_backend.py:508: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+From C:\Users\poop4\Anaconda3\envs\JH\lib\site-packages\keras\backend\tensorflow_backend.py:3837: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+From C:\Users\poop4\Anaconda3\envs\JH\lib\site-packages\keras\optimizers.py:757: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+From C:\Users\poop4\Anaconda3\envs\JH\lib\site-packages\keras\backend\tensorflow_backend.py:3814: The name tf.random_normal is deprecated. Please use tf.random.normal instead.
+
+From C:\Users\poop4\Anaconda3\envs\JH\lib\site-packages\keras\backend\tensorflow_backend.py:127: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+From C:\Users\poop4\Anaconda3\envs\JH\lib\site-packages\keras\backend\tensorflow_backend.py:3144: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+From C:\Users\poop4\Desktop\유진하\2U2U\branch_test\StockTrader_TD3\actor.py:112: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+[000123] RL:td3 Net:actorcritic LR:0.01 DF:0.9 TU:[1,10] DRT:0.05
+From C:\Users\poop4\Anaconda3\envs\JH\lib\site-packages\keras\backend\tensorflow_backend.py:2503: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+From C:\Users\poop4\Anaconda3\envs\JH\lib\site-packages\keras\backend\tensorflow_backend.py:168: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+From C:\Users\poop4\Anaconda3\envs\JH\lib\site-packages\keras\backend\tensorflow_backend.py:175: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+From C:\Users\poop4\Anaconda3\envs\JH\lib\site-packages\keras\backend\tensorflow_backend.py:184: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+From C:\Users\poop4\Anaconda3\envs\JH\lib\site-packages\keras\backend\tensorflow_backend.py:193: The name tf.is_variable_initialized is deprecated. Please use tf.compat.v1.is_variable_initialized instead.
+
+From C:\Users\poop4\Anaconda3\envs\JH\lib\site-packages\keras\backend\tensorflow_backend.py:200: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+From C:\Users\poop4\Anaconda3\envs\JH\lib\site-packages\keras\backend\tensorflow_backend.py:977: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+From C:\Users\poop4\Anaconda3\envs\JH\lib\site-packages\keras\backend\tensorflow_backend.py:964: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+[000123][Epoch 001/100] Epsilon:1.0000 #Expl.:1145/1145 #Buy:296 #Sell:159 #Hold:690 #Stocks:98 PV:6,781 LC:1103 Loss:8.118592 ET:28.9591
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+findfont: score(<Font 'Leelawadee UI' (LeelUIsl.ttf) normal normal 350 normal>) = 10.0975
+findfont: score(<Font 'Sitka Small' (SitkaI.ttc) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Microsoft YaHei' (msyh.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Vladimir Script' (VLADIMIR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century Gothic' (GOTHICI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Calisto MT' (CALIST.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe MDL2 Assets' (segmdl2.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sitka Small' (SitkaZ.ttc) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'KoPubWorldBatang' (KoPubWorld Batang Medium.ttf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Bodoni MT' (BOD_BI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Goudy Old Style' (GOUDOS.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangang' (SeoulHangangM.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft PhagsPa' (phagspab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Arial' (arialbi.ttf) italic normal 700 normal>) = 7.698636363636363
+findfont: score(<Font 'Times New Roman' (times.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Snap ITC' (SNAP____.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft New Tai Lue' (ntailub.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Times New Roman' (times.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Tai Le' (taileb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Lucida Calligraphy' (LCALLIG.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Sylfaen' (sylfaen.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Monotype Corsiva' (MTCORSVA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Playbill' (PLAYBILL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Consolas' (consolai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Microsoft PhagsPa' (phagspab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Tw Cen MT' (TCMI____.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Microsoft PhagsPa' (phagspa.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft New Tai Lue' (ntailub.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Calibri' (calibriz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Bodoni MT' (BOD_PSTC.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Broadway' (BROADW.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Goudy Old Style' (GOUDOSB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Bookman Old Style' (BOOKOSI.TTF) italic normal 300 normal>) = 11.145
+findfont: score(<Font 'Tw Cen MT' (TCB_____.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Rockwell' (ROCKBI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Yu Gothic' (YuGothR.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체L.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Verdana' (verdanab.ttf) normal normal 700 normal>) = 3.9713636363636367
+findfont: score(<Font 'Candara' (Candaral.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gill Sans MT Ext Condensed Bold' (GLSNECB.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Niagara Engraved' (NIAGENG.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Britannic Bold' (BRITANIC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'TeamViewer15' (teamviewer15.otf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Tw Cen MT' (TCMI____.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Onyx' (ONYX.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Yu Gothic' (YuGothM.ttc) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Harrington' (HARNGTON.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MJemokBatang' (MB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bodoni MT' (BOD_CR.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Mistral' (MISTRAL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldBatang' (KoPubWorld Batang Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanEB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Imprint MT Shadow' (IMPRISHA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Georgia' (georgiab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Calibri' (calibril.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Palace Script MT' (PALSCRI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Trebuchet MS' (trebucit.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Times New Roman' (timesi.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Tahoma' (tahoma.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gadugi' (gadugi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Kunstler Script' (KUNSTLER.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Script MT Bold' (SCRIPTBL.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Matura MT Script Capitals' (MATURASC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Perpetua' (PERI____.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Segoe Script' (segoesc.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Book Antiqua' (ANTQUABI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Viner Hand ITC' (VINERITC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Corbel' (corbell.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Arial' (ARIALNB.TTF) normal normal 700 condensed>) = 6.8986363636363635
+findfont: score(<Font 'Perpetua' (PERBI___.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanM.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans Unicode' (l_10646.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Perpetua' (PER_____.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldDotum_Pro' (KoPubWorld Dotum_Pro Bold.otf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Lucida Fax' (LFAXI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Malgun Gothic' (malgunbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Century Gothic' (GOTHIC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ink Free' (Inkfree.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Dotum' (HANDotum.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Berlin Sans FB' (BRLNSR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldDotum_Pro' (KoPubWorld Dotum_Pro Medium.otf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Sitka Small' (SitkaB.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Dubai' (DUBAI-REGULAR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Centaur' (CENTAUR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ravie' (RAVIE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (seguisb.ttf) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Nirmala UI' (Nirmala.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MingLiU-ExtB' (mingliub.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Californian FB' (CALIFI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Trebuchet MS' (trebuc.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candarai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'HCR Batang Ext' (HANBatangExt.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Corbel' (corbel.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체EB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Courier New' (cour.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Franklin Gothic Heavy' (FRAHVIT.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Berlin Sans FB Demi' (BRLNSDB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Forte' (FORTE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Malgun Gothic' (malgunsl.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Lucida Console' (lucon.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rockwell Condensed' (ROCCB___.TTF) normal normal 700 condensed>) = 10.535
+findfont: score(<Font 'Bodoni MT' (BOD_BLAR.TTF) normal normal 900 normal>) = 10.525
+findfont: score(<Font 'Verdana' (verdanai.ttf) italic normal 400 normal>) = 4.6863636363636365
+findfont: score(<Font 'Baskerville Old Face' (BASKVILL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Magneto' (MAGNETOB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Tw Cen MT' (TCB_____.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Times New Roman' (timesbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Bodoni MT' (BOD_CB.TTF) normal normal 700 condensed>) = 10.535
+findfont: score(<Font 'Courier New' (courbi.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Javanese Text' (javatext.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Leelawadee UI' (LeelUIsl.ttf) normal normal 350 normal>) = 10.0975
+findfont: score(<Font 'Courier New' (courbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Segoe Script' (segoescb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Wingdings' (wingding.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanEB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SimSun' (simsun.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bradley Hand ITC' (BRADHITC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Comic Sans MS' (comicz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Wide Latin' (LATINWD.TTF) normal normal 400 expanded>) = 10.25
+findfont: score(<Font 'Rockwell' (ROCKB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Californian FB' (CALIFI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Ebrima' (ebrima.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Sans Serif' (micross.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (seguili.ttf) italic normal 300 normal>) = 11.145
+findfont: score(<Font 'Dubai' (DUBAI-LIGHT.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Bodoni MT' (BOD_CI.TTF) italic normal 400 condensed>) = 11.25
+findfont: score(<Font 'Calibri' (calibrib.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Yu Gothic' (YuGothB.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Segoe Print' (segoeprb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'High Tower Text' (HTOWERT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYShortSamul-Medium' (H2SA1M.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'NanumGothic' (.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Constantia' (constanb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Bauhaus 93' (BAUHS93.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Imprint MT Shadow' (IMPRISHA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Times New Roman' (timesbi.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Copperplate Gothic Bold' (COPRGTB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rockwell' (ROCKBI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Perpetua' (PERB____.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Tw Cen MT' (TCBI____.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Corbel' (corbelli.ttf) italic normal 300 normal>) = 11.145
+findfont: score(<Font 'Rockwell' (ROCKB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Juice ITC' (JUICE___.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Leelawadee UI' (LeelaUIb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Pristina' (PRISTINA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tw Cen MT Condensed' (TCCM____.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Rockwell Condensed' (ROCC____.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Lucida Sans' (LSANSI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체B.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ebrima' (ebrimabd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Calibri' (calibrib.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Bookman Old Style' (BOOKOSBI.TTF) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'Tahoma' (tahomabd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Century Gothic' (GOTHIC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tahoma' (tahoma.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial' (ARIALN.TTF) normal normal 400 condensed>) = 6.613636363636363
+findfont: score(<Font 'Old English Text MT' (OLDENGL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MS Reference Specialty' (REFSPCL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Goudy Old Style' (GOUDOSI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Microsoft Tai Le' (taile.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (segoeui.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Haettenschweiler' (HATTEN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Courier New' (courbi.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'MS Outlook' (OUTLOOK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Eras Bold ITC' (ERASBD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bookman Old Style' (BOOKOSI.TTF) italic normal 300 normal>) = 11.145
+findfont: score(<Font 'Rockwell' (ROCK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans Typewriter' (LTYPEO.TTF) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Ami R' (HMKMAMI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans Unicode' (l_10646.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial' (arial.ttf) normal normal 400 normal>) = 6.413636363636363
+findfont: score(<Font 'Gill Sans Ultra Bold Condensed' (GILLUBCD.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Matura MT Script Capitals' (MATURASC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bodoni MT' (BOD_BLAI.TTF) italic normal 900 normal>) = 11.525
+findfont: score(<Font 'MS Gothic' (msgothic.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Palatino Linotype' (palai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Corbel' (corbelb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Comic Sans MS' (comicz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Franklin Gothic Book' (FRABKIT.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'HYPost-Light' (H2PORL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Nirmala UI' (NirmalaB.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Segoe UI' (seguibl.ttf) normal normal 900 normal>) = 10.525
+findfont: score(<Font 'Bell MT' (BELL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans Typewriter' (LTYPEBO.TTF) oblique normal 600 normal>) = 11.24
+findfont: score(<Font 'Rockwell Extra Bold' (ROCKEB.TTF) normal normal 800 normal>) = 10.43
+findfont: score(<Font 'Palatino Linotype' (palab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Batang' (batang.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI Emoji' (seguiemj.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (seguisli.ttf) italic normal 350 normal>) = 11.0975
+findfont: score(<Font 'Arial' (ARIALNI.TTF) italic normal 400 condensed>) = 7.613636363636363
+findfont: score(<Font 'Cooper Black' (COOPBL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Perpetua' (PERI____.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Bodoni MT' (BOD_R.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Magneto' (MAGNETOB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Tw Cen MT' (TCBI____.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Corbel' (corbell.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Gloucester MT Extra Condensed' (GLECB.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Bernard MT Condensed' (BERNHC.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Bookman Old Style' (BOOKOSB.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Candara' (Candarali.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Gadugi' (gadugib.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Vivaldi' (VIVALDII.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Algerian' (ALGER.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYPMokGak-Bold' (H2MKPB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldBatang_Pro' (KoPubWorld Batang_Pro Bold.otf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'SeoulHangang' (SeoulHangangL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Nirmala UI' (NirmalaS.ttf) normal normal 350 normal>) = 10.0975
+findfont: score(<Font 'Microsoft YaHei' (msyhbd.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Bauhaus 93' (BAUHS93.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Consolas' (consolai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Constantia' (constan.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Tai Le' (taileb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Segoe UI Symbol' (seguisym.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Headline R' (HMKMRHD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Californian FB' (CALIFR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tw Cen MT Condensed' (TCCB____.TTF) normal normal 700 condensed>) = 10.535
+findfont: score(<Font 'HCR Batang ExtB' (HANBatangExtBB.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Tw Cen MT Condensed Extra Bold' (TCCEB.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Verdana' (verdanai.ttf) italic normal 400 normal>) = 4.6863636363636365
+findfont: score(<Font 'Bell MT' (BELLI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Brush Script MT' (BRUSHSCI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Microsoft JhengHei' (msjhl.ttc) normal normal 290 normal>) = 10.1545
+findfont: score(<Font 'Agency FB' (AGENCYB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Impact' (impact.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calisto MT' (CALISTI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lucida Handwriting' (LHANDW.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Onyx' (ONYX.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'NanumGothic' (EXTRABOLD.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Sitka Small' (Sitka.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Batang' (HANBatang.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Batang' (HANBatangB.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Century Schoolbook' (SCHLBKB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Segoe Print' (segoeprb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'KoPubWorldBatang_Pro' (KoPubWorld Batang_Pro Medium.otf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'KoPubWorldDotum' (KoPubWorld Dotum Medium.ttf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Felix Titling' (FELIXTI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체M.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Batang ExtB' (HANBatangExtB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial' (ariali.ttf) italic normal 400 normal>) = 7.413636363636363
+findfont: score(<Font 'High Tower Text' (HTOWERT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Verdana' (verdana.ttf) normal normal 400 normal>) = 3.6863636363636365
+findfont: score(<Font 'Book Antiqua' (ANTQUAI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Yu Gothic' (YuGothM.ttc) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Century Schoolbook' (SCHLBKB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Arial' (arialbi.ttf) italic normal 700 normal>) = 7.698636363636363
+findfont: score(<Font 'Tw Cen MT' (TCM_____.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Perpetua Titling MT' (PERTILI.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Bodoni MT' (BOD_BLAI.TTF) italic normal 900 normal>) = 11.525
+findfont: score(<Font 'MBatang' (MT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Perpetua' (PERB____.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'HCR Batang' (HANBatangB.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Arial Rounded MT Bold' (ARLRDBD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubBatang Medium' (KoPubBatangMedium.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (segoeuil.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Sitka Small' (Sitka.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYPost-Medium' (H2PORM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (seguisbi.ttf) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'MT Extra' (MTEXTRA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MHunmin' (MH.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Console' (lucon.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Trebuchet MS' (trebuc.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Malgun Gothic' (malgun.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Californian FB' (CALIFB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Vivaldi' (VIVALDII.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'HYSinMyeongJo-Medium' (H2MJSM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Chiller' (CHILLER.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Forte' (FORTE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gigi' (GIGI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Wide Latin' (LATINWD.TTF) normal normal 400 expanded>) = 10.25
+findfont: score(<Font 'Palace Script MT' (PALSCRI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Book Antiqua' (ANTQUAB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Lucida Calligraphy' (LCALLIG.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Verdana' (verdanab.ttf) normal normal 700 normal>) = 3.9713636363636367
+findfont: score(<Font 'Segoe UI' (seguibli.ttf) italic normal 900 normal>) = 11.525
+findfont: score(<Font 'MS Reference Sans Serif' (REFSAN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Consolas' (consolaz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Lucida Fax' (LFAX.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'NanumGothic' (BOLD.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Verdana' (verdana.ttf) normal normal 400 normal>) = 3.6863636363636365
+findfont: score(<Font 'Colonna MT' (COLONNA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Berlin Sans FB' (BRLNSB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Franklin Gothic Medium' (framdit.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Goudy Stout' (GOUDYSTO.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bahnschrift' (bahnschrift.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tw Cen MT' (TCM_____.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Trebuchet MS' (trebucbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'SeoulHangang' (SeoulHangangEB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Consolas' (consola.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'NewJumja' (JUMJA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calisto MT' (CALISTBI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Segoe UI' (seguisbi.ttf) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'Consolas' (consolaz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Segoe UI' (segoeuib.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Arial' (arialbd.ttf) normal normal 700 normal>) = 6.698636363636363
+findfont: score(<Font 'Malgun Gothic' (malgunsl.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Harrington' (HARNGTON.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Yi Baiti' (msyi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Eras Demi ITC' (ERASDEMI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Garamond' (GARAIT.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Bodoni MT' (BOD_I.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Georgia' (georgia.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft JhengHei' (msjhbd.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Footlight MT Light' (FTLTLT.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Californian FB' (CALIFB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'French Script MT' (FRSCRIPT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Castellar' (CASTELAR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'NanumGothic' (.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MS Reference Sans Serif' (REFSAN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gabriola' (Gabriola.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Franklin Gothic Demi Cond' (FRADMCN.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'OCR A Extended' (OCRAEXT.TTF) normal normal 400 expanded>) = 10.25
+findfont: score(<Font 'Pyunji R' (HMFMPYUN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Sans Serif' (micross.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangang' (SeoulHangangB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century' (CENTURY.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (segoeuii.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Corbel' (corbel.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candara.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Freestyle Script' (FREESCPT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Georgia' (georgia.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MingLiU-ExtB' (mingliub.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Palatino Linotype' (pala.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft YaHei' (msyhl.ttc) normal normal 290 normal>) = 10.1545
+findfont: score(<Font 'Times New Roman' (timesbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Kunstler Script' (KUNSTLER.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tempus Sans ITC' (TEMPSITC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Harlow Solid Italic' (HARLOWSI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'KoPubWorldDotum_Pro' (KoPubWorld Dotum_Pro Light.otf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Bookman Old Style' (BOOKOSBI.TTF) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'Wingdings 2' (WINGDNG2.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Franklin Gothic Book' (FRABK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candarab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Snap ITC' (SNAP____.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Garamond' (GARABD.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Franklin Gothic Demi' (FRADM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Cambria' (cambriai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Eras Medium ITC' (ERASMD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans Typewriter' (LTYPE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Jokerman' (JOKERMAN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Cambria' (cambriaz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Lucida Sans Typewriter' (LTYPEO.TTF) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Cambria' (cambria.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bookman Old Style' (BOOKOS.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'OCR A Extended' (OCRAEXT.TTF) normal normal 400 expanded>) = 10.25
+findfont: score(<Font 'MSugiHeulim' (MP.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Franklin Gothic Demi Cond' (FRADMCN.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Copperplate Gothic Bold' (COPRGTB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI Symbol' (seguisym.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Edwardian Script ITC' (ITCEDSCR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체M.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans Typewriter' (LTYPEB.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'KoPubWorldDotum_Pro' (KoPubWorld Dotum_Pro Light.otf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Chiller' (CHILLER.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldBatang_Pro' (KoPubWorld Batang_Pro Light.otf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Corbel' (corbelz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Verdana' (verdanaz.ttf) italic normal 700 normal>) = 4.971363636363637
+findfont: score(<Font 'Gill Sans MT' (GILBI___.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Times New Roman' (timesbi.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Arial' (ARIALNBI.TTF) italic normal 700 condensed>) = 7.8986363636363635
+findfont: score(<Font 'Microsoft JhengHei' (msjh.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'TeamViewer15' (teamviewer15.otf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'HYGungSo-Bold' (H2GSRB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans' (LSANS.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candarab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'KoPubWorldBatang_Pro' (KoPubWorld Batang_Pro Medium.otf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Castellar' (CASTELAR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gigi' (GIGI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calibri' (calibriz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Franklin Gothic Medium' (framdit.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Bodoni MT' (BOD_CI.TTF) italic normal 400 condensed>) = 11.25
+findfont: score(<Font 'Elephant' (ELEPHNT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Agency FB' (AGENCYR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calisto MT' (CALISTB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Franklin Gothic Medium Cond' (FRAMDCN.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Maiandra GD' (MAIAN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYPost-Light' (H2PORL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldDotum_Pro' (KoPubWorld Dotum_Pro Bold.otf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Candara' (Candara.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Georgia' (georgiaz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Dubai' (DUBAI-MEDIUM.TTF) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Segoe Print' (segoepr.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MS Gothic' (msgothic.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Eras Medium ITC' (ERASMD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calibri' (calibrii.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Bookshelf Symbol 7' (BSSYM7.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Comic Sans MS' (comicbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Bodoni MT' (BOD_I.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Segoe UI' (segoeuib.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체BL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rockwell' (ROCKI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Segoe UI' (seguisb.ttf) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체EB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial' (ariblk.ttf) normal normal 900 normal>) = 6.888636363636364
+findfont: score(<Font 'Webdings' (webdings.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century Gothic' (GOTHICBI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Malgun Gothic' (malgunbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Edwardian Script ITC' (ITCEDSCR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Broadway' (BROADW.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Headline R' (HMKMRHD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Maplestory' (Maplestory Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Bookshelf Symbol 7' (BSSYM7.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Bright' (LBRITEI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Copperplate Gothic Light' (COPRGTL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Engravers MT' (ENGR.TTF) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Comic Sans MS' (comici.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Segoe MDL2 Assets' (segmdl2.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Pristina' (PRISTINA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Dubai' (DUBAI-BOLD.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Franklin Gothic Book' (FRABK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Harlow Solid Italic' (HARLOWSI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'KoPubWorldDotum_Pro' (KoPubWorld Dotum_Pro Medium.otf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Symbol' (symbol.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MoeumT R' (HMFMMUEX.TTC) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gill Sans Ultra Bold' (GILSANUB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rockwell' (ROCK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MT Extra' (MTEXTRA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Book Antiqua' (BKANT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Dotum Ext' (HANDotumExt.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Courier New' (couri.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lucida Fax' (LFAXDI.TTF) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'HyhwpEQ' (HYHWPEQ.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYMyeongJo-Extra' (H2MJRE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tw Cen MT Condensed Extra Bold' (TCCEB.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'NanumGothic' (EXTRABOLD.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'KoPubWorldDotum' (KoPubWorld Dotum Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Colonna MT' (COLONNA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MSugiHeulim' (MP.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanvert.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Blackadder ITC' (ITCBLKAD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Trebuchet MS' (trebucbi.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Rockwell Extra Bold' (ROCKEB.TTF) normal normal 800 normal>) = 10.43
+findfont: score(<Font 'Modern No. 20' (MOD20.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Franklin Gothic Demi' (FRADMIT.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'HYPost-Medium' (H2PORM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Book Antiqua' (ANTQUABI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'KoPubWorldBatang' (KoPubWorld Batang Light.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Comic Sans MS' (comic.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bell MT' (BELL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bodoni MT' (BOD_CB.TTF) normal normal 700 condensed>) = 10.535
+findfont: score(<Font 'Century Schoolbook' (SCHLBKBI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Segoe UI' (segoeuil.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Parchment' (PARCHM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SimSun-ExtB' (simsunb.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Myanmar Text' (mmrtextb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Kristen ITC' (ITCKRIST.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldBatang' (KoPubWorld Batang Medium.ttf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'HoloLens MDL2 Assets' (holomdl2.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Curlz MT' (CURLZ___.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Mongolian Baiti' (monbaiti.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MGungJeong' (MJ.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Stencil' (STENCIL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gill Sans Ultra Bold Condensed' (GILLUBCD.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Nirmala UI' (NirmalaB.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Arial' (ariali.ttf) italic normal 400 normal>) = 7.413636363636363
+findfont: score(<Font 'Vladimir Script' (VLADIMIR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calibri' (calibrili.ttf) italic normal 300 normal>) = 11.145
+findfont: score(<Font 'Typo_SsangmunDong' (Typo_SsangmunDongB.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Segoe Script' (segoescb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Lucida Sans Typewriter' (LTYPEBO.TTF) oblique normal 600 normal>) = 11.24
+findfont: score(<Font 'Segoe Print' (segoepr.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bookman Old Style' (BOOKOS.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Freestyle Script' (FREESCPT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rockwell Condensed' (ROCC____.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Perpetua' (PERBI___.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'MHunmin' (MH.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MSugiJeong' (MN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans' (LSANSI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Arial' (ARIALNB.TTF) normal normal 700 condensed>) = 6.8986363636363635
+findfont: score(<Font 'Microsoft YaHei' (msyh.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century Gothic' (GOTHICI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Niagara Solid' (NIAGSOL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe Script' (segoesc.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Myanmar Text' (mmrtext.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gulim' (gulim.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MSugiJeong' (MN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans' (LSANS.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체BL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Book Antiqua' (ANTQUAB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Courier New' (courbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Papyrus' (PAPYRUS.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Yet R' (HMFMOLD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldDotum' (KoPubWorld Dotum Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Microsoft Yi Baiti' (msyi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MBatang' (MT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial Rounded MT Bold' (ARLRDBD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체BL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calibri' (calibrili.ttf) italic normal 300 normal>) = 11.145
+findfont: score(<Font 'Lucida Fax' (LFAX.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MJemokGothic' (MK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYMyeongJo-Extra' (H2MJRE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Yu Gothic' (YuGothL.ttc) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Garamond' (GARA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Dotum' (HANDotumB.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Nirmala UI' (NirmalaS.ttf) normal normal 350 normal>) = 10.0975
+findfont: score(<Font 'New Gulim' (NGULIM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Kristen ITC' (ITCKRIST.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Constantia' (constani.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lucida Bright' (LBRITEI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Goudy Stout' (GOUDYSTO.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'High Tower Text' (HTOWERTI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'HYGraphic-Medium' (H2GPRM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Consolas' (consolab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Bodoni MT' (BOD_BI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Gill Sans MT Condensed' (GILC____.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Gill Sans Ultra Bold' (GILSANUB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체B.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI Historic' (seguihis.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bodoni MT' (BOD_CBI.TTF) italic normal 700 condensed>) = 11.535
+findfont: score(<Font 'Ebrima' (ebrima.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Poor Richard' (POORICH.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Corbel' (corbelb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'New Gulim' (NGULIM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sylfaen' (sylfaen.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYSinMyeongJo-Medium' (H2MJSM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Informal Roman' (INFROMAN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI Emoji' (seguiemj.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Book Antiqua' (ANTQUAI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Leelawadee UI' (LeelawUI.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (segoeuii.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lucida Sans Typewriter' (LTYPEB.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Eras Bold ITC' (ERASBD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MDotum' (MG.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Typo_HelloPOP' (Typo_HelloPOP_Glow.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (segoeuiz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Lucida Fax' (LFAXDI.TTF) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'Arial' (ariblk.ttf) normal normal 900 normal>) = 6.888636363636364
+findfont: score(<Font 'Maiandra GD' (MAIAN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Mongolian Baiti' (monbaiti.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft JhengHei' (msjhbd.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'NanumGothic' (BOLD.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Cambria' (cambriab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Courier New' (couri.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Bahnschrift' (bahnschrift.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Engravers MT' (ENGR.TTF) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Informal Roman' (INFROMAN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candarali.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'MJemokGothic' (MK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Berlin Sans FB' (BRLNSB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Juice ITC' (JUICE___.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans' (LSANSDI.TTF) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'Microsoft YaHei' (msyhbd.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Haettenschweiler' (HATTEN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Modern No. 20' (MOD20.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gill Sans MT Condensed' (GILC____.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Calisto MT' (CALISTI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Franklin Gothic Heavy' (FRAHV.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft PhagsPa' (phagspa.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Cambria' (cambriai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Franklin Gothic Medium' (framd.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYGothic-Extra' (H2GTRE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI Historic' (seguihis.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYHeadLine-Medium' (H2HDRM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Monotype Corsiva' (MTCORSVA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Dotum Ext' (HANDotumExt.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Dubai' (DUBAI-BOLD.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Gadugi' (gadugib.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Comic Sans MS' (comici.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'MDotum' (MG.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체BL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tw Cen MT Condensed' (TCCM____.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Curlz MT' (CURLZ___.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Courier New' (cour.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Yu Gothic' (YuGothL.ttc) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'HCR Batang Ext' (HANBatangExt.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYShortSamul-Medium' (H2SA1M.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Garamond' (GARA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Cambria' (cambriaz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Times New Roman' (timesi.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체M.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MJemokBatang' (MB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calibri' (calibri.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Parchment' (PARCHM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체EB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Javanese Text' (javatext.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (segoeui.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYGothic-Extra' (H2GTRE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Goudy Old Style' (GOUDOS.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SimSun' (simsun.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Verdana' (verdanaz.ttf) italic normal 700 normal>) = 4.971363636363637
+findfont: score(<Font 'Consolas' (consolab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Georgia' (georgiai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Bodoni MT' (BOD_PSTC.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Calibri' (calibril.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'MGungHeulim' (MM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Franklin Gothic Book' (FRABKIT.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Gill Sans MT' (GILB____.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'HCR Dotum' (HANDotumB.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Myanmar Text' (mmrtext.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Dotum' (HANDotum.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Franklin Gothic Medium' (framd.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldDotum' (KoPubWorld Dotum Medium.ttf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'MGungHeulim' (MM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Centaur' (CENTAUR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Eras Demi ITC' (ERASDEMI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Yet R' (HMFMOLD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangang' (SeoulHangangEB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체B.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Algerian' (ALGER.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Bright' (LBRITEDI.TTF) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'Batang' (batang.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체EB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Script MT Bold' (SCRIPTBL.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Blackadder ITC' (ITCBLKAD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Perpetua Titling MT' (PERTILI.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Yu Gothic' (YuGothR.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft YaHei' (msyhl.ttc) normal normal 290 normal>) = 10.1545
+findfont: score(<Font 'Mistral' (MISTRAL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial' (arial.ttf) normal normal 400 normal>) = 6.413636363636363
+findfont: score(<Font 'Agency FB' (AGENCYR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans' (LSANSD.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Gill Sans MT' (GIL_____.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Papyrus' (PAPYRUS.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Dubai' (DUBAI-REGULAR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rage Italic' (RAGE.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lucida Bright' (LBRITE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sitka Small' (SitkaZ.ttc) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'SimSun-ExtB' (simsunb.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangang' (SeoulHangangM.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial' (ARIALNBI.TTF) italic normal 700 condensed>) = 7.8986363636363635
+findfont: score(<Font 'Goudy Old Style' (GOUDOSB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Lucida Sans' (LSANSDI.TTF) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'Ink Free' (Inkfree.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Wingdings' (wingding.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Cambria' (cambriab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Ami R' (HMKMAMI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Magic R' (HMKMMAG.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tahoma' (tahomabd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'HYGungSo-Bold' (H2GSRB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Wingdings 2' (WINGDNG2.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldBatang' (KoPubWorld Batang Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체B.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Niagara Solid' (NIAGSOL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rage Italic' (RAGE.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Eras Light ITC' (ERASLGHT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft JhengHei' (msjhl.ttc) normal normal 290 normal>) = 10.1545
+findfont: score(<Font 'Brush Script MT' (BRUSHSCI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lucida Bright' (LBRITED.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'MV Boli' (mvboli.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Dubai' (DUBAI-MEDIUM.TTF) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Perpetua' (PER_____.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gabriola' (Gabriola.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Symbol' (symbol.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Comic Sans MS' (comic.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Palatino Linotype' (palab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Calibri' (calibri.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bodoni MT' (BOD_B.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Trebuchet MS' (trebucbi.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Showcard Gothic' (SHOWG.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century Gothic' (GOTHICB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Sitka Small' (SitkaB.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Lucida Bright' (LBRITE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Leelawadee UI' (LeelawUI.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Batang' (HANBatang.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangang' (SeoulHangangB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldBatang' (KoPubWorld Batang Light.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Franklin Gothic Heavy' (FRAHV.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calisto MT' (CALISTBI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Gulim' (gulim.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bodoni MT' (BOD_R.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial' (arialbd.ttf) normal normal 700 normal>) = 6.698636363636363
+findfont: score(<Font 'Microsoft Himalaya' (himalaya.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Trebuchet MS' (trebucit.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Century Schoolbook' (CENSCBK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Berlin Sans FB' (BRLNSR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Constantia' (constanz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Bodoni MT' (BOD_BLAR.TTF) normal normal 900 normal>) = 10.525
+findfont: score(<Font 'Segoe UI' (segoeuiz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'HyhwpEQ' (HYHWPEQ.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Tai Le' (taile.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Pyunji R' (HMFMPYUN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MGungJeong' (MJ.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Myanmar Text' (mmrtextb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'French Script MT' (FRSCRIPT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Magic R' (HMKMMAG.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Himalaya' (himalaya.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Leelawadee UI' (LeelaUIb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Nirmala UI' (Nirmala.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Georgia' (georgiai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Bradley Hand ITC' (BRADHITC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bodoni MT' (BOD_B.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Constantia' (constanz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Ebrima' (ebrimabd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체M.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Wingdings 3' (WINGDNG3.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Franklin Gothic Demi' (FRADMIT.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanvert.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanM.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rockwell' (ROCKI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'KoPubWorldBatang_Pro' (KoPubWorld Batang_Pro Bold.otf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Cooper Black' (COOPBL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Footlight MT Light' (FTLTLT.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Dubai' (DUBAI-LIGHT.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'KoPubWorldDotum' (KoPubWorld Dotum Light.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Georgia' (georgiaz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Bell MT' (BELLI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Constantia' (constani.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lucida Sans' (LSANSD.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Segoe UI' (segoeuisl.ttf) normal normal 350 normal>) = 10.0975
+findfont: score(<Font 'MoeumT R' (HMFMMUEX.TTC) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Yu Gothic' (YuGothB.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Britannic Bold' (BRITANIC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KCCMurukmuruk' (KCCMurukmuruk.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (seguibl.ttf) normal normal 900 normal>) = 10.525
+findfont: score(<Font 'Candara' (Candaraz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Gill Sans MT' (GILBI___.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'KoPubWorldDotum' (KoPubWorld Dotum Light.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Palatino Linotype' (palabi.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Eras Light ITC' (ERASLGHT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gadugi' (gadugi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'High Tower Text' (HTOWERTI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Corbel' (corbeli.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lucida Bright' (LBRITED.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Wingdings 3' (WINGDNG3.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bell MT' (BELLB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체L.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (segoeuisl.ttf) normal normal 350 normal>) = 10.0975
+findfont: score(<Font 'Lucida Fax' (LFAXI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Elephant' (ELEPHNTI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Gill Sans MT Ext Condensed Bold' (GLSNECB.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Old English Text MT' (OLDENGL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Franklin Gothic Medium Cond' (FRAMDCN.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Century Schoolbook' (SCHLBKBI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Ravie' (RAVIE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century' (CENTURY.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Perpetua Titling MT' (PERTIBD.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Segoe UI' (seguibli.ttf) italic normal 900 normal>) = 11.525
+findfont: score(<Font 'Candara' (Candaral.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Corbel' (corbelz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Book Antiqua' (BKANT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldBatang_Pro' (KoPubWorld Batang_Pro Light.otf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'MS Reference Specialty' (REFSPCL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubBatang Medium' (KoPubBatangMedium.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Playbill' (PLAYBILL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century Schoolbook' (SCHLBKI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Arial' (ARIALN.TTF) normal normal 400 condensed>) = 6.613636363636363
+findfont: score(<Font 'Gill Sans MT' (GILB____.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Century Gothic' (GOTHICBI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Agency FB' (AGENCYB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Arial' (ARIALNI.TTF) italic normal 400 condensed>) = 7.613636363636363
+findfont: score(<Font 'Palatino Linotype' (palai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Gill Sans MT' (GIL_____.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HoloLens MDL2 Assets' (holomdl2.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Niagara Engraved' (NIAGENG.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Berlin Sans FB Demi' (BRLNSDB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Marlett' (marlett.ttf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Lucida Fax' (LFAXD.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Stencil' (STENCIL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Jokerman' (JOKERMAN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangang' (SeoulHangangL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Batang ExtB' (HANBatangExtB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MS Outlook' (OUTLOOK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bodoni MT' (BOD_CBI.TTF) italic normal 700 condensed>) = 11.535
+findfont: score(<Font 'Gloucester MT Extra Condensed' (GLECB.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'HYPMokGak-Bold' (H2MKPB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Georgia' (georgiab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Californian FB' (CALIFR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Perpetua Titling MT' (PERTIBD.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Elephant' (ELEPHNTI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Segoe UI' (seguisli.ttf) italic normal 350 normal>) = 11.0975
+findfont: score(<Font 'Sitka Small' (SitkaI.ttc) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'HYGothic-Medium' (H2GTRM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bookman Old Style' (BOOKOSB.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Rockwell Condensed' (ROCCB___.TTF) normal normal 700 condensed>) = 10.535
+findfont: score(<Font 'Copperplate Gothic Light' (COPRGTL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candarai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Franklin Gothic Demi' (FRADM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tempus Sans ITC' (TEMPSITC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft New Tai Lue' (ntailu.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYGothic-Medium' (H2GTRM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Corbel' (corbelli.ttf) italic normal 300 normal>) = 11.145
+findfont: score(<Font 'Corbel' (corbeli.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Cambria' (cambria.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candaraz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Impact' (impact.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft JhengHei' (msjh.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calisto MT' (CALISTB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Palatino Linotype' (palabi.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Showcard Gothic' (SHOWG.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체L.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Baskerville Old Face' (BASKVILL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Fax' (LFAXD.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Elephant' (ELEPHNT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYGraphic-Medium' (H2GPRM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bernard MT Condensed' (BERNHC.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Comic Sans MS' (comicbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Lucida Sans Typewriter' (LTYPE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Trebuchet MS' (trebucbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Garamond' (GARABD.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Bodoni MT' (BOD_CR.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'HCR Batang ExtB' (HANBatangExtBB.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'NewJumja' (JUMJA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Goudy Old Style' (GOUDOSI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Constantia' (constan.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calibri' (calibrii.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Felix Titling' (FELIXTI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gill Sans MT' (GILI____.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Segoe UI' (seguili.ttf) italic normal 300 normal>) = 11.145
+findfont: score(<Font 'Franklin Gothic Heavy' (FRAHVIT.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Tw Cen MT Condensed' (TCCB____.TTF) normal normal 700 condensed>) = 10.535
+findfont: score(<Font 'Century Schoolbook' (CENSCBK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft New Tai Lue' (ntailu.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Malgun Gothic' (malgun.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century Gothic' (GOTHICB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Viner Hand ITC' (VINERITC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체L.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MV Boli' (mvboli.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Garamond' (GARAIT.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Webdings' (webdings.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Consolas' (consola.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Handwriting' (LHANDW.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Century Schoolbook' (SCHLBKI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'HYHeadLine-Medium' (H2HDRM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Poor Richard' (POORICH.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bell MT' (BELLB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Palatino Linotype' (pala.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calisto MT' (CALIST.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gill Sans MT' (GILI____.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lucida Bright' (LBRITEDI.TTF) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'Constantia' (constanb.ttf) normal normal 700 normal>) = 10.335
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\poop4\\Anaconda3\\envs\\JH\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+top of axes not in the figure, so title not moved
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+findfont: score(<Font 'Leelawadee UI' (LeelUIsl.ttf) normal normal 350 normal>) = 10.0975
+findfont: score(<Font 'Sitka Small' (SitkaI.ttc) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Microsoft YaHei' (msyh.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Vladimir Script' (VLADIMIR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century Gothic' (GOTHICI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Calisto MT' (CALIST.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe MDL2 Assets' (segmdl2.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sitka Small' (SitkaZ.ttc) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'KoPubWorldBatang' (KoPubWorld Batang Medium.ttf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Bodoni MT' (BOD_BI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Goudy Old Style' (GOUDOS.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangang' (SeoulHangangM.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft PhagsPa' (phagspab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Arial' (arialbi.ttf) italic normal 700 normal>) = 7.698636363636363
+findfont: score(<Font 'Times New Roman' (times.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Snap ITC' (SNAP____.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft New Tai Lue' (ntailub.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Times New Roman' (times.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Tai Le' (taileb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Lucida Calligraphy' (LCALLIG.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Sylfaen' (sylfaen.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Monotype Corsiva' (MTCORSVA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Playbill' (PLAYBILL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Consolas' (consolai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Microsoft PhagsPa' (phagspab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Tw Cen MT' (TCMI____.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Microsoft PhagsPa' (phagspa.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft New Tai Lue' (ntailub.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Calibri' (calibriz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Bodoni MT' (BOD_PSTC.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Broadway' (BROADW.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Goudy Old Style' (GOUDOSB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Bookman Old Style' (BOOKOSI.TTF) italic normal 300 normal>) = 11.145
+findfont: score(<Font 'Tw Cen MT' (TCB_____.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Rockwell' (ROCKBI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Yu Gothic' (YuGothR.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체L.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Verdana' (verdanab.ttf) normal normal 700 normal>) = 3.9713636363636367
+findfont: score(<Font 'Candara' (Candaral.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gill Sans MT Ext Condensed Bold' (GLSNECB.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Niagara Engraved' (NIAGENG.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Britannic Bold' (BRITANIC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'TeamViewer15' (teamviewer15.otf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Tw Cen MT' (TCMI____.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Onyx' (ONYX.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Yu Gothic' (YuGothM.ttc) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Harrington' (HARNGTON.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MJemokBatang' (MB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bodoni MT' (BOD_CR.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Mistral' (MISTRAL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldBatang' (KoPubWorld Batang Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanEB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Imprint MT Shadow' (IMPRISHA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Georgia' (georgiab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Calibri' (calibril.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Palace Script MT' (PALSCRI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Trebuchet MS' (trebucit.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Times New Roman' (timesi.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Tahoma' (tahoma.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gadugi' (gadugi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Kunstler Script' (KUNSTLER.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Script MT Bold' (SCRIPTBL.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Matura MT Script Capitals' (MATURASC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Perpetua' (PERI____.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Segoe Script' (segoesc.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Book Antiqua' (ANTQUABI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Viner Hand ITC' (VINERITC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Corbel' (corbell.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Arial' (ARIALNB.TTF) normal normal 700 condensed>) = 6.8986363636363635
+findfont: score(<Font 'Perpetua' (PERBI___.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanM.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans Unicode' (l_10646.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Perpetua' (PER_____.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldDotum_Pro' (KoPubWorld Dotum_Pro Bold.otf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Lucida Fax' (LFAXI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Malgun Gothic' (malgunbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Century Gothic' (GOTHIC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ink Free' (Inkfree.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Dotum' (HANDotum.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Berlin Sans FB' (BRLNSR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldDotum_Pro' (KoPubWorld Dotum_Pro Medium.otf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Sitka Small' (SitkaB.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Dubai' (DUBAI-REGULAR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Centaur' (CENTAUR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ravie' (RAVIE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (seguisb.ttf) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Nirmala UI' (Nirmala.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MingLiU-ExtB' (mingliub.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Californian FB' (CALIFI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Trebuchet MS' (trebuc.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candarai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'HCR Batang Ext' (HANBatangExt.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Corbel' (corbel.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체EB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Courier New' (cour.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Franklin Gothic Heavy' (FRAHVIT.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Berlin Sans FB Demi' (BRLNSDB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Forte' (FORTE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Malgun Gothic' (malgunsl.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Lucida Console' (lucon.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rockwell Condensed' (ROCCB___.TTF) normal normal 700 condensed>) = 10.535
+findfont: score(<Font 'Bodoni MT' (BOD_BLAR.TTF) normal normal 900 normal>) = 10.525
+findfont: score(<Font 'Verdana' (verdanai.ttf) italic normal 400 normal>) = 4.6863636363636365
+findfont: score(<Font 'Baskerville Old Face' (BASKVILL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Magneto' (MAGNETOB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Tw Cen MT' (TCB_____.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Times New Roman' (timesbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Bodoni MT' (BOD_CB.TTF) normal normal 700 condensed>) = 10.535
+findfont: score(<Font 'Courier New' (courbi.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Javanese Text' (javatext.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Leelawadee UI' (LeelUIsl.ttf) normal normal 350 normal>) = 10.0975
+findfont: score(<Font 'Courier New' (courbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Segoe Script' (segoescb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Wingdings' (wingding.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanEB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SimSun' (simsun.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bradley Hand ITC' (BRADHITC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Comic Sans MS' (comicz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Wide Latin' (LATINWD.TTF) normal normal 400 expanded>) = 10.25
+findfont: score(<Font 'Rockwell' (ROCKB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Californian FB' (CALIFI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Ebrima' (ebrima.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Sans Serif' (micross.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (seguili.ttf) italic normal 300 normal>) = 11.145
+findfont: score(<Font 'Dubai' (DUBAI-LIGHT.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Bodoni MT' (BOD_CI.TTF) italic normal 400 condensed>) = 11.25
+findfont: score(<Font 'Calibri' (calibrib.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Yu Gothic' (YuGothB.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Segoe Print' (segoeprb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'High Tower Text' (HTOWERT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYShortSamul-Medium' (H2SA1M.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'NanumGothic' (.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Constantia' (constanb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Bauhaus 93' (BAUHS93.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Imprint MT Shadow' (IMPRISHA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Times New Roman' (timesbi.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Copperplate Gothic Bold' (COPRGTB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rockwell' (ROCKBI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Perpetua' (PERB____.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Tw Cen MT' (TCBI____.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Corbel' (corbelli.ttf) italic normal 300 normal>) = 11.145
+findfont: score(<Font 'Rockwell' (ROCKB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Juice ITC' (JUICE___.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Leelawadee UI' (LeelaUIb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Pristina' (PRISTINA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tw Cen MT Condensed' (TCCM____.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Rockwell Condensed' (ROCC____.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Lucida Sans' (LSANSI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체B.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ebrima' (ebrimabd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Calibri' (calibrib.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Bookman Old Style' (BOOKOSBI.TTF) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'Tahoma' (tahomabd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Century Gothic' (GOTHIC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tahoma' (tahoma.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial' (ARIALN.TTF) normal normal 400 condensed>) = 6.613636363636363
+findfont: score(<Font 'Old English Text MT' (OLDENGL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MS Reference Specialty' (REFSPCL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Goudy Old Style' (GOUDOSI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Microsoft Tai Le' (taile.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (segoeui.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Haettenschweiler' (HATTEN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Courier New' (courbi.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'MS Outlook' (OUTLOOK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Eras Bold ITC' (ERASBD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bookman Old Style' (BOOKOSI.TTF) italic normal 300 normal>) = 11.145
+findfont: score(<Font 'Rockwell' (ROCK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans Typewriter' (LTYPEO.TTF) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Ami R' (HMKMAMI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans Unicode' (l_10646.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial' (arial.ttf) normal normal 400 normal>) = 6.413636363636363
+findfont: score(<Font 'Gill Sans Ultra Bold Condensed' (GILLUBCD.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Matura MT Script Capitals' (MATURASC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bodoni MT' (BOD_BLAI.TTF) italic normal 900 normal>) = 11.525
+findfont: score(<Font 'MS Gothic' (msgothic.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Palatino Linotype' (palai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Corbel' (corbelb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Comic Sans MS' (comicz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Franklin Gothic Book' (FRABKIT.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'HYPost-Light' (H2PORL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Nirmala UI' (NirmalaB.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Segoe UI' (seguibl.ttf) normal normal 900 normal>) = 10.525
+findfont: score(<Font 'Bell MT' (BELL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans Typewriter' (LTYPEBO.TTF) oblique normal 600 normal>) = 11.24
+findfont: score(<Font 'Rockwell Extra Bold' (ROCKEB.TTF) normal normal 800 normal>) = 10.43
+findfont: score(<Font 'Palatino Linotype' (palab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Batang' (batang.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI Emoji' (seguiemj.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (seguisli.ttf) italic normal 350 normal>) = 11.0975
+findfont: score(<Font 'Arial' (ARIALNI.TTF) italic normal 400 condensed>) = 7.613636363636363
+findfont: score(<Font 'Cooper Black' (COOPBL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Perpetua' (PERI____.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Bodoni MT' (BOD_R.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Magneto' (MAGNETOB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Tw Cen MT' (TCBI____.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Corbel' (corbell.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Gloucester MT Extra Condensed' (GLECB.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Bernard MT Condensed' (BERNHC.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Bookman Old Style' (BOOKOSB.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Candara' (Candarali.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Gadugi' (gadugib.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Vivaldi' (VIVALDII.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Algerian' (ALGER.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYPMokGak-Bold' (H2MKPB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldBatang_Pro' (KoPubWorld Batang_Pro Bold.otf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'SeoulHangang' (SeoulHangangL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Nirmala UI' (NirmalaS.ttf) normal normal 350 normal>) = 10.0975
+findfont: score(<Font 'Microsoft YaHei' (msyhbd.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Bauhaus 93' (BAUHS93.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Consolas' (consolai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Constantia' (constan.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Tai Le' (taileb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Segoe UI Symbol' (seguisym.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Headline R' (HMKMRHD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Californian FB' (CALIFR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tw Cen MT Condensed' (TCCB____.TTF) normal normal 700 condensed>) = 10.535
+findfont: score(<Font 'HCR Batang ExtB' (HANBatangExtBB.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Tw Cen MT Condensed Extra Bold' (TCCEB.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Verdana' (verdanai.ttf) italic normal 400 normal>) = 4.6863636363636365
+findfont: score(<Font 'Bell MT' (BELLI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Brush Script MT' (BRUSHSCI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Microsoft JhengHei' (msjhl.ttc) normal normal 290 normal>) = 10.1545
+findfont: score(<Font 'Agency FB' (AGENCYB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Impact' (impact.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calisto MT' (CALISTI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lucida Handwriting' (LHANDW.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Onyx' (ONYX.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'NanumGothic' (EXTRABOLD.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Sitka Small' (Sitka.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Batang' (HANBatang.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Batang' (HANBatangB.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Century Schoolbook' (SCHLBKB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Segoe Print' (segoeprb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'KoPubWorldBatang_Pro' (KoPubWorld Batang_Pro Medium.otf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'KoPubWorldDotum' (KoPubWorld Dotum Medium.ttf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Felix Titling' (FELIXTI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체M.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Batang ExtB' (HANBatangExtB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial' (ariali.ttf) italic normal 400 normal>) = 7.413636363636363
+findfont: score(<Font 'High Tower Text' (HTOWERT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Verdana' (verdana.ttf) normal normal 400 normal>) = 3.6863636363636365
+findfont: score(<Font 'Book Antiqua' (ANTQUAI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Yu Gothic' (YuGothM.ttc) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Century Schoolbook' (SCHLBKB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Arial' (arialbi.ttf) italic normal 700 normal>) = 7.698636363636363
+findfont: score(<Font 'Tw Cen MT' (TCM_____.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Perpetua Titling MT' (PERTILI.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Bodoni MT' (BOD_BLAI.TTF) italic normal 900 normal>) = 11.525
+findfont: score(<Font 'MBatang' (MT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Perpetua' (PERB____.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'HCR Batang' (HANBatangB.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Arial Rounded MT Bold' (ARLRDBD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubBatang Medium' (KoPubBatangMedium.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (segoeuil.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Sitka Small' (Sitka.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYPost-Medium' (H2PORM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (seguisbi.ttf) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'MT Extra' (MTEXTRA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MHunmin' (MH.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Console' (lucon.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Trebuchet MS' (trebuc.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Malgun Gothic' (malgun.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Californian FB' (CALIFB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Vivaldi' (VIVALDII.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'HYSinMyeongJo-Medium' (H2MJSM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Chiller' (CHILLER.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Forte' (FORTE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gigi' (GIGI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Wide Latin' (LATINWD.TTF) normal normal 400 expanded>) = 10.25
+findfont: score(<Font 'Palace Script MT' (PALSCRI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Book Antiqua' (ANTQUAB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Lucida Calligraphy' (LCALLIG.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Verdana' (verdanab.ttf) normal normal 700 normal>) = 3.9713636363636367
+findfont: score(<Font 'Segoe UI' (seguibli.ttf) italic normal 900 normal>) = 11.525
+findfont: score(<Font 'MS Reference Sans Serif' (REFSAN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Consolas' (consolaz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Lucida Fax' (LFAX.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'NanumGothic' (BOLD.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Verdana' (verdana.ttf) normal normal 400 normal>) = 3.6863636363636365
+findfont: score(<Font 'Colonna MT' (COLONNA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Berlin Sans FB' (BRLNSB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Franklin Gothic Medium' (framdit.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Goudy Stout' (GOUDYSTO.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bahnschrift' (bahnschrift.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tw Cen MT' (TCM_____.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Trebuchet MS' (trebucbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'SeoulHangang' (SeoulHangangEB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Consolas' (consola.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'NewJumja' (JUMJA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calisto MT' (CALISTBI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Segoe UI' (seguisbi.ttf) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'Consolas' (consolaz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Segoe UI' (segoeuib.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Arial' (arialbd.ttf) normal normal 700 normal>) = 6.698636363636363
+findfont: score(<Font 'Malgun Gothic' (malgunsl.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Harrington' (HARNGTON.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Yi Baiti' (msyi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Eras Demi ITC' (ERASDEMI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Garamond' (GARAIT.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Bodoni MT' (BOD_I.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Georgia' (georgia.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft JhengHei' (msjhbd.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Footlight MT Light' (FTLTLT.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Californian FB' (CALIFB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'French Script MT' (FRSCRIPT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Castellar' (CASTELAR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'NanumGothic' (.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MS Reference Sans Serif' (REFSAN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gabriola' (Gabriola.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Franklin Gothic Demi Cond' (FRADMCN.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'OCR A Extended' (OCRAEXT.TTF) normal normal 400 expanded>) = 10.25
+findfont: score(<Font 'Pyunji R' (HMFMPYUN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Sans Serif' (micross.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangang' (SeoulHangangB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century' (CENTURY.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (segoeuii.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Corbel' (corbel.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candara.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Freestyle Script' (FREESCPT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Georgia' (georgia.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MingLiU-ExtB' (mingliub.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Palatino Linotype' (pala.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft YaHei' (msyhl.ttc) normal normal 290 normal>) = 10.1545
+findfont: score(<Font 'Times New Roman' (timesbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Kunstler Script' (KUNSTLER.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tempus Sans ITC' (TEMPSITC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Harlow Solid Italic' (HARLOWSI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'KoPubWorldDotum_Pro' (KoPubWorld Dotum_Pro Light.otf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Bookman Old Style' (BOOKOSBI.TTF) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'Wingdings 2' (WINGDNG2.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Franklin Gothic Book' (FRABK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candarab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Snap ITC' (SNAP____.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Garamond' (GARABD.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Franklin Gothic Demi' (FRADM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Cambria' (cambriai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Eras Medium ITC' (ERASMD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans Typewriter' (LTYPE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Jokerman' (JOKERMAN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Cambria' (cambriaz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Lucida Sans Typewriter' (LTYPEO.TTF) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Cambria' (cambria.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bookman Old Style' (BOOKOS.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'OCR A Extended' (OCRAEXT.TTF) normal normal 400 expanded>) = 10.25
+findfont: score(<Font 'MSugiHeulim' (MP.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Franklin Gothic Demi Cond' (FRADMCN.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Copperplate Gothic Bold' (COPRGTB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI Symbol' (seguisym.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Edwardian Script ITC' (ITCEDSCR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체M.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans Typewriter' (LTYPEB.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'KoPubWorldDotum_Pro' (KoPubWorld Dotum_Pro Light.otf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Chiller' (CHILLER.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldBatang_Pro' (KoPubWorld Batang_Pro Light.otf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Corbel' (corbelz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Verdana' (verdanaz.ttf) italic normal 700 normal>) = 4.971363636363637
+findfont: score(<Font 'Gill Sans MT' (GILBI___.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Times New Roman' (timesbi.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Arial' (ARIALNBI.TTF) italic normal 700 condensed>) = 7.8986363636363635
+findfont: score(<Font 'Microsoft JhengHei' (msjh.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'TeamViewer15' (teamviewer15.otf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'HYGungSo-Bold' (H2GSRB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans' (LSANS.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candarab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'KoPubWorldBatang_Pro' (KoPubWorld Batang_Pro Medium.otf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Castellar' (CASTELAR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gigi' (GIGI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calibri' (calibriz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Franklin Gothic Medium' (framdit.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Bodoni MT' (BOD_CI.TTF) italic normal 400 condensed>) = 11.25
+findfont: score(<Font 'Elephant' (ELEPHNT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Agency FB' (AGENCYR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calisto MT' (CALISTB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Franklin Gothic Medium Cond' (FRAMDCN.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Maiandra GD' (MAIAN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYPost-Light' (H2PORL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldDotum_Pro' (KoPubWorld Dotum_Pro Bold.otf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Candara' (Candara.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Georgia' (georgiaz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Dubai' (DUBAI-MEDIUM.TTF) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Segoe Print' (segoepr.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MS Gothic' (msgothic.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Eras Medium ITC' (ERASMD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calibri' (calibrii.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Bookshelf Symbol 7' (BSSYM7.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Comic Sans MS' (comicbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Bodoni MT' (BOD_I.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Segoe UI' (segoeuib.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체BL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rockwell' (ROCKI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Segoe UI' (seguisb.ttf) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체EB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial' (ariblk.ttf) normal normal 900 normal>) = 6.888636363636364
+findfont: score(<Font 'Webdings' (webdings.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century Gothic' (GOTHICBI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Malgun Gothic' (malgunbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Edwardian Script ITC' (ITCEDSCR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Broadway' (BROADW.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Headline R' (HMKMRHD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Maplestory' (Maplestory Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Bookshelf Symbol 7' (BSSYM7.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Bright' (LBRITEI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Copperplate Gothic Light' (COPRGTL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Engravers MT' (ENGR.TTF) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Comic Sans MS' (comici.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Segoe MDL2 Assets' (segmdl2.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Pristina' (PRISTINA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Dubai' (DUBAI-BOLD.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Franklin Gothic Book' (FRABK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Harlow Solid Italic' (HARLOWSI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'KoPubWorldDotum_Pro' (KoPubWorld Dotum_Pro Medium.otf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Symbol' (symbol.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MoeumT R' (HMFMMUEX.TTC) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gill Sans Ultra Bold' (GILSANUB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rockwell' (ROCK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MT Extra' (MTEXTRA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Book Antiqua' (BKANT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Dotum Ext' (HANDotumExt.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Courier New' (couri.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lucida Fax' (LFAXDI.TTF) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'HyhwpEQ' (HYHWPEQ.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYMyeongJo-Extra' (H2MJRE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tw Cen MT Condensed Extra Bold' (TCCEB.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'NanumGothic' (EXTRABOLD.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'KoPubWorldDotum' (KoPubWorld Dotum Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Colonna MT' (COLONNA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MSugiHeulim' (MP.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanvert.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Blackadder ITC' (ITCBLKAD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Trebuchet MS' (trebucbi.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Rockwell Extra Bold' (ROCKEB.TTF) normal normal 800 normal>) = 10.43
+findfont: score(<Font 'Modern No. 20' (MOD20.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Franklin Gothic Demi' (FRADMIT.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'HYPost-Medium' (H2PORM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Book Antiqua' (ANTQUABI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'KoPubWorldBatang' (KoPubWorld Batang Light.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Comic Sans MS' (comic.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bell MT' (BELL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bodoni MT' (BOD_CB.TTF) normal normal 700 condensed>) = 10.535
+findfont: score(<Font 'Century Schoolbook' (SCHLBKBI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Segoe UI' (segoeuil.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Parchment' (PARCHM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SimSun-ExtB' (simsunb.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Myanmar Text' (mmrtextb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Kristen ITC' (ITCKRIST.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldBatang' (KoPubWorld Batang Medium.ttf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'HoloLens MDL2 Assets' (holomdl2.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Curlz MT' (CURLZ___.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Mongolian Baiti' (monbaiti.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MGungJeong' (MJ.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Stencil' (STENCIL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gill Sans Ultra Bold Condensed' (GILLUBCD.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Nirmala UI' (NirmalaB.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Arial' (ariali.ttf) italic normal 400 normal>) = 7.413636363636363
+findfont: score(<Font 'Vladimir Script' (VLADIMIR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calibri' (calibrili.ttf) italic normal 300 normal>) = 11.145
+findfont: score(<Font 'Typo_SsangmunDong' (Typo_SsangmunDongB.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Segoe Script' (segoescb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Lucida Sans Typewriter' (LTYPEBO.TTF) oblique normal 600 normal>) = 11.24
+findfont: score(<Font 'Segoe Print' (segoepr.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bookman Old Style' (BOOKOS.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Freestyle Script' (FREESCPT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rockwell Condensed' (ROCC____.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Perpetua' (PERBI___.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'MHunmin' (MH.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MSugiJeong' (MN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans' (LSANSI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Arial' (ARIALNB.TTF) normal normal 700 condensed>) = 6.8986363636363635
+findfont: score(<Font 'Microsoft YaHei' (msyh.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century Gothic' (GOTHICI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Niagara Solid' (NIAGSOL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe Script' (segoesc.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Myanmar Text' (mmrtext.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gulim' (gulim.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MSugiJeong' (MN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans' (LSANS.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체BL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Book Antiqua' (ANTQUAB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Courier New' (courbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Papyrus' (PAPYRUS.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Yet R' (HMFMOLD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldDotum' (KoPubWorld Dotum Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Microsoft Yi Baiti' (msyi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MBatang' (MT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial Rounded MT Bold' (ARLRDBD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체BL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calibri' (calibrili.ttf) italic normal 300 normal>) = 11.145
+findfont: score(<Font 'Lucida Fax' (LFAX.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MJemokGothic' (MK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYMyeongJo-Extra' (H2MJRE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Yu Gothic' (YuGothL.ttc) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Garamond' (GARA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Dotum' (HANDotumB.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Nirmala UI' (NirmalaS.ttf) normal normal 350 normal>) = 10.0975
+findfont: score(<Font 'New Gulim' (NGULIM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Kristen ITC' (ITCKRIST.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Constantia' (constani.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lucida Bright' (LBRITEI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Goudy Stout' (GOUDYSTO.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'High Tower Text' (HTOWERTI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'HYGraphic-Medium' (H2GPRM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Consolas' (consolab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Bodoni MT' (BOD_BI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Gill Sans MT Condensed' (GILC____.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Gill Sans Ultra Bold' (GILSANUB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체B.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI Historic' (seguihis.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bodoni MT' (BOD_CBI.TTF) italic normal 700 condensed>) = 11.535
+findfont: score(<Font 'Ebrima' (ebrima.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Poor Richard' (POORICH.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Corbel' (corbelb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'New Gulim' (NGULIM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sylfaen' (sylfaen.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYSinMyeongJo-Medium' (H2MJSM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Informal Roman' (INFROMAN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI Emoji' (seguiemj.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Book Antiqua' (ANTQUAI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Leelawadee UI' (LeelawUI.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (segoeuii.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lucida Sans Typewriter' (LTYPEB.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Eras Bold ITC' (ERASBD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MDotum' (MG.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Typo_HelloPOP' (Typo_HelloPOP_Glow.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (segoeuiz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Lucida Fax' (LFAXDI.TTF) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'Arial' (ariblk.ttf) normal normal 900 normal>) = 6.888636363636364
+findfont: score(<Font 'Maiandra GD' (MAIAN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Mongolian Baiti' (monbaiti.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft JhengHei' (msjhbd.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'NanumGothic' (BOLD.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Cambria' (cambriab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Courier New' (couri.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Bahnschrift' (bahnschrift.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Engravers MT' (ENGR.TTF) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Informal Roman' (INFROMAN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candarali.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'MJemokGothic' (MK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Berlin Sans FB' (BRLNSB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Juice ITC' (JUICE___.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans' (LSANSDI.TTF) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'Microsoft YaHei' (msyhbd.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Haettenschweiler' (HATTEN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Modern No. 20' (MOD20.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gill Sans MT Condensed' (GILC____.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Calisto MT' (CALISTI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Franklin Gothic Heavy' (FRAHV.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft PhagsPa' (phagspa.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Cambria' (cambriai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Franklin Gothic Medium' (framd.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYGothic-Extra' (H2GTRE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI Historic' (seguihis.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYHeadLine-Medium' (H2HDRM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Monotype Corsiva' (MTCORSVA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Dotum Ext' (HANDotumExt.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Dubai' (DUBAI-BOLD.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Gadugi' (gadugib.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Comic Sans MS' (comici.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'MDotum' (MG.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체BL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tw Cen MT Condensed' (TCCM____.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Curlz MT' (CURLZ___.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Courier New' (cour.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Yu Gothic' (YuGothL.ttc) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'HCR Batang Ext' (HANBatangExt.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYShortSamul-Medium' (H2SA1M.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Garamond' (GARA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Cambria' (cambriaz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Times New Roman' (timesi.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체M.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MJemokBatang' (MB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calibri' (calibri.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Parchment' (PARCHM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체EB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Javanese Text' (javatext.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (segoeui.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYGothic-Extra' (H2GTRE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Goudy Old Style' (GOUDOS.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SimSun' (simsun.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Verdana' (verdanaz.ttf) italic normal 700 normal>) = 4.971363636363637
+findfont: score(<Font 'Consolas' (consolab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Georgia' (georgiai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Bodoni MT' (BOD_PSTC.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Calibri' (calibril.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'MGungHeulim' (MM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Franklin Gothic Book' (FRABKIT.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Gill Sans MT' (GILB____.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'HCR Dotum' (HANDotumB.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Myanmar Text' (mmrtext.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Dotum' (HANDotum.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Franklin Gothic Medium' (framd.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldDotum' (KoPubWorld Dotum Medium.ttf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'MGungHeulim' (MM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Centaur' (CENTAUR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Eras Demi ITC' (ERASDEMI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Yet R' (HMFMOLD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangang' (SeoulHangangEB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체B.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Algerian' (ALGER.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Bright' (LBRITEDI.TTF) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'Batang' (batang.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체EB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Script MT Bold' (SCRIPTBL.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Blackadder ITC' (ITCBLKAD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Perpetua Titling MT' (PERTILI.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Yu Gothic' (YuGothR.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft YaHei' (msyhl.ttc) normal normal 290 normal>) = 10.1545
+findfont: score(<Font 'Mistral' (MISTRAL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial' (arial.ttf) normal normal 400 normal>) = 6.413636363636363
+findfont: score(<Font 'Agency FB' (AGENCYR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Sans' (LSANSD.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Gill Sans MT' (GIL_____.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Papyrus' (PAPYRUS.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Dubai' (DUBAI-REGULAR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rage Italic' (RAGE.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lucida Bright' (LBRITE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sitka Small' (SitkaZ.ttc) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'SimSun-ExtB' (simsunb.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangang' (SeoulHangangM.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial' (ARIALNBI.TTF) italic normal 700 condensed>) = 7.8986363636363635
+findfont: score(<Font 'Goudy Old Style' (GOUDOSB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Lucida Sans' (LSANSDI.TTF) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'Ink Free' (Inkfree.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Wingdings' (wingding.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Cambria' (cambriab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Ami R' (HMKMAMI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Magic R' (HMKMMAG.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tahoma' (tahomabd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'HYGungSo-Bold' (H2GSRB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Wingdings 2' (WINGDNG2.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldBatang' (KoPubWorld Batang Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체B.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Niagara Solid' (NIAGSOL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rage Italic' (RAGE.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Eras Light ITC' (ERASLGHT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft JhengHei' (msjhl.ttc) normal normal 290 normal>) = 10.1545
+findfont: score(<Font 'Brush Script MT' (BRUSHSCI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lucida Bright' (LBRITED.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'MV Boli' (mvboli.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Dubai' (DUBAI-MEDIUM.TTF) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Perpetua' (PER_____.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gabriola' (Gabriola.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Symbol' (symbol.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Comic Sans MS' (comic.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Palatino Linotype' (palab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Calibri' (calibri.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bodoni MT' (BOD_B.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Trebuchet MS' (trebucbi.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Showcard Gothic' (SHOWG.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century Gothic' (GOTHICB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Sitka Small' (SitkaB.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Lucida Bright' (LBRITE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Leelawadee UI' (LeelawUI.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Batang' (HANBatang.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangang' (SeoulHangangB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldBatang' (KoPubWorld Batang Light.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Franklin Gothic Heavy' (FRAHV.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calisto MT' (CALISTBI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Gulim' (gulim.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bodoni MT' (BOD_R.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial' (arialbd.ttf) normal normal 700 normal>) = 6.698636363636363
+findfont: score(<Font 'Microsoft Himalaya' (himalaya.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Trebuchet MS' (trebucit.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Century Schoolbook' (CENSCBK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Berlin Sans FB' (BRLNSR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Constantia' (constanz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Bodoni MT' (BOD_BLAR.TTF) normal normal 900 normal>) = 10.525
+findfont: score(<Font 'Segoe UI' (segoeuiz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'HyhwpEQ' (HYHWPEQ.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Tai Le' (taile.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Pyunji R' (HMFMPYUN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MGungJeong' (MJ.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Myanmar Text' (mmrtextb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'French Script MT' (FRSCRIPT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Magic R' (HMKMMAG.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Himalaya' (himalaya.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Leelawadee UI' (LeelaUIb.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Nirmala UI' (Nirmala.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Georgia' (georgiai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Bradley Hand ITC' (BRADHITC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bodoni MT' (BOD_B.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Constantia' (constanz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Ebrima' (ebrimabd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체M.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Wingdings 3' (WINGDNG3.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Franklin Gothic Demi' (FRADMIT.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanvert.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanM.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rockwell' (ROCKI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'KoPubWorldBatang_Pro' (KoPubWorld Batang_Pro Bold.otf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Cooper Black' (COOPBL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Footlight MT Light' (FTLTLT.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Dubai' (DUBAI-LIGHT.TTF) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'KoPubWorldDotum' (KoPubWorld Dotum Light.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Georgia' (georgiaz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Bell MT' (BELLI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Constantia' (constani.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lucida Sans' (LSANSD.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Segoe UI' (segoeuisl.ttf) normal normal 350 normal>) = 10.0975
+findfont: score(<Font 'MoeumT R' (HMFMMUEX.TTC) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Yu Gothic' (YuGothB.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Britannic Bold' (BRITANIC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KCCMurukmuruk' (KCCMurukmuruk.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (seguibl.ttf) normal normal 900 normal>) = 10.525
+findfont: score(<Font 'Candara' (Candaraz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Gill Sans MT' (GILBI___.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'KoPubWorldDotum' (KoPubWorld Dotum Light.ttf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'Palatino Linotype' (palabi.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Eras Light ITC' (ERASLGHT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gadugi' (gadugi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'High Tower Text' (HTOWERTI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Corbel' (corbeli.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lucida Bright' (LBRITED.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Wingdings 3' (WINGDNG3.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bell MT' (BELLB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체L.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (segoeuisl.ttf) normal normal 350 normal>) = 10.0975
+findfont: score(<Font 'Lucida Fax' (LFAXI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Elephant' (ELEPHNTI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Gill Sans MT Ext Condensed Bold' (GLSNECB.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Old English Text MT' (OLDENGL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Franklin Gothic Medium Cond' (FRAMDCN.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Century Schoolbook' (SCHLBKBI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Ravie' (RAVIE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century' (CENTURY.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Perpetua Titling MT' (PERTIBD.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Segoe UI' (seguibli.ttf) italic normal 900 normal>) = 11.525
+findfont: score(<Font 'Candara' (Candaral.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Corbel' (corbelz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Book Antiqua' (BKANT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubWorldBatang_Pro' (KoPubWorld Batang_Pro Light.otf) normal normal 300 normal>) = 10.145
+findfont: score(<Font 'MS Reference Specialty' (REFSPCL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KoPubBatang Medium' (KoPubBatangMedium.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Playbill' (PLAYBILL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century Schoolbook' (SCHLBKI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Arial' (ARIALN.TTF) normal normal 400 condensed>) = 6.613636363636363
+findfont: score(<Font 'Gill Sans MT' (GILB____.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Century Gothic' (GOTHICBI.TTF) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Agency FB' (AGENCYB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Arial' (ARIALNI.TTF) italic normal 400 condensed>) = 7.613636363636363
+findfont: score(<Font 'Palatino Linotype' (palai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Gill Sans MT' (GIL_____.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HoloLens MDL2 Assets' (holomdl2.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Niagara Engraved' (NIAGENG.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Berlin Sans FB Demi' (BRLNSDB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Marlett' (marlett.ttf) normal normal 500 normal>) = 10.145
+findfont: score(<Font 'Lucida Fax' (LFAXD.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Stencil' (STENCIL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Jokerman' (JOKERMAN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangang' (SeoulHangangL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Batang ExtB' (HANBatangExtB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MS Outlook' (OUTLOOK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bodoni MT' (BOD_CBI.TTF) italic normal 700 condensed>) = 11.535
+findfont: score(<Font 'Gloucester MT Extra Condensed' (GLECB.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'HYPMokGak-Bold' (H2MKPB.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Georgia' (georgiab.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Californian FB' (CALIFR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Perpetua Titling MT' (PERTIBD.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Elephant' (ELEPHNTI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Segoe UI' (seguisli.ttf) italic normal 350 normal>) = 11.0975
+findfont: score(<Font 'Sitka Small' (SitkaI.ttc) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'HYGothic-Medium' (H2GTRM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bookman Old Style' (BOOKOSB.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Rockwell Condensed' (ROCCB___.TTF) normal normal 700 condensed>) = 10.535
+findfont: score(<Font 'Copperplate Gothic Light' (COPRGTL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candarai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Franklin Gothic Demi' (FRADM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tempus Sans ITC' (TEMPSITC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft New Tai Lue' (ntailu.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYGothic-Medium' (H2GTRM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Corbel' (corbelli.ttf) italic normal 300 normal>) = 11.145
+findfont: score(<Font 'Corbel' (corbeli.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Cambria' (cambria.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candaraz.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Impact' (impact.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft JhengHei' (msjh.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calisto MT' (CALISTB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Palatino Linotype' (palabi.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Showcard Gothic' (SHOWG.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulHangangC' (서울한강 장체L.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Baskerville Old Face' (BASKVILL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Fax' (LFAXD.TTF) normal normal 600 normal>) = 10.24
+findfont: score(<Font 'Elephant' (ELEPHNT.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYGraphic-Medium' (H2GPRM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bernard MT Condensed' (BERNHC.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Comic Sans MS' (comicbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Lucida Sans Typewriter' (LTYPE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Trebuchet MS' (trebucbd.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Garamond' (GARABD.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Bodoni MT' (BOD_CR.TTF) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'HCR Batang ExtB' (HANBatangExtBB.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'NewJumja' (JUMJA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Goudy Old Style' (GOUDOSI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Constantia' (constan.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calibri' (calibrii.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Felix Titling' (FELIXTI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gill Sans MT' (GILI____.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Segoe UI' (seguili.ttf) italic normal 300 normal>) = 11.145
+findfont: score(<Font 'Franklin Gothic Heavy' (FRAHVIT.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Tw Cen MT Condensed' (TCCB____.TTF) normal normal 700 condensed>) = 10.535
+findfont: score(<Font 'Century Schoolbook' (CENSCBK.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft New Tai Lue' (ntailu.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Malgun Gothic' (malgun.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century Gothic' (GOTHICB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Viner Hand ITC' (VINERITC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsanC' (서울남산 장체L.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SeoulNamsan' (SeoulNamsanB.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'MV Boli' (mvboli.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Garamond' (GARAIT.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Webdings' (webdings.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Consolas' (consola.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lucida Handwriting' (LHANDW.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Century Schoolbook' (SCHLBKI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'HYHeadLine-Medium' (H2HDRM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Poor Richard' (POORICH.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bell MT' (BELLB.TTF) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Palatino Linotype' (pala.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calisto MT' (CALIST.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gill Sans MT' (GILI____.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lucida Bright' (LBRITEDI.TTF) italic normal 600 normal>) = 11.24
+findfont: score(<Font 'Constantia' (constanb.ttf) normal normal 700 normal>) = 10.335
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('C:\\Users\\poop4\\Anaconda3\\envs\\JH\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+top of axes not in the figure, so title not moved
+[000123][Epoch 002/100] Epsilon:0.9899 #Expl.:1133/1145 #Buy:568 #Sell:401 #Hold:176 #Stocks:79 PV:6,475 LC:1073 Loss:5.945880 ET:17.7798
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 003/100] Epsilon:0.9798 #Expl.:1113/1145 #Buy:112 #Sell:45 #Hold:988 #Stocks:97 PV:6,735 LC:1104 Loss:7.158736 ET:21.2594
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 004/100] Epsilon:0.9697 #Expl.:1107/1145 #Buy:547 #Sell:382 #Hold:216 #Stocks:92 PV:6,752 LC:1076 Loss:5.819041 ET:17.1968
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 005/100] Epsilon:0.9596 #Expl.:1102/1145 #Buy:612 #Sell:461 #Hold:72 #Stocks:58 PV:6,755 LC:1076 Loss:5.164894 ET:15.5751
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 006/100] Epsilon:0.9495 #Expl.:1090/1145 #Buy:398 #Sell:234 #Hold:513 #Stocks:94 PV:6,512 LC:1090 Loss:7.393695 ET:16.3445
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 007/100] Epsilon:0.9394 #Expl.:1071/1145 #Buy:569 #Sell:415 #Hold:161 #Stocks:62 PV:6,620 LC:1076 Loss:7.207823 ET:19.0965
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 008/100] Epsilon:0.9293 #Expl.:1060/1145 #Buy:519 #Sell:345 #Hold:281 #Stocks:82 PV:6,688 LC:1079 Loss:7.233083 ET:19.1903
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 009/100] Epsilon:0.9192 #Expl.:1038/1145 #Buy:322 #Sell:188 #Hold:635 #Stocks:96 PV:6,696 LC:1102 Loss:6.415690 ET:16.7378
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 010/100] Epsilon:0.9091 #Expl.:1042/1145 #Buy:607 #Sell:447 #Hold:91 #Stocks:92 PV:7,499 LC:1076 Loss:2.843675 ET:15.8621
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 011/100] Epsilon:0.8990 #Expl.:1037/1145 #Buy:461 #Sell:296 #Hold:388 #Stocks:89 PV:6,515 LC:1081 Loss:7.360689 ET:17.3405
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 012/100] Epsilon:0.8889 #Expl.:1014/1145 #Buy:599 #Sell:497 #Hold:49 #Stocks:0 PV:8,505 LC:1053 Loss:1.044418 ET:28.7924
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 013/100] Epsilon:0.8788 #Expl.:1004/1145 #Buy:587 #Sell:416 #Hold:142 #Stocks:82 PV:6,381 LC:1078 Loss:7.502118 ET:18.5045
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 014/100] Epsilon:0.8687 #Expl.:1010/1145 #Buy:545 #Sell:466 #Hold:134 #Stocks:12 PV:9,303 LC:1076 Loss:0.611309 ET:16.6934
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 015/100] Epsilon:0.8586 #Expl.:972/1145 #Buy:535 #Sell:368 #Hold:242 #Stocks:91 PV:7,121 LC:1070 Loss:5.571172 ET:15.8376
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 016/100] Epsilon:0.8485 #Expl.:978/1145 #Buy:384 #Sell:221 #Hold:540 #Stocks:96 PV:6,661 LC:1089 Loss:6.876142 ET:18.7460
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 017/100] Epsilon:0.8384 #Expl.:944/1145 #Buy:592 #Sell:429 #Hold:124 #Stocks:101 PV:7,085 LC:1053 Loss:3.452560 ET:20.6830
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 018/100] Epsilon:0.8283 #Expl.:941/1145 #Buy:545 #Sell:464 #Hold:136 #Stocks:23 PV:9,356 LC:1036 Loss:0.706608 ET:16.3987
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 019/100] Epsilon:0.8182 #Expl.:894/1145 #Buy:447 #Sell:277 #Hold:421 #Stocks:85 PV:6,565 LC:1084 Loss:6.546710 ET:15.5481
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 020/100] Epsilon:0.8081 #Expl.:948/1145 #Buy:588 #Sell:491 #Hold:66 #Stocks:4 PV:8,602 LC:897 Loss:1.013187 ET:13.5264
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 021/100] Epsilon:0.7980 #Expl.:914/1145 #Buy:448 #Sell:269 #Hold:428 #Stocks:91 PV:6,751 LC:1084 Loss:6.898103 ET:17.7229
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 022/100] Epsilon:0.7879 #Expl.:914/1145 #Buy:503 #Sell:326 #Hold:316 #Stocks:96 PV:6,679 LC:1089 Loss:6.576188 ET:20.6106
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 023/100] Epsilon:0.7778 #Expl.:899/1145 #Buy:597 #Sell:494 #Hold:54 #Stocks:4 PV:9,732 LC:1052 Loss:1.473766 ET:16.8297
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 024/100] Epsilon:0.7677 #Expl.:881/1145 #Buy:602 #Sell:456 #Hold:87 #Stocks:90 PV:7,302 LC:1051 Loss:4.472899 ET:15.9693
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 025/100] Epsilon:0.7576 #Expl.:891/1145 #Buy:477 #Sell:436 #Hold:232 #Stocks:0 PV:9,559 LC:1076 Loss:0.259956 ET:16.0449
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 026/100] Epsilon:0.7475 #Expl.:852/1145 #Buy:519 #Sell:460 #Hold:166 #Stocks:0 PV:9,173 LC:1048 Loss:0.051059 ET:16.5530
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 027/100] Epsilon:0.7374 #Expl.:836/1145 #Buy:410 #Sell:378 #Hold:357 #Stocks:0 PV:9,773 LC:1029 Loss:0.046270 ET:19.3501
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 028/100] Epsilon:0.7273 #Expl.:858/1145 #Buy:561 #Sell:474 #Hold:110 #Stocks:37 PV:8,427 LC:1074 Loss:0.328689 ET:18.2455
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 029/100] Epsilon:0.7172 #Expl.:841/1145 #Buy:524 #Sell:459 #Hold:162 #Stocks:4 PV:9,293 LC:959 Loss:0.100826 ET:14.3212
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 030/100] Epsilon:0.7071 #Expl.:790/1145 #Buy:620 #Sell:454 #Hold:71 #Stocks:91 PV:6,722 LC:1077 Loss:4.673259 ET:15.8822
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 031/100] Epsilon:0.6970 #Expl.:813/1145 #Buy:626 #Sell:476 #Hold:43 #Stocks:67 PV:6,821 LC:1053 Loss:4.029087 ET:16.2357
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 032/100] Epsilon:0.6869 #Expl.:762/1145 #Buy:614 #Sell:473 #Hold:58 #Stocks:85 PV:8,575 LC:1051 Loss:0.797571 ET:19.0017
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 033/100] Epsilon:0.6768 #Expl.:751/1145 #Buy:381 #Sell:361 #Hold:403 #Stocks:0 PV:9,542 LC:841 Loss:0.038473 ET:14.7981
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 034/100] Epsilon:0.6667 #Expl.:783/1145 #Buy:446 #Sell:410 #Hold:289 #Stocks:0 PV:9,546 LC:976 Loss:0.008806 ET:14.4547
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 035/100] Epsilon:0.6566 #Expl.:778/1145 #Buy:559 #Sell:388 #Hold:198 #Stocks:70 PV:6,718 LC:1085 Loss:7.440917 ET:15.8326
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 036/100] Epsilon:0.6465 #Expl.:740/1145 #Buy:428 #Sell:395 #Hold:322 #Stocks:0 PV:9,540 LC:921 Loss:0.522072 ET:14.4448
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 037/100] Epsilon:0.6364 #Expl.:733/1145 #Buy:461 #Sell:420 #Hold:264 #Stocks:0 PV:9,307 LC:988 Loss:0.035906 ET:18.3274
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 038/100] Epsilon:0.6263 #Expl.:698/1145 #Buy:492 #Sell:436 #Hold:217 #Stocks:38 PV:9,447 LC:827 Loss:0.031787 ET:14.8706
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 039/100] Epsilon:0.6162 #Expl.:706/1145 #Buy:540 #Sell:459 #Hold:146 #Stocks:28 PV:9,129 LC:988 Loss:0.051384 ET:14.8660
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 040/100] Epsilon:0.6061 #Expl.:674/1145 #Buy:428 #Sell:400 #Hold:317 #Stocks:0 PV:9,380 LC:990 Loss:0.024352 ET:14.4989
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 041/100] Epsilon:0.5960 #Expl.:701/1145 #Buy:529 #Sell:458 #Hold:158 #Stocks:4 PV:9,407 LC:1043 Loss:0.051632 ET:16.4449
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 042/100] Epsilon:0.5859 #Expl.:658/1145 #Buy:453 #Sell:415 #Hold:277 #Stocks:12 PV:9,561 LC:848 Loss:0.044049 ET:16.0600
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 043/100] Epsilon:0.5758 #Expl.:675/1145 #Buy:548 #Sell:469 #Hold:128 #Stocks:19 PV:8,873 LC:1031 Loss:0.158105 ET:18.2425
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 044/100] Epsilon:0.5657 #Expl.:671/1145 #Buy:526 #Sell:455 #Hold:164 #Stocks:5 PV:9,139 LC:937 Loss:0.144623 ET:14.8497
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 045/100] Epsilon:0.5556 #Expl.:626/1145 #Buy:328 #Sell:316 #Hold:501 #Stocks:8 PV:9,433 LC:1053 Loss:0.046200 ET:15.4791
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 046/100] Epsilon:0.5455 #Expl.:632/1145 #Buy:327 #Sell:316 #Hold:502 #Stocks:0 PV:9,543 LC:971 Loss:0.018341 ET:15.4182
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 047/100] Epsilon:0.5354 #Expl.:578/1145 #Buy:376 #Sell:360 #Hold:409 #Stocks:0 PV:9,324 LC:982 Loss:0.073802 ET:18.1261
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 048/100] Epsilon:0.5253 #Expl.:600/1145 #Buy:546 #Sell:474 #Hold:125 #Stocks:0 PV:9,232 LC:1000 Loss:0.109891 ET:18.0584
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 049/100] Epsilon:0.5152 #Expl.:611/1145 #Buy:529 #Sell:458 #Hold:158 #Stocks:14 PV:9,275 LC:825 Loss:0.083306 ET:13.2854
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 050/100] Epsilon:0.5051 #Expl.:573/1145 #Buy:413 #Sell:385 #Hold:347 #Stocks:0 PV:9,614 LC:805 Loss:0.059008 ET:12.2749
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 051/100] Epsilon:0.4949 #Expl.:550/1145 #Buy:386 #Sell:364 #Hold:395 #Stocks:4 PV:9,236 LC:996 Loss:0.053445 ET:22.6013
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 052/100] Epsilon:0.4848 #Expl.:590/1145 #Buy:536 #Sell:466 #Hold:143 #Stocks:23 PV:8,828 LC:1031 Loss:0.172608 ET:38.1478
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 053/100] Epsilon:0.4747 #Expl.:558/1145 #Buy:512 #Sell:454 #Hold:179 #Stocks:0 PV:9,981 LC:1075 Loss:0.234020 ET:17.4627
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 054/100] Epsilon:0.4646 #Expl.:536/1145 #Buy:528 #Sell:445 #Hold:172 #Stocks:43 PV:8,708 LC:1033 Loss:0.239443 ET:15.0985
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 055/100] Epsilon:0.4545 #Expl.:523/1145 #Buy:506 #Sell:445 #Hold:194 #Stocks:4 PV:9,549 LC:1038 Loss:0.126200 ET:17.8824
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 056/100] Epsilon:0.4444 #Expl.:503/1145 #Buy:446 #Sell:412 #Hold:287 #Stocks:0 PV:9,450 LC:965 Loss:0.037776 ET:18.0717
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 058/100] Epsilon:0.4242 #Expl.:489/1145 #Buy:444 #Sell:415 #Hold:286 #Stocks:4 PV:9,619 LC:1013 Loss:0.020778 ET:15.7409
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 059/100] Epsilon:0.4141 #Expl.:474/1145 #Buy:240 #Sell:239 #Hold:666 #Stocks:0 PV:9,758 LC:410 Loss:0.004237 ET:8.2094
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 060/100] Epsilon:0.4040 #Expl.:481/1145 #Buy:295 #Sell:289 #Hold:561 #Stocks:4 PV:9,636 LC:946 Loss:0.007396 ET:13.9316
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 061/100] Epsilon:0.3939 #Expl.:471/1145 #Buy:363 #Sell:348 #Hold:434 #Stocks:4 PV:9,539 LC:972 Loss:0.011917 ET:15.0595
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 062/100] Epsilon:0.3838 #Expl.:441/1145 #Buy:302 #Sell:290 #Hold:553 #Stocks:4 PV:9,637 LC:941 Loss:0.013376 ET:17.1320
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 063/100] Epsilon:0.3737 #Expl.:405/1145 #Buy:311 #Sell:298 #Hold:536 #Stocks:8 PV:9,519 LC:947 Loss:0.019858 ET:17.3318
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 064/100] Epsilon:0.3636 #Expl.:432/1145 #Buy:380 #Sell:355 #Hold:410 #Stocks:4 PV:9,807 LC:820 Loss:0.013808 ET:12.6807
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 065/100] Epsilon:0.3535 #Expl.:411/1145 #Buy:287 #Sell:279 #Hold:579 #Stocks:0 PV:9,725 LC:968 Loss:0.011186 ET:19.9602
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 066/100] Epsilon:0.3434 #Expl.:413/1145 #Buy:413 #Sell:384 #Hold:348 #Stocks:0 PV:9,535 LC:998 Loss:0.042942 ET:15.8797
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 067/100] Epsilon:0.3333 #Expl.:348/1145 #Buy:227 #Sell:224 #Hold:694 #Stocks:0 PV:9,778 LC:887 Loss:0.005902 ET:18.7064
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 068/100] Epsilon:0.3232 #Expl.:381/1145 #Buy:194 #Sell:193 #Hold:758 #Stocks:0 PV:9,747 LC:854 Loss:0.015628 ET:16.8607
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 069/100] Epsilon:0.3131 #Expl.:358/1145 #Buy:246 #Sell:242 #Hold:657 #Stocks:0 PV:9,737 LC:738 Loss:0.008521 ET:14.8888
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 070/100] Epsilon:0.3030 #Expl.:339/1145 #Buy:250 #Sell:244 #Hold:651 #Stocks:4 PV:9,660 LC:746 Loss:0.009968 ET:20.1409
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 071/100] Epsilon:0.2929 #Expl.:343/1145 #Buy:279 #Sell:273 #Hold:593 #Stocks:0 PV:9,618 LC:928 Loss:0.021187 ET:15.6528
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 072/100] Epsilon:0.2828 #Expl.:309/1145 #Buy:265 #Sell:261 #Hold:619 #Stocks:0 PV:9,734 LC:782 Loss:0.019477 ET:15.4795
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 073/100] Epsilon:0.2727 #Expl.:310/1145 #Buy:176 #Sell:175 #Hold:794 #Stocks:4 PV:9,867 LC:133 Loss:0.004446 ET:5.2431
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 074/100] Epsilon:0.2626 #Expl.:302/1145 #Buy:216 #Sell:213 #Hold:716 #Stocks:0 PV:9,709 LC:972 Loss:0.047006 ET:15.1438
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 075/100] Epsilon:0.2525 #Expl.:298/1145 #Buy:264 #Sell:259 #Hold:622 #Stocks:10 PV:9,709 LC:816 Loss:0.023725 ET:12.4067
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 076/100] Epsilon:0.2424 #Expl.:286/1145 #Buy:241 #Sell:240 #Hold:664 #Stocks:0 PV:9,756 LC:834 Loss:0.010758 ET:12.9498
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 077/100] Epsilon:0.2323 #Expl.:274/1145 #Buy:149 #Sell:149 #Hold:847 #Stocks:0 PV:9,802 LC:215 Loss:0.001271 ET:5.5196
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 078/100] Epsilon:0.2222 #Expl.:285/1145 #Buy:260 #Sell:256 #Hold:629 #Stocks:0 PV:9,795 LC:357 Loss:0.001462 ET:8.0320
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 080/100] Epsilon:0.2020 #Expl.:213/1145 #Buy:196 #Sell:196 #Hold:753 #Stocks:0 PV:9,687 LC:936 Loss:0.011313 ET:16.0328
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 081/100] Epsilon:0.1919 #Expl.:227/1145 #Buy:181 #Sell:181 #Hold:783 #Stocks:0 PV:9,730 LC:821 Loss:0.007880 ET:12.8693
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 082/100] Epsilon:0.1818 #Expl.:201/1145 #Buy:199 #Sell:198 #Hold:748 #Stocks:4 PV:9,770 LC:914 Loss:0.006462 ET:13.5396
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 083/100] Epsilon:0.1717 #Expl.:192/1145 #Buy:107 #Sell:107 #Hold:931 #Stocks:0 PV:9,768 LC:708 Loss:0.005560 ET:15.3795
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 085/100] Epsilon:0.1515 #Expl.:182/1145 #Buy:158 #Sell:156 #Hold:831 #Stocks:0 PV:9,760 LC:554 Loss:0.006906 ET:12.2534
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 086/100] Epsilon:0.1414 #Expl.:171/1145 #Buy:140 #Sell:140 #Hold:865 #Stocks:0 PV:9,850 LC:43 Loss:0.000828 ET:3.9766
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 087/100] Epsilon:0.1313 #Expl.:143/1145 #Buy:129 #Sell:129 #Hold:887 #Stocks:0 PV:9,835 LC:732 Loss:0.002514 ET:12.2089
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 088/100] Epsilon:0.1212 #Expl.:148/1145 #Buy:127 #Sell:127 #Hold:891 #Stocks:0 PV:9,824 LC:461 Loss:0.001221 ET:8.1794
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123][Epoch 091/100] Epsilon:0.0909 #Expl.:116/1145 #Buy:82 #Sell:82 #Hold:981 #Stocks:0 PV:9,841 LC:640 Loss:0.000726 ET:9.9843
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+top of axes not in the figure, so title not moved
+[000123] Elapsed Time:1730.7657 Max PV:10,006 #Win:2
+Creating converter from 5 to 3
